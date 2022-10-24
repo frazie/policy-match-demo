@@ -1,0 +1,12 @@
+<% option.inpatientRates.ageLimits.forEach((age) => { %>
+  <% if (age.ageGroup) { %>
+  <p class="text-gray-400 text-base mb-1">age Group: <%= age.ageGroup %></p>
+  <span class="text-gray-700">Insurance premium amounts</span>
+  <p class="text-gray-700 text-base mb-1">Principal Amount: <%= age.principal %></p>
+  <p class="text-gray-700 text-base mb-1">Spouse Amount: <%= age.spouse %></p>
+  <p class="text-gray-700 text-base mb-1">Child Amount: <%= age.child %></p>
+
+  <p class="text-gray-900 text-base mb-2">Total Payable: <%= age.principal + age.spouse + age.child + option.secondaryCoverFeatures.maternityCover.coverPremium %></p>
+  <% } %>
+  <br>
+<% }) %>
