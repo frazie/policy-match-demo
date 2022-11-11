@@ -27,14 +27,7 @@ back_page.forEach(function(back){
     updateform();
 }
 });
-submit_page.onclick=function(){
-    if(!validateform()){
-        return false; 
-    }
-    formnumber++; 
-    updateform();
-    shown_name.innerHTML=user_name.value;
-}
+
 
 function updateform(){
     main_pages.forEach(function(page){
