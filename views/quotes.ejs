@@ -47,9 +47,10 @@
 			</div>
 			
 			<div>
-				<form action="">
+				
 					<div class="py-10 inherit px-2">
-				<div class="max-w-md mx-auto bg-purple-400 shadow-lg rounded-lg overflow-hidden md:max-w-lg">
+						<form action="/available-quotes" method="post">
+						<div class="max-w-md mx-auto bg-purple-400 shadow-lg rounded-lg overflow-hidden md:max-w-lg">
 					<!--<div class="md:flex">-->
 					<div class="w-full">
 						<p class="flex justify-center items-center h-16 w-full bg-purple-800 text-white">get your free insurance cover quote today</p>
@@ -58,23 +59,23 @@
 							<h4 class="flex justify-center items-center mt-5 text-lg text-gray-800 font-medium">Step 1. User Profile</h4>
 
 							<div class="mt-7 px-4 relative"> 
-								<input class="h-12 transition-all px-1 outline-none w-full border rounded-lg user_name text-white-300" type="text" require required> 
-								<label class="text-pink-600 absolute transition-all top-4 pointer-events-none text-sm left-5">First Name</label> 
+								<input name="firstName" id="firstName" class="h-12 transition-all px-1 outline-none w-full border rounded-lg user_name text-white-300" type="text" require required> 
+								<label for="firstName" class="text-pink-600 absolute transition-all top-4 pointer-events-none text-sm left-5">First Name</label> 
 							</div>
 
 							<div class="mt-6 px-4 relative"> 
-								<input class="h-12 transition-all px-1 outline-none w-full border rounded-lg" type="text" required> 
-								<label class="text-pink-600 absolute transition-all top-4 pointer-events-none text-sm left-5">Last Name</label> 
+								<input name="lastName" id="lastName" class="h-12 transition-all px-1 outline-none w-full border rounded-lg" type="text" required> 
+								<label for="lastName" class="text-pink-600 absolute transition-all top-4 pointer-events-none text-sm left-5">Last Name</label> 
 							</div>
 
 							<div class="mt-6 px-4 relative"> 
-								<input class="h-12 transition-all px-1 outline-none w-full border rounded-lg text-black" type="email" require required> 
-								<label class="text-pink-600 absolute transition-all top-4 pointer-events-none text-sm left-5">Email</label> 
+								<input name="email" id="email" class="h-12 transition-all px-1 outline-none w-full border rounded-lg text-black" type="email" require required> 
+								<label for="email" class="text-pink-600 absolute transition-all top-4 pointer-events-none text-sm left-5">Email</label> 
 							</div>
 
 							<div class="mt-6 px-4 relative"> 
-								<input class="h-12 transition-all px-1 outline-none w-full border rounded-lg text-black" type="number" required> 
-								<label class="text-pink-600 absolute transition-all top-4 pointer-events-none text-sm left-5">Phone Number</label> 
+								<input name="phoneNumber" id="phoneNumber" class="h-12 transition-all px-1 outline-none w-full border rounded-lg text-black" type="number" required> 
+								<label for="phoneNumber" class="text-pink-600 absolute transition-all top-4 pointer-events-none text-sm left-5">Phone Number</label> 
 							</div>
 
 							
@@ -90,32 +91,68 @@
 
 						</div>
 						<div class="main hidden">
-							<h4 class="flex justify-center items-center mt-5 text-lg text-gray-800 font-medium">Step 2. age details</h4>
-							<p>age</p>
-							<p>inpatient limit</p>
-							<p>ask for outpatient: if outpatient is not selected then dont include dental and optical</p>
-							<p>button on outpatient</p>
-							<div class="flex w-full gap-px">
-								<div class="w-full mt-6 px-4 relative"> <input class="h-12 transition-all px-1 outline-none w-full border rounded-lg" type="text" require required> <label class="text-pink-600 absolute transition-all top-4 pointer-events-none text-sm left-5">Place of Birth</label> </div>
-								<div class="w-full mt-6 px-4 relative"> <input class="h-12 transition-all px-1 outline-none w-full border rounded-lg" type="text" require required> <label class="text-pink-600 absolute transition-all top-4 pointer-events-none text-sm left-5">Village/City/Town</label> </div>
-							</div>
-							<div class="flex w-full gap-px">
-								<div class="w-full mt-6 px-4 relative"> <input class="h-12 transition-all px-1 outline-none w-full border rounded-lg" type="text" required> <label class="text-pink-600 absolute transition-all top-4 pointer-events-none text-sm left-5">District</label> </div>
-								<div class="w-full mt-6 px-4 relative"> <input class="h-12 transition-all px-1 outline-none w-full border rounded-lg" type="text" require required> <label class="text-pink-600 absolute transition-all top-4 pointer-events-none text-sm left-5">State</label> </div>
-							</div>
+							<h4 class="flex justify-center items-center mt-5 text-lg text-gray-800 font-medium">Step 2. Personal Details</h4>
 							
-							
+							<div class="flex w-full gap-px">
+								<div class="w-full mt-6 px-4 relative">  
+									<select name="ageBracket"  id="ageBracket" class="h-12 transition-all px-1 outline-none w-full border rounded-lg" require required>
+										<option value=""></option>
+										<option value="0-19">0 - 19 Years</option>
+										<option value="18-29">18 - 29 Years</option>
+										<option value="30-39">30 - 39 years</option>
+										<option value="40-49">40 - 49 years</option>
+										<option value="50-60">50 - 60 years</option>
+										<option value="51-65">51 - 65 years</option>
+										<option value="66 +">66 + years</option>
+									</select>
+									<label for="ageBracket" class="text-pink-600 transition-all top-4 pointer-events-none text-sm left-5">Age Bracket</label> 
+								</div>
+								<div class="w-full mt-6 px-4 relative"> 
+										<select name="inpatientLimit" id="inpatientLimit" class="h-12 transition-all px-1 outline-none w-full border rounded-lg" require required>
+										<option value=""></option>
+										<option value="100000">Ksh. 100,000</option>
+										<option value="250000">Ksh. 250,000</option>
+										<option value="500000">Ksh. 500,000</option>
+										<option value="1000000">Ksh. 1,000,000</option>
+										<option value="1500000">Ksh. 1,500,000</option>
+										<option value="2000000">Ksh. 2,000,000</option>
+										<option value="3000000">Ksh. 3,000,000</option>
+										<option value="5000000">Ksh. 5,000,000</option>
+										<option value="10000000">Ksh. 10,000,000</option>
+									</select>
+									<label for="inpatientLimit" class="text-pink-600 transition-all top-4 pointer-events-none text-sm left-5">Inpatient Care limit</label> 
+								</div>
+							</div>
+							<div class="mt-6 px-4 relative"> 
+								<select name="insuranceType" id="insuranceType" class="h-12 transition-all px-1 outline-none w-full border rounded-lg text-black" required>
+									<option value="individual">Individual Insurance Plan</option>
+									<option value="shared">Shared Insurance plan</option>
+								</select> 
+								<label id="insuranceType" class="text-pink-600 transition-all top-4 pointer-events-none text-sm left-5">Type of Plan</label> 
+							</div>
+											
 							<div class="mt-6 flex mb-10 justify-center px-4 relative gap-2"> <button class="back_page text-md h-12 w-full bg-green-400 rounded-full text-white hover:bg-green-600 transition-all ">Previous<i class="fa fa-long-arrow-left absolute top-4 left-8"></i></button> <button class="next_page text-md h-12 w-full bg-green-400 rounded-full text-white hover:bg-green-600 transition-all">Next<i class="fa fa-long-arrow-right absolute top-4 right-8"></i></button> </div>
 						</div>
 						<div class="main hidden">
-							<h4 class="flex justify-center items-center mt-5 text-lg text-gray-800 font-medium">Step 3. Company Details</h4>
-							<div class="mt-7 px-4 relative"> <input class="h-12 transition-all px-1 outline-none w-full border rounded-lg" type="text" require required> <label class="text-pink-600 absolute transition-all top-4 pointer-events-none text-sm left-5">Company Name</label> </div>
-							<div class="mt-6 px-4 relative"> <input class="h-12 transition-all px-1 outline-none w-full border rounded-lg" type="text" require required> <label class="text-pink-600 absolute transition-all top-4 pointer-events-none text-sm left-5">Job Title</label> </div>
-							<div class="mt-6 px-4 relative"> <input class="h-12 transition-all px-1 outline-none w-full border rounded-lg" type="number" required> <label class="text-pink-600 absolute transition-all top-4 pointer-events-none text-sm left-5">Number of employees</label> </div>
-							<div class="w-full mt-6 px-4 relative"> <input class="h-12 transition-all px-1 outline-none w-full border rounded-lg" type="text" require required> <label class="text-pink-600 absolute transition-all top-4 pointer-events-none text-sm left-5">Website URL</label> </div>
-							<div class="mt-6 flex mb-10 justify-center px-4 relative gap-2"> <button class="back_page text-md h-12 w-full bg-green-400 rounded-full text-white hover:bg-green-600 transition-all ">Previous<i class="fa fa-long-arrow-left absolute top-4 left-8"></i></button> 
-								<button class="submit_page text-sm h-12 w-full bg-blue-400 rounded-full text-white hover:bg-blue-600 transition-all">Submit Details<i class="fa fa-long-arrow-right absolute top-5 right-8"></i></button> </div>
-							<p class="my-10 text-center text-sm px-4 text-gray-500">By clicking "Create Account",I agree<br> to Earnify's <a class="text-blue-800" href="#">Privacy Policy</a></p>
+							
+							<h4 class="flex justify-center items-center mt-5 text-lg text-gray-800 font-medium">Step 3. Shared Insurance details</h4>
+							
+							<div class="mt-6 flex mb-10 justify-center px-4 relative gap-2"> 
+								<div class="mt-7 px-4 relative"> 
+									<input class="h-12 transition-all px-1 outline-none w-full border rounded-lg" type="text" require required> 
+									<label class="text-pink-600 absolute transition-all top-4 pointer-events-none text-sm left-5">Company Name</label> 
+								  </div>
+								   
+								</div>
+								
+								<button class="back_page text-md h-12 w-full bg-green-400 rounded-full text-white hover:bg-green-600 transition-all ">Previous<i class="fa fa-long-arrow-left absolute top-4 left-8"></i>
+								</button> 
+								<button type="submit" class="submit_page text-sm h-12 w-full bg-blue-400 rounded-full text-white hover:bg-blue-600 transition-all">Submit Details<i class="fa fa-long-arrow-right absolute top-5 right-8"></i>
+								</button> 
+							</div>
+							<p class="my-10 text-center text-sm px-4 text-gray-500">By clicking "Next",I agree<br> to Policy Match Kenya's 
+								<a class="text-blue-800" href="#">Privacy Policy</a>
+							</p>
 						</div>
 						<div class="main hidden">
 							<h4 class="flex justify-center items-center mt-5 text-lg text-gray-800 font-medium">Congrats Mr./Mrs. <span class="shown_name"></span></h4> <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
@@ -125,41 +162,12 @@
 						</div>
 					</div>
 					<!--</div>-->
-				</div>
+						</div>
+						</form>
 					</div>
-				</form>
+				
 			</div>
 
-			<div class="py-5 inherit px-2"> 
-				<% Cover.insuranceCompanies.forEach((company) => { %>
-					<% company.insuranceCoverPlans.forEach((plan) => { %>
-						<% plan.InsurancePlanOptions.forEach((option) => { %>
-							<% if (option.inpatientRates.coverLimit == 1000000) { %>
-								<div class="flex justify-center">
-									<div class="block p-6 rounded-lg shadow-lg bg-white max-w-lg">
-										<h2 class="text-gray-900 text-xl leading-tight font-medium mb-2">Insurance Company: <%= company.insuranceCompany %></h2>
-										<h4 class="text-gray-900 text-lg leading-tight font-medium mb-2">cover name: <%= plan.coverName %></h4>
-										<p class="text-gray-700 text-base mb-1">inpatient limit: <%= option.inpatientRates.coverLimit %></p>											
-										<p class="text-gray-700 text-base mb-2">outpatient limit: <%= option.outpatientRates.coverLimit %></p>
-										<h2 class="text-gray-900 text-md leading-tight font-medium mb-2">secondary cover benefits</h2>
-										<p class="text-gray-700 text-base mb-1">Maternity Limit: <%= option.secondaryCoverFeatures.maternityCover.amountOffered %> </p>
-										<p class="text-gray-700 text-base mb-1">Maternity premium payable: <%= option.secondaryCoverFeatures.maternityCover.coverPremium %> </p>
-										<p class="text-gray-700 text-base mb-1">Maternity cover information: <%= option.secondaryCoverFeatures.maternityCover.coverStatus %> </p>
-										<p class="text-gray-700 text-base mb-1">Dental Limit: <%= option.secondaryCoverFeatures.dentalCover.amountOffered %> </p>
-										<p class="text-gray-700 text-base mb-1">Dental premium payable: <%= option.secondaryCoverFeatures.dentalCover.coverPremium %> </p>
-										<p class="text-gray-700 text-base mb-1">Dental cover information: <%= option.secondaryCoverFeatures.dentalCover.coverStatus %> </p>
-										<br>
-										<br>
-									</div>
-								</div>
-								<br>
-							<% } %>						
-						<% }) %>
-					<% }) %>
-				<% }) %>
-					
-			</div>
-<p></p>
 			
 		</section>
 

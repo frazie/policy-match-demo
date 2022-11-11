@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Policy Match</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/form.css" >
+	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+	
+</head>
+
+<body class="is-preload">
+
+	<!-- Header -->
+	<header id="header">
+		<a href="/" class="title">Policy Match</a>
+		<nav>
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/quotes" class="active">Get Quotes</a></li>
+
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<section id="main" class="wrapper">
+			<div class="inner">
+				<h1 class="major">Your Health Insurance Quotation Search Results</h1>
+				<p>The following Insurance plans met the criteria for your selection</p>
+			</div>
+			
+			<div class="py-5 inherit px-2"> 
+				<% Cover.insuranceCompanies.forEach((company) => { %>
+					<% company.insuranceCoverPlans.forEach((plan) => { %>
+						<% plan.InsurancePlanOptions.forEach((option) => { %>
+							<% if (option.inpatientRates.coverLimit == limit) { %>
+								<div class="flex justify-center">
+									<div class="block p-6 rounded-lg shadow-lg bg-white max-w-lg">
+										<h2 class="text-gray-900 text-xl leading-tight font-medium mb-2">Insurance Company: <%= company.insuranceCompany %></h2>
+										<h4 class="text-gray-900 text-lg leading-tight font-medium mb-2">cover name: <%= plan.coverName %></h4>
+										<p class="text-gray-700 text-base mb-1">inpatient limit: <%= option.inpatientRates.coverLimit %></p>											
+										<p class="text-gray-700 text-base mb-2">outpatient limit: <%= option.outpatientRates.coverLimit %></p>
+										<h2 class="text-gray-900 text-md leading-tight font-medium mb-2">secondary cover benefits</h2>
+										<p class="text-gray-700 text-base mb-1">Maternity Limit: <%= option.secondaryCoverFeatures.maternityCover.amountOffered %> </p>
+										<p class="text-gray-700 text-base mb-1">Maternity premium payable: <%= option.secondaryCoverFeatures.maternityCover.coverPremium %> </p>
+										<p class="text-gray-700 text-base mb-1">Maternity cover information: <%= option.secondaryCoverFeatures.maternityCover.coverStatus %> </p>
+										<p class="text-gray-700 text-base mb-1">Dental Limit: <%= option.secondaryCoverFeatures.dentalCover.amountOffered %> </p>
+										<p class="text-gray-700 text-base mb-1">Dental premium payable: <%= option.secondaryCoverFeatures.dentalCover.coverPremium %> </p>
+										<p class="text-gray-700 text-base mb-1">Dental cover information: <%= option.secondaryCoverFeatures.dentalCover.coverStatus %> </p>
+										<br>
+										<br>
+									</div>
+								</div>
+								<br>
+							<% } %>						
+						<% }) %>
+					<% }) %>
+				<% }) %>
+					
+			</div>
+<p></p>
+			
+		</section>
+
+	</div>
+
+	<!-- Footer -->
+	<footer id="footer" class="wrapper alt">
+		<div class="inner">
+			<ul class="menu">
+				<li>&copy; Untitled. All rights reserved.</li>
+				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer></script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/form.js"></script>
+	
+
+</body>
+
+</html>
