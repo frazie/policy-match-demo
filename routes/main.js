@@ -5,7 +5,8 @@ const quotesController = require('../controllers/quotes')
 
 
 router.get('/', homeController.getIndex)
-router.get('/quotes', quotesController.getQuotes)
+router.get('/quotes', quotesController.setQuotes)
+router.post('/available-quotes', quotesController.getQuotes)
 
 
 
