@@ -3,7 +3,7 @@ var main_pages = document.querySelectorAll(".main");
 var next_page = document.querySelector(".next_page");
 var back_page = document.querySelectorAll(".back_page");
 var submit_page = document.querySelector(".submit_page");
-var user_name = document.querySelector(".user_name");
+var testa = document.querySelector(".testa");
 var shown_name = document.querySelector(".shown_name");
 let formnumber=0;
 create_acc.onclick=function(){
@@ -14,6 +14,13 @@ create_acc.onclick=function(){
     updateform();
 }
 next_page.onclick=function(){
+    if(!validateform()){
+        return false;
+    }
+    formnumber++;
+    updateform();
+}
+testa.onclick=function(){
     if(!validateform()){
         return false;
     }
