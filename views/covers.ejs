@@ -44,8 +44,16 @@
 			<div class="inner">
 				<h1 class="major">Your Health Insurance Quotation Search Results</h1>
 				<p>The following Insurance plans met the criteria for your selection</p>
+				<p> Your name: <%= firstName %></p>
+				<p> Your selected insurance plan: <%= insurance %> Insurance Plan</p>
+				<p> Your selected insurance inpatient limit: Kshs. <%= limit %></p>
+				<p> Your selected age level: <%= age %></p>
+				<p> Include spouse in plan: <%= spouse %></p>
+				<p> Include child in plan: <%= child %></p>
+				<p> Include maternity insurance: <%= maternity %></p>
+				<p> Include dental insurance: <%= dental %></p>
+				<p> Include optical insurance: <%= optical %></p>
 			</div>
-			
 			<div class="py-5 inherit px-2"> 
 				<% Cover.insuranceCompanies.forEach((company) => { %>
 					<% company.insuranceCoverPlans.forEach((plan) => { %>
