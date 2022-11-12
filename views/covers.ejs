@@ -76,6 +76,11 @@
 										<p class="text-gray-700 text-base mb-1">Dental premium payable: <%= option.secondaryCoverFeatures.dentalCover.coverPremium %> </p>
 										<p class="text-gray-700 text-base mb-1">Dental cover information: <%= option.secondaryCoverFeatures.dentalCover.coverStatus %> </p>
 										<% } %>
+										<% if (optical == 'yes') {%>
+											<p class="text-gray-700 text-base mb-1">Optical Limit: <%= option.secondaryCoverFeatures.opticalCover.amountOffered %> </p>
+											<p class="text-gray-700 text-base mb-1">Optical premium payable: <%= option.secondaryCoverFeatures.opticalCover.coverPremium %> </p>
+											<p class="text-gray-700 text-base mb-1">Optical cover information: <%= option.secondaryCoverFeatures.opticalCover.coverStatus %> </p>
+											<% } %>
 
 										<br>
 										<br>
