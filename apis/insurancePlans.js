@@ -4,7 +4,7 @@ const individualInsurancePlans = {
             insuranceCoverPlans : [
                 {  coverName: 'Madison Betterlife Premier Plan',
                     InsurancePlanOptions: [
-                        {   inpatientRates : { coverLimit: 3000000,
+                        {   inpatientRates : { coverLimit: 3_000_000,
                             ageLimits : {
                                 '18-29 years': {
                                     principal: 42600 ,
@@ -52,10 +52,12 @@ const individualInsurancePlans = {
                                 dentalCover: {
                                     amountOffered: 0,
                                     coverStatus: 'The cover plan does not offer this',
+                                    coverPremium: 0,
                                 }, 
                                 opticalCover: {
                                     amountOffered: 0,
                                     coverStatus: 'The cover plan does not offer this',
+                                    coverPremium: 0,
                                 },
                                 hospitalCovered: {
                                     supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
@@ -68,7 +70,7 @@ const individualInsurancePlans = {
                                 },
                             }
                         },
-                        {   inpatientRates : { coverLimit: 3000000,
+                        {   inpatientRates : { coverLimit: 3_000_000,
                             ageLimits : {
                                 '18-29 years': {
                                     principal: 42600 ,
@@ -116,10 +118,12 @@ const individualInsurancePlans = {
                                 dentalCover: {
                                     amountOffered: 0,
                                     coverStatus: 'The cover plan does not offer this',
+                                    coverPremium: 0,
                                 }, 
                                 opticalCover: {
                                     amountOffered: 0,
                                     coverStatus: 'The cover plan does not offer this',
+                                    coverPremium: 0,
                                 },
                                 hospitalCovered: {
                                     supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
@@ -132,7 +136,7 @@ const individualInsurancePlans = {
                                 },
                             }
                         },
-                        {   inpatientRates : { coverLimit: 4000000,
+                        {   inpatientRates : { coverLimit: 4_000_000,
                              ageLimits : {
                                 '18-29 years': {
                                     principal: 46600,
@@ -190,10 +194,12 @@ const individualInsurancePlans = {
                                  dentalCover: {
                                      amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
+                                     coverPremium: 0,
                                  }, 
                                  opticalCover: {
                                      amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
+                                     coverPremium: 0,
                                  },
                                  hospitalCovered: {
                                      supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
@@ -206,7 +212,7 @@ const individualInsurancePlans = {
                                  },
                              }
                         },
-                        {   inpatientRates : { coverLimit: 5000000,
+                        {   inpatientRates : { coverLimit: 5_000_000,
                              ageLimits : {
                                 '18-29 years': {
                                     principal: 49500,
@@ -678,7 +684,7 @@ const individualInsurancePlans = {
                 },
                 {  coverName: 'Madison Betterlife Budget Plan',
                     InsurancePlanOptions: [
-                        {  inpatientRates : {  coverLimit: 500000,
+                        {  inpatientRates : {  coverLimit: 500_000,
                             ageLimits : {
                                 '18-29 years': {
                                     principal: 15400,
@@ -754,7 +760,7 @@ const individualInsurancePlans = {
                                 },
                             }
                         },
-                        {  inpatientRates : {  coverLimit: 1000000,
+                        {  inpatientRates : {  coverLimit: 1_000_000,
                              ageLimits : {
                                  '18-29 years': {
                                      principal: 21200,
@@ -843,7 +849,7 @@ const individualInsurancePlans = {
             insuranceCoverPlans : [
                 {   coverName: 'UAP Old Mutual Afyaimara Junior',
                     InsurancePlanOptions: [
-                        {   inpatientRates : { coverLimit: 500000,
+                        {   inpatientRates : { coverLimit: 500_000,
                             ageLimits : {
                                 '0-19 years': {
                                     'M': 32954 ,
@@ -874,14 +880,17 @@ const individualInsurancePlans = {
                            secondaryCoverFeatures : {
                                 maternityCover: {
                                     amountOffered: 0,
+                                    coverPremium: 0,
                                     coverStatus: 'The cover plan does not offer this',
                                 },      
                                 dentalCover: {
                                     amountOffered: 7000,
+                                    coverPremium: 0,
                                     coverStatus: 'Dental cover is provided within out patient insurance',
                                 }, 
                                 opticalCover: {
                                     amountOffered: 7000,
+                                    coverPremium: 0,
                                     coverStatus: 'Dental cover is provided within out patient insurance',
                                 },
                                 hospitalCovered: {
@@ -895,7 +904,7 @@ const individualInsurancePlans = {
                                 },
                             }
                         },
-                        {   inpatientRates : { coverLimit: 1000000,
+                        {   inpatientRates : { coverLimit: 1_000_000,
                              ageLimits : {
                                  '0-19 years': {
                                      'M': 34602 ,
@@ -926,14 +935,17 @@ const individualInsurancePlans = {
                             secondaryCoverFeatures : {
                                  maternityCover: {
                                      amountOffered: 0,
+                                     coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },      
                                  dentalCover: {
                                      amountOffered: 10000,
+                                     coverPremium: 0,
                                      coverStatus: 'Dental cover is provided within out patient insurance',
                                  }, 
                                  opticalCover: {
                                      amountOffered: 10000,
+                                     coverPremium: 0,
                                      coverStatus: 'Dental cover is provided within out patient insurance',
                                  },
                                  hospitalCovered: {
@@ -947,7 +959,7 @@ const individualInsurancePlans = {
                                  },
                              }
                         },
-                        {   inpatientRates : { coverLimit: 3000000,
+                        {   inpatientRates : { coverLimit: 3_000_000,
                              ageLimits : {
                                  '0-19 years': {
                                      'M': 37716 ,
@@ -978,14 +990,17 @@ const individualInsurancePlans = {
                             secondaryCoverFeatures : {
                                  maternityCover: {
                                      amountOffered: 0,
+                                     coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },      
                                  dentalCover: {
                                      amountOffered: 15000,
+                                     coverPremium: 0,
                                      coverStatus: 'Dental cover is provided within out patient insurance',
                                  }, 
                                  opticalCover: {
                                      amountOffered: 15000,
+                                     coverPremium: 0,
                                      coverStatus: 'Dental cover is provided within out patient insurance',
                                  },
                                  hospitalCovered: {
@@ -999,7 +1014,7 @@ const individualInsurancePlans = {
                                  },
                              }
                         },
-                        {   inpatientRates : { coverLimit: 5000000,
+                        {   inpatientRates : { coverLimit: 5_000_000,
                              ageLimits : {
                                  '0-19 years': {
                                      'M': 40356 ,
@@ -1030,14 +1045,17 @@ const individualInsurancePlans = {
                             secondaryCoverFeatures : {
                                  maternityCover: {
                                      amountOffered: 0,
+                                     coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },      
                                  dentalCover: {
                                      amountOffered: 15000,
+                                     coverPremium: 0,
                                      coverStatus: 'Dental cover is provided within out patient insurance',
                                  }, 
                                  opticalCover: {
                                      amountOffered: 15000,
+                                     coverPremium: 0,
                                      coverStatus: 'Dental cover is provided within out patient insurance',
                                  },
                                  hospitalCovered: {
@@ -1051,7 +1069,7 @@ const individualInsurancePlans = {
                                  },
                              }
                         },
-                        {   inpatientRates : { coverLimit: 500000,
+                        {   inpatientRates : { coverLimit: 500_000,
                              ageLimits : {
                                  '0-19 years': {
                                      'M': 29538 ,
@@ -1082,14 +1100,17 @@ const individualInsurancePlans = {
                             secondaryCoverFeatures : {
                                  maternityCover: {
                                      amountOffered: 0,
+                                     coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },      
                                  dentalCover: {
                                      amountOffered: 7000,
+                                     coverPremium: 0,
                                      coverStatus: 'Dental cover is provided within out patient insurance',
                                  }, 
                                  opticalCover: {
                                      amountOffered: 7000,
+                                     coverPremium: 0,
                                      coverStatus: 'Dental cover is provided within out patient insurance',
                                  },
                                  hospitalCovered: {
@@ -1103,7 +1124,7 @@ const individualInsurancePlans = {
                                  },
                              }
                         },
-                        {   inpatientRates : { coverLimit: 1000000,
+                        {   inpatientRates : { coverLimit: 1_000_000,
                               ageLimits : {
                                   '0-19 years': {
                                       'M': 31015 ,
@@ -1134,14 +1155,17 @@ const individualInsurancePlans = {
                              secondaryCoverFeatures : {
                                   maternityCover: {
                                       amountOffered: 0,
+                                      coverPremium: 0,
                                       coverStatus: 'The cover plan does not offer this',
                                   },      
                                   dentalCover: {
                                       amountOffered: 10000,
+                                      coverPremium: 0,
                                       coverStatus: 'Dental cover is provided within out patient insurance',
                                   }, 
                                   opticalCover: {
                                       amountOffered: 10000,
+                                      coverPremium: 0,
                                       coverStatus: 'Dental cover is provided within out patient insurance',
                                   },
                                   hospitalCovered: {
@@ -1155,7 +1179,7 @@ const individualInsurancePlans = {
                                   },
                               }
                         },
-                        {   inpatientRates : { coverLimit: 3000000,
+                        {   inpatientRates : { coverLimit: 3_000_000,
                               ageLimits : {
                                   '0-19 years': {
                                       'M': 34117 ,
@@ -1186,14 +1210,17 @@ const individualInsurancePlans = {
                              secondaryCoverFeatures : {
                                   maternityCover: {
                                       amountOffered: 0,
+                                      coverPremium: 0,
                                       coverStatus: 'The cover plan does not offer this',
                                   },      
                                   dentalCover: {
                                       amountOffered: 15000,
+                                      coverPremium: 0,
                                       coverStatus: 'Dental cover is provided within out patient insurance',
                                   }, 
                                   opticalCover: {
                                       amountOffered: 15000,
+                                      coverPremium: 0,
                                       coverStatus: 'Dental cover is provided within out patient insurance',
                                   },
                                   hospitalCovered: {
@@ -1207,7 +1234,7 @@ const individualInsurancePlans = {
                                   },
                               }
                         },
-                        {   inpatientRates : { coverLimit: 5000000,
+                        {   inpatientRates : { coverLimit: 5_000_000,
                               ageLimits : {
                                   '0-19 years': {
                                       'M': 37529 ,
@@ -1238,14 +1265,17 @@ const individualInsurancePlans = {
                              secondaryCoverFeatures : {
                                   maternityCover: {
                                       amountOffered: 0,
+                                      coverPremium: 0,
                                       coverStatus: 'The cover plan does not offer this',
                                   },      
                                   dentalCover: {
                                       amountOffered: 15000,
+                                      coverPremium: 0,
                                       coverStatus: 'Dental cover is provided within outpatient insurance',
                                   }, 
                                   opticalCover: {
                                       amountOffered: 15000,
+                                      coverPremium: 0,
                                       coverStatus: 'Dental cover is provided within outpatient insurance',
                                   },
                                   hospitalCovered: {
@@ -1264,7 +1294,7 @@ const individualInsurancePlans = {
                 },
                 {   coverName: 'UAP Old Mutual Afyaimara Family',
                     InsurancePlanOptions: [
-                        {   inpatientRates : { coverLimit: 500000,
+                        {   inpatientRates : { coverLimit: 500_000,
                             ageLimits : {
                                 '19-29 years': {
                                     principal: 32257 ,
@@ -1310,14 +1340,17 @@ const individualInsurancePlans = {
                            secondaryCoverFeatures : {
                                 maternityCover: {
                                     amountOffered: 0,
+                                    coverPremium: 0,
                                     coverStatus: 'The cover plan does not offer this',
                                 },      
                                 dentalCover: {
                                     amountOffered: 0,
+                                    coverPremium: 0,
                                     coverStatus: 'The cover plan does not offer this',
                                 }, 
                                 opticalCover: {
                                     amountOffered: 0,
+                                    coverPremium: 0,
                                     coverStatus: 'The cover plan does not offer this',
                                 },
                                 hospitalCovered: {
@@ -1331,7 +1364,7 @@ const individualInsurancePlans = {
                                 },
                             }
                         },
-                        {   inpatientRates : { coverLimit: 1000000,
+                        {   inpatientRates : { coverLimit: 1_000_000,
                              ageLimits : {
                                  '19-29 years': {
                                      principal: 34284 ,
@@ -1377,14 +1410,17 @@ const individualInsurancePlans = {
                             secondaryCoverFeatures : {
                                  maternityCover: {
                                      amountOffered: 0,
+                                     coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },      
                                  dentalCover: {
                                      amountOffered: 0,
+                                     coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  }, 
                                  opticalCover: {
                                      amountOffered: 0,
+                                     coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },
                                  hospitalCovered: {
@@ -1398,7 +1434,7 @@ const individualInsurancePlans = {
                                  },
                              }
                         },
-                        {   inpatientRates : { coverLimit: 3000000,
+                        {   inpatientRates : { coverLimit: 3_000_000,
                              ageLimits : {
                                  '19-29 years': {
                                      principal: 49172 ,
@@ -1444,14 +1480,17 @@ const individualInsurancePlans = {
                             secondaryCoverFeatures : {
                                  maternityCover: {
                                      amountOffered: 0,
+                                     coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },      
                                  dentalCover: {
                                      amountOffered: 0,
+                                     coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  }, 
                                  opticalCover: {
                                      amountOffered: 0,
+                                     coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },
                                  hospitalCovered: {
@@ -1465,7 +1504,7 @@ const individualInsurancePlans = {
                                  },
                              }
                         },
-                        {   inpatientRates : { coverLimit: 5000000,
+                        {   inpatientRates : { coverLimit: 5_000_000,
                              ageLimits : {
                                  '19-29 years': {
                                      principal: 53025 ,
@@ -1511,14 +1550,17 @@ const individualInsurancePlans = {
                             secondaryCoverFeatures : {
                                  maternityCover: {
                                      amountOffered: 0,
+                                     coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },      
                                  dentalCover: {
                                      amountOffered: 0,
+                                     coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  }, 
                                  opticalCover: {
                                      amountOffered: 0,
+                                     coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },
                                  hospitalCovered: {
@@ -1532,7 +1574,7 @@ const individualInsurancePlans = {
                                  },
                              }
                         },
-                        {   inpatientRates : { coverLimit: 10000000,
+                        {   inpatientRates : { coverLimit: 10_000_000,
                              ageLimits : {
                                  '19-29 years': {
                                      principal: 60535 ,
@@ -1578,14 +1620,17 @@ const individualInsurancePlans = {
                             secondaryCoverFeatures : {
                                  maternityCover: {
                                      amountOffered: 0,
+                                     coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },      
                                  dentalCover: {
                                      amountOffered: 0,
+                                     coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  }, 
                                  opticalCover: {
                                      amountOffered: 0,
+                                     coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },
                                  hospitalCovered: {
@@ -1604,7 +1649,7 @@ const individualInsurancePlans = {
                 },
                 {   coverName: 'UAP Old Mutual Afyaimara Seniors',
                     InsurancePlanOptions: [
-                        {  inpatientRates : { coverLimit: 500000,
+                        {  inpatientRates : { coverLimit: 500_000,
                             ageLimits : {
                                 '66+ years': {
                                     principal: 116352 ,
@@ -1646,7 +1691,7 @@ const individualInsurancePlans = {
                                 },
                             }
                         },
-                        {  inpatientRates : { coverLimit: 1000000,
+                        {  inpatientRates : { coverLimit: 1_000_000,
                              ageLimits : {
                                  '66+ years': {
                                      principal: 132299 ,
@@ -1688,7 +1733,7 @@ const individualInsurancePlans = {
                                  },
                              }
                         },
-                        {  inpatientRates : { coverLimit: 3000000,
+                        {  inpatientRates : { coverLimit: 3_000_000,
                              ageLimits : {
                                  '66+ years': {
                                      principal: 178535 ,
@@ -1730,7 +1775,7 @@ const individualInsurancePlans = {
                                  },
                              }
                         },
-                        {  inpatientRates : { coverLimit: 5000000,
+                        {  inpatientRates : { coverLimit: 5_000_000,
                              ageLimits : {
                                  '66+ years': {
                                      principal: 206231 ,
@@ -1772,7 +1817,7 @@ const individualInsurancePlans = {
                                  },
                              }
                         },
-                        {  inpatientRates : { coverLimit: 10000000,
+                        {  inpatientRates : { coverLimit: 10_000_000,
                             ageLimits : {
                                 '66+ years': {
                                     principal: 229049 ,
@@ -1818,7 +1863,7 @@ const individualInsurancePlans = {
                 },
                 {   coverName: 'UAP Old Mutual Afyaimara County',
                     InsurancePlanOptions: [
-                        {   inpatientRates : { coverLimit: 100000,
+                        {   inpatientRates : { coverLimit: 1_000_00,
                             ageLimits : {
                                 '19-29 years': {
                                     principal: 10740 ,
@@ -1858,14 +1903,17 @@ const individualInsurancePlans = {
                            secondaryCoverFeatures : {
                                 maternityCover: {
                                     amountOffered: 0,
+                                    coverPremium: 0,
                                     coverStatus: 'The cover plan does not offer this',
                                 },      
                                 dentalCover: {
                                     amountOffered: 0,
+                                    coverPremium: 0,
                                     coverStatus: 'The cover plan does not offer this',
                                 }, 
                                 opticalCover: {
                                     amountOffered: 0,
+                                    coverPremium: 0,
                                     coverStatus: 'The cover plan does not offer this',
                                 },
                                 hospitalCovered: {
@@ -1879,7 +1927,7 @@ const individualInsurancePlans = {
                                 },
                             }
                         },
-                        {   inpatientRates : { coverLimit: 250000,
+                        {   inpatientRates : { coverLimit: 250_000,
                              ageLimits : {
                                  '19-29 years': {
                                      principal: 13724 ,
@@ -1919,14 +1967,17 @@ const individualInsurancePlans = {
                             secondaryCoverFeatures : {
                                  maternityCover: {
                                      amountOffered: 0,
+                                     coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },      
                                  dentalCover: {
                                      amountOffered: 0,
+                                     coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  }, 
                                  opticalCover: {
                                      amountOffered: 0,
+                                     coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },
                                  hospitalCovered: {
@@ -1940,7 +1991,7 @@ const individualInsurancePlans = {
                                  },
                              }
                         },
-                        {   inpatientRates : { coverLimit: 500000,
+                        {   inpatientRates : { coverLimit: 500_000,
                              ageLimits : {
                                  '19-29 years': {
                                      principal: 21711 ,
@@ -1980,14 +2031,17 @@ const individualInsurancePlans = {
                             secondaryCoverFeatures : {
                                  maternityCover: {
                                      amountOffered: 0,
+                                     coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },      
                                  dentalCover: {
                                      amountOffered: 0,
+                                     coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  }, 
                                  opticalCover: {
                                      amountOffered: 0,
+                                     coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },
                                  hospitalCovered: {
@@ -2001,7 +2055,7 @@ const individualInsurancePlans = {
                                  },
                              }
                         },
-                        {   inpatientRates : { coverLimit: 1000000,
+                        {   inpatientRates : { coverLimit: 1_000_000,
                              ageLimits : {
                                  '19-29 years': {
                                      principal: 24690,
@@ -2041,14 +2095,17 @@ const individualInsurancePlans = {
                             secondaryCoverFeatures : {
                                  maternityCover: {
                                      amountOffered: 0,
+                                     coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },      
                                  dentalCover: {
                                      amountOffered: 0,
+                                     coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  }, 
                                  opticalCover: {
                                      amountOffered: 0,
+                                     coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },
                                  hospitalCovered: {
@@ -2074,7 +2131,7 @@ const individualInsurancePlans = {
             insuranceCoverPlans : [
             {   coverName: 'J Care Junior',
                 InsurancePlanOptions: [
-                    {   inpatientRates : { coverLimit: 500000,
+                    {   inpatientRates : { coverLimit: 500_000,
                         ageLimits : {
                             '0-17 years': {
                                 principal: 18743 ,
@@ -2116,7 +2173,7 @@ const individualInsurancePlans = {
                             },
                         }
                     },
-                    {   inpatientRates : { coverLimit: 1000000,
+                    {   inpatientRates : { coverLimit: 1_000_000,
                         ageLimits : {
                             '0-17 years': {
                                 principal: 23373 ,
@@ -2134,7 +2191,7 @@ const individualInsurancePlans = {
                        },
                        secondaryCoverFeatures : {
                             maternityCover: {
-                                amountOffered: 100000,
+                                amountOffered: 0,
                                 coverPremium: 0,
                                 coverStatus: 'maternity cover is not offered in this option',
                             },      
@@ -2159,7 +2216,7 @@ const individualInsurancePlans = {
                             },
                         }
                     },
-                    {   inpatientRates : { coverLimit: 2000000,
+                    {   inpatientRates : { coverLimit: 2_000_000,
                         ageLimits : {
                             '19-29 years': {
                                 principal: 27563 ,
@@ -2201,7 +2258,7 @@ const individualInsurancePlans = {
                             },
                         }
                     },
-                    {   inpatientRates : { coverLimit: 3000000,
+                    {   inpatientRates : { coverLimit: 3_000_000,
                         ageLimits : {
                             '19-29 years': {
                                 principal: 33075 ,
@@ -2243,7 +2300,7 @@ const individualInsurancePlans = {
                             },
                         }
                     },
-                    {   inpatientRates : { coverLimit: 5000000,
+                    {   inpatientRates : { coverLimit: 5_000_000,
                         ageLimits : {
                             '19-29 years': {
                                 principal: 38588 ,
@@ -2285,7 +2342,7 @@ const individualInsurancePlans = {
                             },
                         }
                     },
-                    {   inpatientRates : { coverLimit: 10000000,
+                    {   inpatientRates : { coverLimit: 10_000_000,
                         ageLimits : {
                             '19-29 years': {
                                 principal: 46305 ,
@@ -2331,7 +2388,7 @@ const individualInsurancePlans = {
             },
             {   coverName: 'J Care Premium',
                     InsurancePlanOptions: [
-                        {   inpatientRates : { coverLimit: 500000,
+                        {   inpatientRates : { coverLimit: 500_000,
                             ageLimits : {
                                 '19-29 years': {
                                     principal: 18743 ,
@@ -2407,7 +2464,7 @@ const individualInsurancePlans = {
                                 },
                             }
                         },
-                        {   inpatientRates : { coverLimit: 1000000,
+                        {   inpatientRates : { coverLimit: 1_000_000,
                             ageLimits : {
                                 '19-29 years': {
                                     principal: 23373 ,
@@ -2483,7 +2540,7 @@ const individualInsurancePlans = {
                                 },
                             }
                         },
-                        {   inpatientRates : { coverLimit: 2000000,
+                        {   inpatientRates : { coverLimit: 2_000_000,
                             ageLimits : {
                                 '19-29 years': {
                                     principal: 27563 ,
@@ -2559,7 +2616,7 @@ const individualInsurancePlans = {
                                 },
                             }
                         },
-                        {   inpatientRates : { coverLimit: 3000000,
+                        {   inpatientRates : { coverLimit: 3_000_000,
                             ageLimits : {
                                 '19-29 years': {
                                     principal: 33075 ,
@@ -2635,7 +2692,7 @@ const individualInsurancePlans = {
                                 },
                             }
                         },
-                        {   inpatientRates : { coverLimit: 5000000,
+                        {   inpatientRates : { coverLimit: 5_000_000,
                             ageLimits : {
                                 '19-29 years': {
                                     principal: 38588 ,
@@ -2711,7 +2768,7 @@ const individualInsurancePlans = {
                                 },
                             }
                         },
-                        {   inpatientRates : { coverLimit: 10000000,
+                        {   inpatientRates : { coverLimit: 10_000_000,
                             ageLimits : {
                                 '19-29 years': {
                                     principal: 46305 ,
