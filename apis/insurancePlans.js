@@ -50,11 +50,11 @@ const individualInsurancePlans = {
                                     coverPremium: 44500,
                                 },      
                                 dentalCover: {
-                                    amountOffered: 'none',
+                                    amountOffered: 0,
                                     coverStatus: 'The cover plan does not offer this',
                                 }, 
                                 opticalCover: {
-                                    amountOffered: 'none',
+                                    amountOffered: 0,
                                     coverStatus: 'The cover plan does not offer this',
                                 },
                                 hospitalCovered: {
@@ -114,11 +114,11 @@ const individualInsurancePlans = {
                                     coverPremium: 44500,
                                 },      
                                 dentalCover: {
-                                    amountOffered: 'none',
+                                    amountOffered: 0,
                                     coverStatus: 'The cover plan does not offer this',
                                 }, 
                                 opticalCover: {
-                                    amountOffered: 'none',
+                                    amountOffered: 0,
                                     coverStatus: 'The cover plan does not offer this',
                                 },
                                 hospitalCovered: {
@@ -188,11 +188,11 @@ const individualInsurancePlans = {
                                      coverPremium: 47000,
                                  },      
                                  dentalCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  }, 
                                  opticalCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },
                                  hospitalCovered: {
@@ -257,17 +257,17 @@ const individualInsurancePlans = {
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverStatus: 'The cover plan only supported upto the age of 49 years',
                                      coverPremium: 0,
                                  },      
                                  dentalCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                      coverPremium: 0,
                                  }, 
                                  opticalCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                      coverPremium: 0,
                                  },
@@ -342,12 +342,12 @@ const individualInsurancePlans = {
                                     coverStatus: 'The cover plan is purchased seperately at the stupilated premiums and supports clients upto the age of 49Yrs',
                                 },      
                                 dentalCover: {
-                                    amountOffered: 'none',
+                                    amountOffered: 0,
                                     coverPremium: 0,
                                     coverStatus: 'The cover plan does not offer this',
                                 }, 
                                 opticalCover: {
-                                    amountOffered: 'none',
+                                    amountOffered: 0,
                                     coverPremium: 0,
                                     coverStatus: 'The cover plan does not offer this',
                                 },
@@ -422,12 +422,12 @@ const individualInsurancePlans = {
                                      coverStatus: 'The cover plan is purchased seperately at the stupilated premiums and supports clients upto the age of 49Yrs',
                                  },      
                                  dentalCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  }, 
                                  opticalCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },
@@ -498,12 +498,12 @@ const individualInsurancePlans = {
                                      coverStatus: 'The cover plan is purchased seperately at the stupilated premiums and supports clients upto the age of 49Yrs',
                                  },      
                                  dentalCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  }, 
                                  opticalCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },
@@ -578,12 +578,12 @@ const individualInsurancePlans = {
                                     coverStatus: 'The cover plan is purchased seperately at the stupilated premiums and supports clients upto the age of 49Yrs',
                                 },      
                                 dentalCover: {
-                                    amountOffered: 'none',
+                                    amountOffered: 0,
                                     coverPremium: 0,
                                     coverStatus: 'The cover plan does not offer this',
                                 }, 
                                 opticalCover: {
-                                    amountOffered: 'none',
+                                    amountOffered: 0,
                                     coverPremium: 0,
                                     coverStatus: 'The cover plan does not offer this',
                                 },
@@ -654,12 +654,12 @@ const individualInsurancePlans = {
                                      coverStatus: 'The cover plan is purchased seperately at the stupilated premiums and supports clients upto the age of 49Yrs',
                                  },      
                                  dentalCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  }, 
                                  opticalCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },
@@ -734,12 +734,12 @@ const individualInsurancePlans = {
                                     coverStatus: 'The cover plan is purchased seperately at the stupilated premiums and supports clients upto the age of 49 years',
                                 },      
                                 dentalCover: {
-                                    amountOffered: 'none',
+                                    amountOffered: 0,
                                     coverPremium: 0,
                                     coverStatus: 'The cover plan does not offer this',
                                 }, 
                                 opticalCover: {
-                                    amountOffered: 'none',
+                                    amountOffered: 0,
                                     coverPremium: 0,
                                     coverStatus: 'The cover plan does not offer this',
                                 },
@@ -810,12 +810,12 @@ const individualInsurancePlans = {
                                      coverStatus: 'The cover plan is purchased seperately at the stupilated premiums and supports clients upto the age of 49Yrs',
                                  },      
                                  dentalCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  }, 
                                  opticalCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },
@@ -873,7 +873,7 @@ const individualInsurancePlans = {
                            },
                            secondaryCoverFeatures : {
                                 maternityCover: {
-                                    amountOffered: 'none',
+                                    amountOffered: 0,
                                     coverStatus: 'The cover plan does not offer this',
                                 },      
                                 dentalCover: {
@@ -925,7 +925,7 @@ const individualInsurancePlans = {
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },      
                                  dentalCover: {
@@ -977,7 +977,7 @@ const individualInsurancePlans = {
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },      
                                  dentalCover: {
@@ -1029,7 +1029,7 @@ const individualInsurancePlans = {
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },      
                                  dentalCover: {
@@ -1081,7 +1081,7 @@ const individualInsurancePlans = {
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },      
                                  dentalCover: {
@@ -1133,7 +1133,7 @@ const individualInsurancePlans = {
                              },
                              secondaryCoverFeatures : {
                                   maternityCover: {
-                                      amountOffered: 'none',
+                                      amountOffered: 0,
                                       coverStatus: 'The cover plan does not offer this',
                                   },      
                                   dentalCover: {
@@ -1185,7 +1185,7 @@ const individualInsurancePlans = {
                              },
                              secondaryCoverFeatures : {
                                   maternityCover: {
-                                      amountOffered: 'none',
+                                      amountOffered: 0,
                                       coverStatus: 'The cover plan does not offer this',
                                   },      
                                   dentalCover: {
@@ -1237,7 +1237,7 @@ const individualInsurancePlans = {
                              },
                              secondaryCoverFeatures : {
                                   maternityCover: {
-                                      amountOffered: 'none',
+                                      amountOffered: 0,
                                       coverStatus: 'The cover plan does not offer this',
                                   },      
                                   dentalCover: {
@@ -1309,15 +1309,15 @@ const individualInsurancePlans = {
                            },
                            secondaryCoverFeatures : {
                                 maternityCover: {
-                                    amountOffered: 'none',
+                                    amountOffered: 0,
                                     coverStatus: 'The cover plan does not offer this',
                                 },      
                                 dentalCover: {
-                                    amountOffered: 'none',
+                                    amountOffered: 0,
                                     coverStatus: 'The cover plan does not offer this',
                                 }, 
                                 opticalCover: {
-                                    amountOffered: 'none',
+                                    amountOffered: 0,
                                     coverStatus: 'The cover plan does not offer this',
                                 },
                                 hospitalCovered: {
@@ -1376,15 +1376,15 @@ const individualInsurancePlans = {
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },      
                                  dentalCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  }, 
                                  opticalCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },
                                  hospitalCovered: {
@@ -1443,15 +1443,15 @@ const individualInsurancePlans = {
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },      
                                  dentalCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  }, 
                                  opticalCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },
                                  hospitalCovered: {
@@ -1510,15 +1510,15 @@ const individualInsurancePlans = {
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },      
                                  dentalCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  }, 
                                  opticalCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },
                                  hospitalCovered: {
@@ -1577,15 +1577,15 @@ const individualInsurancePlans = {
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },      
                                  dentalCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  }, 
                                  opticalCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },
                                  hospitalCovered: {
@@ -1857,15 +1857,15 @@ const individualInsurancePlans = {
                            },
                            secondaryCoverFeatures : {
                                 maternityCover: {
-                                    amountOffered: 'none',
+                                    amountOffered: 0,
                                     coverStatus: 'The cover plan does not offer this',
                                 },      
                                 dentalCover: {
-                                    amountOffered: 'none',
+                                    amountOffered: 0,
                                     coverStatus: 'The cover plan does not offer this',
                                 }, 
                                 opticalCover: {
-                                    amountOffered: 'none',
+                                    amountOffered: 0,
                                     coverStatus: 'The cover plan does not offer this',
                                 },
                                 hospitalCovered: {
@@ -1918,15 +1918,15 @@ const individualInsurancePlans = {
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },      
                                  dentalCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  }, 
                                  opticalCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },
                                  hospitalCovered: {
@@ -1979,15 +1979,15 @@ const individualInsurancePlans = {
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },      
                                  dentalCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  }, 
                                  opticalCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },
                                  hospitalCovered: {
@@ -2040,15 +2040,15 @@ const individualInsurancePlans = {
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },      
                                  dentalCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  }, 
                                  opticalCover: {
-                                     amountOffered: 'none',
+                                     amountOffered: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },
                                  hospitalCovered: {

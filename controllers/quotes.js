@@ -1,5 +1,4 @@
-const shared = require('../apis/sharedInsurancePlans');
-const individual = require('../apis/individualInsurancePlans');
+const insurance = require('../apis/insurancePlans');
 
 
 module.exports = {
@@ -8,11 +7,9 @@ module.exports = {
        res.render("quotes.ejs")
     },
     getQuotes: async (req,res)=>{
-        const sharedPlan = await shared;
-        const individualPlan = await individual;
+        const insurancePlan = await insurance;
 
         let limit = req.body.inpatientLimit;
-        let insurance = req.body.insuranceType;
         let firstName = req.body.firstName;
         let age = req.body.ageBracket;
         let spouse = req.body.spouseInclude;
@@ -23,32 +20,18 @@ module.exports = {
                 
         console.log(req.body)
         
-        if (insurance == 'shared'){
-            res.render("covers.ejs", {
-                Cover: sharedPlan, 
-                limit: limit, 
-                insurance: insurance, 
-                firstName: firstName,
-                age: age,
-                spouse: spouse,
-                child: child,
-                dental: dental,
-                maternity: maternity,
-                optical: optical,
-            });
-        } else{
-            res.render("covers.ejs", {Cover: individualPlan, 
-                limit: limit,
-                insurance: insurance, 
-                firstName: firstName,
-                age: age,
-                spouse: spouse,
-                child: child,
-                dental: dental,
-                maternity: maternity,
-                optical: optical,
-            });
-        };
+        res.render("covers.ejs", {
+            Cover: insurancePlan, 
+            limit: limit, 
+            insurance: insurance, 
+            firstName: firstName,
+            age: age,
+            spouse: spouse,
+            child: child,
+            dental: dental,
+            maternity: maternity,
+            optical: optical,
+        });
        
     },
 

@@ -45,7 +45,6 @@
 				<h1 class="major">Your Health Insurance Quotation Search Results</h1>
 				<p>The following Insurance plans met the criteria for your selection</p>
 				<p> Your name: <%= firstName %></p>
-				<p> Your selected insurance plan: <%= insurance %> Insurance Plan</p>
 				<p> Your selected insurance inpatient limit: Kshs. <%= limit %></p>
 				<p> Your selected age level: <%= age %></p>
 				<p> Include spouse in plan: <%= spouse %></p>
@@ -81,7 +80,7 @@
 											<p class="text-gray-700 text-base mb-1">Optical premium payable: <%= option.secondaryCoverFeatures.opticalCover.coverPremium %> </p>
 											<p class="text-gray-700 text-base mb-1">Optical cover information: <%= option.secondaryCoverFeatures.opticalCover.coverStatus %> </p>
 											<% } %>
-
+											<p class="text-gray-900 text-base mb-2">Total Payable: <%= option.secondaryCoverFeatures.maternityCover.coverPremium + option.secondaryCoverFeatures.dentalCover.coverPremium + option.secondaryCoverFeatures.opticalCover.coverPremium %></p>
 										<br>
 										<br>
 									</div>
