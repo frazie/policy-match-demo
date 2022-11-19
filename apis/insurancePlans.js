@@ -5,7 +5,7 @@ const individualInsurancePlans = {
                 {  coverName: 'Madison Betterlife Premier Plan',
                     InsurancePlanOptions: [
                         {   inpatientRates : { coverLimit: 3_000_000,
-                            ageLimits : {
+                            ageLimits : [{
                                 '18-29 years': {
                                     principal: 42_600 ,
                                     spouse: 38_400 ,
@@ -26,11 +26,11 @@ const individualInsurancePlans = {
                                     spouse: 55_600 ,
                                     child: 27_700 ,
                                 },
-                            }
+                            }]
                            },
                            outpatientRates: {
                             coverLimit: 100_000,
-                            ageLimits : {
+                            ageLimits : [{
                                 '18-49 years': {
                                     principal: 54_900 ,
                                     spouse: 49_400 ,
@@ -41,7 +41,7 @@ const individualInsurancePlans = {
                                     spouse: 71_600 ,
                                     child: 35_700 ,
                                 },
-                            },
+                            }],
                            },
                            secondaryCoverFeatures : {
                                 maternityCover: {
@@ -70,74 +70,8 @@ const individualInsurancePlans = {
                                 },
                             }
                         },
-                        {   inpatientRates : { coverLimit: 3_000_000,
-                            ageLimits : {
-                                '18-29 years': {
-                                    principal: 42_600 ,
-                                    spouse: 38_400 ,
-                                    child: 27_700 ,
-                                },
-                                '30-39 years': {
-                                    principal: 42_600 ,
-                                    spouse: 38_400 ,
-                                    child: 27_700 ,
-                                },
-                                '40-49 years': {
-                                    principal: 42_600 ,
-                                    spouse: 38_400 ,
-                                    child: 27_700 ,
-                                },
-                                '50-60 years': {
-                                    principal: 61_800 ,
-                                    spouse: 55_600 ,
-                                    child: 27_700 ,
-                                },
-                            }
-                           },
-                           outpatientRates: {
-                            coverLimit: 150_000,
-                            ageLimits : {
-                                '18-49 years': {
-                                    principal: 54_900 ,
-                                    spouse: 49_400 ,
-                                    child: 35_700 ,
-                                },
-                                '50-60 years': {
-                                    principal: 79_600 ,
-                                    spouse: 71_600 ,
-                                    child: 35_700 ,
-                                },
-                            },
-                           },
-                           secondaryCoverFeatures : {
-                                maternityCover: {
-                                    amountOffered: 150000,
-                                    coverStatus: 'The cover plan is purchased seperately at the stupilated premiums',
-                                    coverPremium: 44500,
-                                },      
-                                dentalCover: {
-                                    amountOffered: 0,
-                                    coverStatus: 'The cover plan does not offer this',
-                                    coverPremium: 0,
-                                }, 
-                                opticalCover: {
-                                    amountOffered: 0,
-                                    coverStatus: 'The cover plan does not offer this',
-                                    coverPremium: 0,
-                                },
-                                hospitalCovered: {
-                                    supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
-                                },
-                                co_payments: {
-                                    support: 'should state if this is supported or not'
-                                },
-                                preExisting_Conditions: {
-                                    coverStatus: 'all pre-existing conditions will be activated after 1 year'
-                                },
-                            }
-                        },
                         {   inpatientRates : { coverLimit: 4_000_000,
-                             ageLimits : {
+                             ageLimits : [{
                                 '18-29 years': {
                                     principal: 46_600,
                                     spouse: 42_000,
@@ -158,11 +92,11 @@ const individualInsurancePlans = {
                                     spouse: 60_900,
                                     child: 30_300,
                                 },
-                             }
+                             }]
                             },
                             outpatientRates: {
                              coverLimit: 150_000,
-                             ageLimits : {
+                             ageLimits : [{
                                 '18-29 years': {
                                     principal: 57_400 ,
                                     spouse: 51_600 ,
@@ -183,7 +117,7 @@ const individualInsurancePlans = {
                                     spouse: 74_900 ,
                                     child: 37_300 ,
                                 },
-                             },
+                             }],
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
@@ -213,7 +147,7 @@ const individualInsurancePlans = {
                              }
                         },
                         {   inpatientRates : { coverLimit: 5_000_000,
-                             ageLimits : {
+                             ageLimits : [{
                                 '18-29 years': {
                                     principal: 49_500,
                                     spouse: 44_500,
@@ -234,11 +168,11 @@ const individualInsurancePlans = {
                                     spouse: 64_500,
                                     child: 32_200,
                                 },
-                             }
+                             }]
                             },
                             outpatientRates: {
                              coverLimit: 200_000,
-                             ageLimits : {
+                             ageLimits : [{
                                 '18-29 years': {
                                     principal: 59_900,
                                     spouse: 53_900,
@@ -259,7 +193,7 @@ const individualInsurancePlans = {
                                     spouse: 78_200,
                                     child: 38_900,
                                 },
-                             },
+                             }],
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
@@ -293,7 +227,7 @@ const individualInsurancePlans = {
                 {  coverName: 'Madison Betterlife Executive Plan',
                     InsurancePlanOptions: [
                         {  inpatientRates : {  coverLimit: 1_000_000,
-                            ageLimits : {
+                            ageLimits : [{
                                 '18-29 years': {
                                     principal: 26_600,
                                     spouse: 23_900,
@@ -314,11 +248,11 @@ const individualInsurancePlans = {
                                     spouse: 55_600 ,
                                     child: 17_300,
                                 },
-                            }
+                            }]
                            },
                            outpatientRates: {
                             coverLimit: 100_000,
-                            ageLimits : {
+                            ageLimits : [{
                                 '18-29 years': {
                                     principal: 52_400,
                                     spouse: 47_100,
@@ -339,7 +273,7 @@ const individualInsurancePlans = {
                                     spouse: 68_300,
                                     child: 34_000,
                                 },
-                            },
+                            }],
                            },
                            secondaryCoverFeatures : {
                                 maternityCover: {
@@ -369,36 +303,32 @@ const individualInsurancePlans = {
                             }
                         },
                         {  inpatientRates : {  coverLimit: 1_500_000,
-                             ageLimits : [
-                                  {
-                                     ageGroup: '18-29 years',
+                             ageLimits : [{
+                                '18-29 years': {
                                      principal: 30_100,
                                      spouse: 27_100,
                                      child: 19_600,
                                  },
-                                 {
-                                    ageGroup: '30-39 years',
+                                 '30-39 years': {
                                      principal: 30_100,
                                      spouse: 27_100,
                                      child: 19_600,
                                  },
-                                 {
-                                    ageGroup: '40-49 years',
+                                 '40-49 years': {
                                      principal: 30_100,
                                      spouse: 27_100,
                                      child: 19_600,
                                  },
-                                 {
-                                    ageGroup: '50-60 years',
+                                 '50-60 years': {
                                      principal: 43_600,
                                      spouse: 39_200,
                                      child: 19_600,
                                  },
-                             ]
+                             }]
                             },
                             outpatientRates: {
                              coverLimit: 150_000,
-                             ageLimits : {
+                             ageLimits : [{
                                  '18-29 years': {
                                      principal: 54_900,
                                      spouse: 49_400,
@@ -419,7 +349,7 @@ const individualInsurancePlans = {
                                      spouse: 71_600,
                                      child: 35_700,
                                  },
-                             },
+                             }],
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
@@ -529,7 +459,7 @@ const individualInsurancePlans = {
                 {  coverName: 'Madison Betterlife Ignite Plan',
                     InsurancePlanOptions: [
                         {  inpatientRates : {  coverLimit: 500_000,
-                            ageLimits : {
+                            ageLimits : [{
                                 '18-29 years': {
                                     principal: 18_400,
                                     spouse: 0,
@@ -550,11 +480,11 @@ const individualInsurancePlans = {
                                     spouse: 0,
                                     child: 0,
                                 },
-                            }
+                            }]
                            },
                            outpatientRates: {
                             coverLimit: 50_000,
-                            ageLimits : {
+                            ageLimits : [{
                                 '18-29 years': {
                                     principal: 21_100,
                                     spouse: 0,
@@ -575,7 +505,7 @@ const individualInsurancePlans = {
                                     spouse: 0,
                                     child: 0,
                                 },
-                            },
+                            }],
                            },
                            secondaryCoverFeatures : {
                                 maternityCover: {
@@ -685,7 +615,7 @@ const individualInsurancePlans = {
                 {  coverName: 'Madison Betterlife Budget Plan',
                     InsurancePlanOptions: [
                         {  inpatientRates : {  coverLimit: 500_000,
-                            ageLimits : {
+                            ageLimits : [{
                                 '18-29 years': {
                                     principal: 15_400,
                                     spouse: 13_900,
@@ -706,11 +636,11 @@ const individualInsurancePlans = {
                                     spouse: 0,
                                     child: 0,
                                 },
-                            }
+                            }]
                            },
                            outpatientRates: {
                             coverLimit: 50_000,
-                            ageLimits : {
+                            ageLimits : [{
                                 '18-29 years': {
                                     principal: 17_500,
                                     spouse: 15_700,
@@ -731,7 +661,7 @@ const individualInsurancePlans = {
                                     spouse: 0,
                                     child: 0,
                                 },
-                            },
+                            }],
                            },
                            secondaryCoverFeatures : {
                                 maternityCover: {
@@ -850,7 +780,7 @@ const individualInsurancePlans = {
                 {   coverName: 'UAP Old Mutual Afyaimara Junior',
                     InsurancePlanOptions: [
                         {   inpatientRates : { coverLimit: 500_000,
-                            ageLimits : {
+                            ageLimits : [{
                                 '0-19 years': {
                                     'M': 32_954 ,
                                     'M+1': 51_785 ,
@@ -861,11 +791,11 @@ const individualInsurancePlans = {
                                     'Extra Child': 17_724 ,
                                 },
                                 
-                            }
+                            }]
                            },
                            outpatientRates: {
                             coverLimit: 50_000,
-                            ageLimits : {
+                            ageLimits : [{
                                 '0-19 years': {
                                     'M': 24_990 ,
                                     'M+1': 46_232 ,
@@ -875,7 +805,7 @@ const individualInsurancePlans = {
                                     'M+5': 46_828 ,
                                     'Extra Child': 454 ,
                                 },
-                            },
+                            }],
                            },
                            secondaryCoverFeatures : {
                                 maternityCover: {
@@ -905,7 +835,7 @@ const individualInsurancePlans = {
                             }
                         },
                         {   inpatientRates : { coverLimit: 1_000_000,
-                             ageLimits : {
+                             ageLimits : [{
                                  '0-19 years': {
                                      'M': 34_602 ,
                                      'M+1': 54_374 ,
@@ -916,11 +846,11 @@ const individualInsurancePlans = {
                                      'Extra Child': 18_611 ,
                                  },
                                  
-                             }
+                             }]
                             },
                             outpatientRates: {
-                             coverLimit: 75000,
-                             ageLimits : {
+                             coverLimit: 75_000,
+                             ageLimits : [{
                                  '0-19 years': {
                                      'M': 26_240 ,
                                      'M+1': 48_543 ,
@@ -930,7 +860,7 @@ const individualInsurancePlans = {
                                      'M+5': 63_217 ,
                                      'Extra Child': 649 ,
                                  },
-                             },
+                             }],
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
@@ -960,32 +890,32 @@ const individualInsurancePlans = {
                              }
                         },
                         {   inpatientRates : { coverLimit: 3_000_000,
-                             ageLimits : {
+                             ageLimits : [{
                                  '0-19 years': {
-                                     'M': 37716 ,
-                                     'M+1': 59267 ,
-                                     'M+2': 80469 ,
-                                     'M+3': 99004 ,
-                                     'M+4': 116042 ,
-                                     'M+5': 132948 ,
-                                     'Extra Child': 20286 ,
+                                     'M': 37_716 ,
+                                     'M+1': 59_267 ,
+                                     'M+2': 80_469 ,
+                                     'M+3': 99_004 ,
+                                     'M+4': 116_042 ,
+                                     'M+5': 132_948 ,
+                                     'Extra Child': 20_286 ,
                                  },
                                  
-                             }
+                             }]
                             },
                             outpatientRates: {
-                             coverLimit: 100000,
-                             ageLimits : {
+                             coverLimit: 100_000,
+                             ageLimits : [{
                                  '0-19 years': {
-                                     'M': 28076 ,
-                                     'M+1': 51941 ,
-                                     'M+2': 54687 ,
-                                     'M+3': 67129 ,
-                                     'M+4': 78981 ,
-                                     'M+5': 85343 ,
+                                     'M': 28_076 ,
+                                     'M+1': 51_941 ,
+                                     'M+2': 54_687 ,
+                                     'M+3': 67_129 ,
+                                     'M+4': 78_981 ,
+                                     'M+5': 85_343 ,
                                      'Extra Child': 974 ,
                                  },
-                             },
+                             }],
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
@@ -994,12 +924,12 @@ const individualInsurancePlans = {
                                      coverStatus: 'The cover plan does not offer this',
                                  },      
                                  dentalCover: {
-                                     amountOffered: 15000,
+                                     amountOffered: 15_000,
                                      coverPremium: 0,
                                      coverStatus: 'Dental cover is provided within out patient insurance',
                                  }, 
                                  opticalCover: {
-                                     amountOffered: 15000,
+                                     amountOffered: 15_000,
                                      coverPremium: 0,
                                      coverStatus: 'Dental cover is provided within out patient insurance',
                                  },
@@ -1015,32 +945,32 @@ const individualInsurancePlans = {
                              }
                         },
                         {   inpatientRates : { coverLimit: 5_000_000,
-                             ageLimits : {
+                             ageLimits : [{
                                  '0-19 years': {
-                                     'M': 40356 ,
-                                     'M+1': 67260 ,
-                                     'M+2': 90800 ,
-                                     'M+3': 110978 ,
-                                     'M+4': 131156 ,
-                                     'M+5': 151334 ,
-                                     'Extra Child': 21706 ,
+                                     'M': 40_356 ,
+                                     'M+1': 67_260 ,
+                                     'M+2': 90_800 ,
+                                     'M+3': 110_978 ,
+                                     'M+4': 131_156 ,
+                                     'M+5': 151_334 ,
+                                     'Extra Child': 21_706 ,
                                  },
                                  
-                             }
+                             }]
                             },
                             outpatientRates: {
-                             coverLimit: 150000,
-                             ageLimits : {
+                             coverLimit: 150_000,
+                             ageLimits : [{
                                  '0-19 years': {
-                                     'M': 30042 ,
-                                     'M+1': 55577 ,
-                                     'M+2': 58515 ,
-                                     'M+3': 80555 ,
-                                     'M+4': 102675 ,
-                                     'M+5': 115213 ,
-                                     'Extra Child': 1363 ,
+                                     'M': 30_042 ,
+                                     'M+1': 55_577 ,
+                                     'M+2': 58_515 ,
+                                     'M+3': 80_555 ,
+                                     'M+4': 102_675 ,
+                                     'M+5': 115_213 ,
+                                     'Extra Child': 1_363 ,
                                  },
-                             },
+                             }],
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
@@ -1049,12 +979,12 @@ const individualInsurancePlans = {
                                      coverStatus: 'The cover plan does not offer this',
                                  },      
                                  dentalCover: {
-                                     amountOffered: 15000,
+                                     amountOffered: 15_000,
                                      coverPremium: 0,
                                      coverStatus: 'Dental cover is provided within out patient insurance',
                                  }, 
                                  opticalCover: {
-                                     amountOffered: 15000,
+                                     amountOffered: 15_000,
                                      coverPremium: 0,
                                      coverStatus: 'Dental cover is provided within out patient insurance',
                                  },
@@ -1070,32 +1000,32 @@ const individualInsurancePlans = {
                              }
                         },
                         {   inpatientRates : { coverLimit: 500_000,
-                             ageLimits : {
+                             ageLimits : [{
                                  '0-19 years': {
-                                     'M': 29538 ,
-                                     'M+1': 49231 ,
-                                     'M+2': 66462 ,
-                                     'M+3': 81231 ,
-                                     'M+4': 96000 ,
-                                     'M+5': 110769 ,
-                                     'Extra Child': 14769 ,
+                                     'M': 29_538 ,
+                                     'M+1': 49_231 ,
+                                     'M+2': 66_462 ,
+                                     'M+3': 81_231 ,
+                                     'M+4': 96_000 ,
+                                     'M+5': 110_769 ,
+                                     'Extra Child': 14_769 ,
                                  },
                                  
-                             }
+                             }]
                             },
                             outpatientRates: {
-                             coverLimit: 50000,
-                             ageLimits : {
+                             coverLimit: 50_000,
+                             ageLimits : [{
                                  '0-19 years': {
-                                     'M': 19250 ,
-                                     'M+1': 35613 ,
-                                     'M+2': 35791 ,
-                                     'M+3': 35910 ,
-                                     'M+4': 36000 ,
-                                     'M+5': 36072 ,
+                                     'M': 19_250 ,
+                                     'M+1': 35_613 ,
+                                     'M+2': 35_791 ,
+                                     'M+3': 35_910 ,
+                                     'M+4': 36_000 ,
+                                     'M+5': 36_072 ,
                                      'Extra Child': 350 ,
                                  },
-                             },
+                             }],
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
@@ -1104,12 +1034,12 @@ const individualInsurancePlans = {
                                      coverStatus: 'The cover plan does not offer this',
                                  },      
                                  dentalCover: {
-                                     amountOffered: 7000,
+                                     amountOffered: 7_000,
                                      coverPremium: 0,
                                      coverStatus: 'Dental cover is provided within out patient insurance',
                                  }, 
                                  opticalCover: {
-                                     amountOffered: 7000,
+                                     amountOffered: 7_000,
                                      coverPremium: 0,
                                      coverStatus: 'Dental cover is provided within out patient insurance',
                                  },
@@ -1125,32 +1055,32 @@ const individualInsurancePlans = {
                              }
                         },
                         {   inpatientRates : { coverLimit: 1_000_000,
-                              ageLimits : {
+                              ageLimits : [{
                                   '0-19 years': {
-                                      'M': 31015 ,
-                                      'M+1': 51692 ,
-                                      'M+2': 69785 ,
-                                      'M+3': 85292 ,
-                                      'M+4': 100800 ,
-                                      'M+5': 116308 ,
-                                      'Extra Child': 15508 ,
+                                      'M': 31_015 ,
+                                      'M+1': 51_692 ,
+                                      'M+2': 69_785 ,
+                                      'M+3': 85_292 ,
+                                      'M+4': 100_800 ,
+                                      'M+5': 116_308 ,
+                                      'Extra Child': 15_508 ,
                                   },
                                   
-                              }
+                              }]
                              },
                              outpatientRates: {
-                              coverLimit: 75000,
-                              ageLimits : {
+                              coverLimit: 75_000,
+                              ageLimits : [{
                                   '0-19 years': {
-                                      'M': 20213 ,
-                                      'M+1': 37393 ,
-                                      'M+2': 39370 ,
-                                      'M+3': 43092 ,
-                                      'M+4': 46800 ,
-                                      'M+5': 48697 ,
+                                      'M': 20_213 ,
+                                      'M+1': 37_393 ,
+                                      'M+2': 39_370 ,
+                                      'M+3': 43_092 ,
+                                      'M+4': 46_800 ,
+                                      'M+5': 48_697 ,
                                       'Extra Child': 500 ,
                                   },
-                              },
+                              }],
                              },
                              secondaryCoverFeatures : {
                                   maternityCover: {
@@ -1159,12 +1089,12 @@ const individualInsurancePlans = {
                                       coverStatus: 'The cover plan does not offer this',
                                   },      
                                   dentalCover: {
-                                      amountOffered: 10000,
+                                      amountOffered: 10_000,
                                       coverPremium: 0,
                                       coverStatus: 'Dental cover is provided within out patient insurance',
                                   }, 
                                   opticalCover: {
-                                      amountOffered: 10000,
+                                      amountOffered: 10_000,
                                       coverPremium: 0,
                                       coverStatus: 'Dental cover is provided within out patient insurance',
                                   },
@@ -1180,32 +1110,32 @@ const individualInsurancePlans = {
                               }
                         },
                         {   inpatientRates : { coverLimit: 3_000_000,
-                              ageLimits : {
+                              ageLimits : [{
                                   '0-19 years': {
-                                      'M': 34117 ,
-                                      'M+1': 56862 ,
-                                      'M+2': 76763 ,
-                                      'M+3': 93822 ,
-                                      'M+4': 110880 ,
-                                      'M+5': 127938 ,
-                                      'Extra Child': 17058 ,
+                                      'M': 34_117 ,
+                                      'M+1': 56_862 ,
+                                      'M+2': 76_763 ,
+                                      'M+3': 93_822 ,
+                                      'M+4': 110_880 ,
+                                      'M+5': 127_938 ,
+                                      'Extra Child': 17_058 ,
                                   },
                                   
-                              }
+                              }]
                              },
                              outpatientRates: {
-                              coverLimit: 100000,
-                              ageLimits : {
+                              coverLimit: 100_000,
+                              ageLimits : [{
                                   '0-19 years': {
-                                      'M': 23244 ,
-                                      'M+1': 43002 ,
-                                      'M+2': 45275 ,
-                                      'M+3': 51710 ,
-                                      'M+4': 60839 ,
-                                      'M+5': 65741 ,
+                                      'M': 23_244 ,
+                                      'M+1': 43_002 ,
+                                      'M+2': 45_275 ,
+                                      'M+3': 51_710 ,
+                                      'M+4': 60_839 ,
+                                      'M+5': 65_741 ,
                                       'Extra Child': 750 ,
                                   },
-                              },
+                              }],
                              },
                              secondaryCoverFeatures : {
                                   maternityCover: {
@@ -1214,12 +1144,12 @@ const individualInsurancePlans = {
                                       coverStatus: 'The cover plan does not offer this',
                                   },      
                                   dentalCover: {
-                                      amountOffered: 15000,
+                                      amountOffered: 15_000,
                                       coverPremium: 0,
                                       coverStatus: 'Dental cover is provided within out patient insurance',
                                   }, 
                                   opticalCover: {
-                                      amountOffered: 15000,
+                                      amountOffered: 15_000,
                                       coverPremium: 0,
                                       coverStatus: 'Dental cover is provided within out patient insurance',
                                   },
@@ -1235,32 +1165,31 @@ const individualInsurancePlans = {
                               }
                         },
                         {   inpatientRates : { coverLimit: 5_000_000,
-                              ageLimits : {
+                              ageLimits : [{
                                   '0-19 years': {
-                                      'M': 37529 ,
-                                      'M+1': 62548 ,
-                                      'M+2': 84439 ,
-                                      'M+3': 103204 ,
-                                      'M+4': 121968 ,
-                                      'M+5': 140732 ,
-                                      'Extra Child': 18764 ,
+                                      'M': 37_529 ,
+                                      'M+1': 62_548 ,
+                                      'M+2': 84_439 ,
+                                      'M+3': 103_204 ,
+                                      'M+4': 121_968 ,
+                                      'M+5': 140_732 ,
+                                      'Extra Child': 18_764 ,
                                   },
-                                  
-                              }
+                                }]
                              },
                              outpatientRates: {
-                              coverLimit: 150000,
-                              ageLimits : {
+                              coverLimit: 150_000,
+                              ageLimits : [{
                                   '0-19 years': {
-                                      'M': 26731 ,
-                                      'M+1': 49452 ,
-                                      'M+2': 52066 ,
-                                      'M+3': 62052 ,
-                                      'M+4': 79091 ,
-                                      'M+5': 88750 ,
-                                      'Extra Child': 1050 ,
+                                      'M': 26_731 ,
+                                      'M+1': 49_452 ,
+                                      'M+2': 52_066 ,
+                                      'M+3': 62_052 ,
+                                      'M+4': 79_091 ,
+                                      'M+5': 88_750 ,
+                                      'Extra Child': 1_050 ,
                                   },
-                              },
+                              }],
                              },
                              secondaryCoverFeatures : {
                                   maternityCover: {
@@ -1269,12 +1198,12 @@ const individualInsurancePlans = {
                                       coverStatus: 'The cover plan does not offer this',
                                   },      
                                   dentalCover: {
-                                      amountOffered: 15000,
+                                      amountOffered: 15_000,
                                       coverPremium: 0,
                                       coverStatus: 'Dental cover is provided within outpatient insurance',
                                   }, 
                                   opticalCover: {
-                                      amountOffered: 15000,
+                                      amountOffered: 15_000,
                                       coverPremium: 0,
                                       coverStatus: 'Dental cover is provided within outpatient insurance',
                                   },
@@ -1295,46 +1224,51 @@ const individualInsurancePlans = {
                 {   coverName: 'UAP Old Mutual Afyaimara Family',
                     InsurancePlanOptions: [
                         {   inpatientRates : { coverLimit: 500_000,
-                            ageLimits : {
-                                '19-29 years': {
-                                    principal: 32257 ,
-                                    spouse: 23900 ,
-                                    child: 13929 ,
+                            ageLimits : [{
+                                '18-29 years': {
+                                    principal: 32_257 ,
+                                    spouse: 23_900 ,
+                                    child: 13_929 ,
                                 },
-                                '30-40 years': {
-                                    principal: 33863 ,
-                                    spouse: 25023 ,
-                                    child: 13929 ,
+                                '30-39 years': {
+                                    principal: 33_863 ,
+                                    spouse: 25_023 ,
+                                    child: 13_929 ,
                                 },
-                                '41-50 years': {
-                                    principal: 38059 ,
-                                    spouse: 26128 ,
-                                    child: 13929 ,
+                                '40-49 years': {
+                                    principal: 38_059 ,
+                                    spouse: 26_128 ,
+                                    child: 13_929 ,
                                 },
-                                '51-65 years': {
-                                    principal: 55550 ,
-                                    spouse: 31575 ,
-                                    child: 13929 ,
+                                '50-59 years': {
+                                    principal: 55_550 ,
+                                    spouse: 31_575 ,
+                                    child: 13_929 ,
+                                },
+                                '60-65 years': {
+                                    principal: 55_550 ,
+                                    spouse: 31_575 ,
+                                    child: 13_929 ,
                                 },
                                 '66+ years': {
-                                    principal: 82829 ,
-                                    spouse: 64526 ,
-                                    child: 13929 ,
+                                    principal: 82_829 ,
+                                    spouse: 64_526 ,
+                                    child: 13_929 ,
                                 },
-                            }
+                            }]
                            },
                            outpatientRates: {
-                            coverLimit: 50000,
+                            coverLimit: 50_000,
                             ageLimits : {
-                                'All ages': {
-                                    'M': 32934 ,
-                                    'M+1': 44986 ,
-                                    'M+2': 48748 ,
-                                    'M+3': 48797 ,
-                                    'M+4': 48846 ,
-                                    'M+5': 49339 ,
-                                    'M+6': 49837 ,
-                                },
+                                'All ages': [{
+                                    'M': 32_934 ,
+                                    'M+1': 44_986 ,
+                                    'M+2': 48_748 ,
+                                    'M+3': 48_797 ,
+                                    'M+4': 48_846 ,
+                                    'M+5': 49_339 ,
+                                    'M+6': 49_837 ,
+                                }],
                             },
                            },
                            secondaryCoverFeatures : {
@@ -1365,47 +1299,47 @@ const individualInsurancePlans = {
                             }
                         },
                         {   inpatientRates : { coverLimit: 1_000_000,
-                             ageLimits : {
+                             ageLimits : [{
                                  '19-29 years': {
-                                     principal: 34284 ,
-                                     spouse: 25582 ,
-                                     child: 17102 ,
+                                     principal: 34_284 ,
+                                     spouse: 25_582 ,
+                                     child: 17_102 ,
                                  },
                                  '30-40 years': {
-                                     principal: 35223 ,
-                                     spouse: 26785 ,
-                                     child: 17102 ,
+                                     principal: 35_223 ,
+                                     spouse: 26_785 ,
+                                     child: 17_102 ,
                                  },
                                  '41-50 years': {
-                                     principal: 39385 ,
-                                     spouse: 27925 ,
-                                     child: 17102 ,
+                                     principal: 39_385 ,
+                                     spouse: 27_925 ,
+                                     child: 17_102 ,
                                  },
                                  '51-65 years': {
-                                     principal: 56704 ,
-                                     spouse: 34484 ,
-                                     child: 17102 ,
+                                     principal: 56_704 ,
+                                     spouse: 34_484 ,
+                                     child: 17_102 ,
                                  },
                                  '66+ years': {
-                                     principal: 95227 ,
-                                     spouse: 78683 ,
-                                     child: 17102 ,
+                                     principal: 95_227 ,
+                                     spouse: 78_683 ,
+                                     child: 17_102 ,
                                  },
-                             }
+                             }]
                             },
                             outpatientRates: {
-                             coverLimit: 60000,
-                             ageLimits : {
+                             coverLimit: 60_000,
+                             ageLimits : [{
                                  'All ages': {
-                                     'M': 33266 ,
-                                     'M+1': 49269 ,
-                                     'M+2': 48748 ,
-                                     'M+3': 54844 ,
-                                     'M+4': 57804 ,
-                                     'M+5': 58095 ,
-                                     'M+6': 58387 ,
+                                     'M': 33_266 ,
+                                     'M+1': 49_269 ,
+                                     'M+2': 48_748 ,
+                                     'M+3': 54_844 ,
+                                     'M+4': 57_804 ,
+                                     'M+5': 58_095 ,
+                                     'M+6': 58_387 ,
                                  },
-                             },
+                             }],
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
@@ -1435,47 +1369,47 @@ const individualInsurancePlans = {
                              }
                         },
                         {   inpatientRates : { coverLimit: 3_000_000,
-                             ageLimits : {
+                             ageLimits : [{
                                  '19-29 years': {
-                                     principal: 49172 ,
-                                     spouse: 38516 ,
-                                     child: 26795 ,
+                                     principal: 49_172 ,
+                                     spouse: 38_516 ,
+                                     child: 26_795 ,
                                  },
                                  '30-40 years': {
-                                     principal: 52342 ,
-                                     spouse: 40457 ,
-                                     child: 26795 ,
+                                     principal: 52_342 ,
+                                     spouse: 40_457 ,
+                                     child: 26_795 ,
                                  },
                                  '41-50 years': {
-                                     principal: 62185 ,
-                                     spouse: 46043 ,
-                                     child: 26795 ,
+                                     principal: 62_185 ,
+                                     spouse: 46_043 ,
+                                     child: 26_795 ,
                                  },
                                  '51-65 years': {
-                                     principal: 76889 ,
-                                     spouse: 50161 ,
-                                     child: 26795 ,
+                                     principal: 76_889 ,
+                                     spouse: 50_161 ,
+                                     child: 26_795 ,
                                  },
                                  '66+ years': {
-                                     principal: 142417 ,
-                                     spouse: 115311 ,
-                                     child: 26795 ,
+                                     principal: 142_417 ,
+                                     spouse: 115_311 ,
+                                     child: 26_795 ,
                                  },
-                             }
+                             }]
                             },
                             outpatientRates: {
-                             coverLimit: 100000,
-                             ageLimits : {
+                             coverLimit: 100_000,
+                             ageLimits : [{
                                  'All ages': {
-                                     'M': 35226 ,
-                                     'M+1': 66533 ,
-                                     'M+2': 82895 ,
-                                     'M+3': 98147 ,
-                                     'M+4': 98245 ,
-                                     'M+5': 99028 ,
-                                     'M+6': 99282 ,
+                                     'M': 35_226 ,
+                                     'M+1': 66_533 ,
+                                     'M+2': 82_895 ,
+                                     'M+3': 98_147 ,
+                                     'M+4': 98_245 ,
+                                     'M+5': 99_028 ,
+                                     'M+6': 99_282 ,
                                  },
-                             },
+                             }],
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
@@ -1505,47 +1439,47 @@ const individualInsurancePlans = {
                              }
                         },
                         {   inpatientRates : { coverLimit: 5_000_000,
-                             ageLimits : {
+                             ageLimits : [{
                                  '19-29 years': {
-                                     principal: 53025 ,
-                                     spouse: 41671 ,
-                                     child: 28496 ,
+                                     principal: 53_025 ,
+                                     spouse: 41_671 ,
+                                     child: 28_496 ,
                                  },
                                  '30-40 years': {
-                                     principal: 56437 ,
-                                     spouse: 43799 ,
-                                     child: 28496 ,
+                                     principal: 56_437 ,
+                                     spouse: 43_799 ,
+                                     child: 28_496 ,
                                  },
                                  '41-50 years': {
-                                     principal: 62634 ,
-                                     spouse: 46446 ,
-                                     child: 28496 ,
+                                     principal: 62_634 ,
+                                     spouse: 46_446 ,
+                                     child: 28_496 ,
                                  },
                                  '51-65 years': {
-                                     principal: 82030 ,
-                                     spouse: 54280 ,
-                                     child: 28496 ,
+                                     principal: 82_030 ,
+                                     spouse: 54_280 ,
+                                     child: 28_496 ,
                                  },
                                  '66+ years': {
-                                     principal: 162180 ,
-                                     spouse: 131186 ,
-                                     child: 28496 ,
+                                     principal: 162_180 ,
+                                     spouse: 131_186 ,
+                                     child: 28_496 ,
                                  },
-                             }
+                             }]
                             },
                             outpatientRates: {
-                             coverLimit: 150000,
-                             ageLimits : {
+                             coverLimit: 150_000,
+                             ageLimits : [{
                                  'All ages': {
-                                     'M': 37892 ,
-                                     'M+1': 70452 ,
-                                     'M+2': 88794 ,
-                                     'M+3': 106762 ,
-                                     'M+4': 121829 ,
-                                     'M+5': 136895 ,
-                                     'M+6': 148202 ,
+                                     'M': 37_892 ,
+                                     'M+1': 70_452 ,
+                                     'M+2': 88_794 ,
+                                     'M+3': 106_762 ,
+                                     'M+4': 121_829 ,
+                                     'M+5': 136_895 ,
+                                     'M+6': 148_202 ,
                                  },
-                             },
+                             }],
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
@@ -1575,47 +1509,47 @@ const individualInsurancePlans = {
                              }
                         },
                         {   inpatientRates : { coverLimit: 10_000_000,
-                             ageLimits : {
+                             ageLimits : [{
                                  '19-29 years': {
-                                     principal: 60535 ,
-                                     spouse: 46337 ,
-                                     child: 31578 ,
+                                     principal: 60_535 ,
+                                     spouse: 46_337 ,
+                                     child: 31_578 ,
                                  },
                                  '30-40 years': {
-                                     principal: 64692 ,
-                                     spouse: 48736 ,
-                                     child: 31578 ,
+                                     principal: 64_692 ,
+                                     spouse: 48_736 ,
+                                     child: 31_578 ,
                                  },
                                  '41-50 years': {
-                                     principal: 68870 ,
-                                     spouse: 49650 ,
-                                     child: 31578 ,
+                                     principal: 68_870 ,
+                                     spouse: 49_650 ,
+                                     child: 31_578 ,
                                  },
                                  '51-65 years': {
-                                     principal: 91449 ,
-                                     spouse: 60121 ,
-                                     child: 31578 ,
+                                     principal: 91_449 ,
+                                     spouse: 60_121 ,
+                                     child: 31_578 ,
                                  },
                                  '66+ years': {
-                                     principal: 185511 ,
-                                     spouse: 145655 ,
-                                     child: 31578 ,
+                                     principal: 185_511 ,
+                                     spouse: 145_655 ,
+                                     child: 31_578 ,
                                  },
-                             }
+                             }]
                             },
                             outpatientRates: {
-                             coverLimit: 200000,
-                             ageLimits : {
+                             coverLimit: 200_000,
+                             ageLimits : [{
                                  'All ages': {
-                                     'M': 41512 ,
-                                     'M+1': 77987 ,
-                                     'M+2': 92489 ,
-                                     'M+3': 111223 ,
-                                     'M+4': 126966 ,
-                                     'M+5': 142709 ,
-                                     'M+6': 157539 ,
+                                     'M': 41_512 ,
+                                     'M+1': 77_987 ,
+                                     'M+2': 92_489 ,
+                                     'M+3': 111_223 ,
+                                     'M+4': 126_966 ,
+                                     'M+5': 142_709 ,
+                                     'M+6': 157_539 ,
                                  },
-                             },
+                             }],
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
@@ -1650,19 +1584,19 @@ const individualInsurancePlans = {
                 {   coverName: 'UAP Old Mutual Afyaimara Seniors',
                     InsurancePlanOptions: [
                         {  inpatientRates : { coverLimit: 500_000,
-                            ageLimits : {
+                            ageLimits : [{
                                 '66+ years': {
-                                    principal: 116352 ,
+                                    principal: 116_352 ,
                                 },
-                            }
+                            }]
                            },
                            outpatientRates: {
-                            coverLimit: 100000,
-                            ageLimits : {
+                            coverLimit: 100_000,
+                            ageLimits : [{
                                 '66+ years': {
-                                    'M': 94968 ,
+                                    'M': 94_968 ,
                                 },
-                            },
+                            }],
                            },
                            secondaryCoverFeatures : {
                                 maternityCover: {
@@ -1671,13 +1605,13 @@ const individualInsurancePlans = {
                                     coverStatus: 'The cover plan does not offer this',
                                 },      
                                 dentalCover: {
-                                    amountOffered: 20000,
-                                    coverPremium: 16176,
+                                    amountOffered: 20_000,
+                                    coverPremium: 16_176,
                                     coverStatus: 'The cover plan does not offer this',
                                 }, 
                                 opticalCover: {
-                                    amountOffered: 20000,
-                                    coverPremium: 16176,
+                                    amountOffered: 20_000,
+                                    coverPremium: 16_176,
                                     coverStatus: 'The cover plan does not offer this',
                                 },
                                 hospitalCovered: {
@@ -1692,19 +1626,19 @@ const individualInsurancePlans = {
                             }
                         },
                         {  inpatientRates : { coverLimit: 1_000_000,
-                             ageLimits : {
+                             ageLimits : [{
                                  '66+ years': {
-                                     principal: 132299 ,
+                                     principal: 132_299 ,
                                  },
-                             }
+                             }]
                             },
                             outpatientRates: {
-                             coverLimit: 150000,
-                             ageLimits : {
+                             coverLimit: 150_000,
+                             ageLimits : [{
                                  '66+ years': {
-                                     'M': 101270 ,
+                                     'M': 101_270 ,
                                  },
-                             },
+                             }],
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
@@ -1713,13 +1647,13 @@ const individualInsurancePlans = {
                                      coverStatus: 'The cover plan does not offer this',
                                  },      
                                  dentalCover: {
-                                     amountOffered: 20000,
-                                     coverPremium: 16176,
+                                     amountOffered: 20_000,
+                                     coverPremium: 16_176,
                                      coverStatus: 'The cover plan does not offer this',
                                  }, 
                                  opticalCover: {
-                                     amountOffered: 20000,
-                                     coverPremium: 16176,
+                                     amountOffered: 20_000,
+                                     coverPremium: 16_176,
                                      coverStatus: 'The cover plan does not offer this',
                                  },
                                  hospitalCovered: {
@@ -1734,19 +1668,19 @@ const individualInsurancePlans = {
                              }
                         },
                         {  inpatientRates : { coverLimit: 3_000_000,
-                             ageLimits : {
+                             ageLimits : [{
                                  '66+ years': {
-                                     principal: 178535 ,
+                                     principal: 178_535 ,
                                  },
-                             }
+                             }]
                             },
                             outpatientRates: {
-                             coverLimit: 200000,
-                             ageLimits : {
+                             coverLimit: 200_000,
+                             ageLimits : [{
                                  '66+ years': {
-                                     'M': 107534 ,
+                                     'M': 107_534 ,
                                  },
-                             },
+                             }],
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
@@ -1755,13 +1689,13 @@ const individualInsurancePlans = {
                                      coverStatus: 'The cover plan does not offer this',
                                  },      
                                  dentalCover: {
-                                     amountOffered: 20000,
-                                     coverPremium: 16176,
+                                     amountOffered: 20_000,
+                                     coverPremium: 16_176,
                                      coverStatus: 'The cover plan does not offer this',
                                  }, 
                                  opticalCover: {
-                                     amountOffered: 20000,
-                                     coverPremium: 16176,
+                                     amountOffered: 20_000,
+                                     coverPremium: 16_176,
                                      coverStatus: 'The cover plan does not offer this',
                                  },
                                  hospitalCovered: {
@@ -1776,19 +1710,19 @@ const individualInsurancePlans = {
                              }
                         },
                         {  inpatientRates : { coverLimit: 5_000_000,
-                             ageLimits : {
+                             ageLimits : [{
                                  '66+ years': {
-                                     principal: 206231 ,
+                                     principal: 206_231 ,
                                  },
-                             }
+                             }]
                             },
                             outpatientRates: {
-                             coverLimit: 200000,
-                             ageLimits : {
+                             coverLimit: 200_000,
+                             ageLimits : [{
                                  '66+ years': {
-                                     'M': 107534 ,
+                                     'M': 107_534 ,
                                  },
-                             },
+                             }],
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
@@ -1797,13 +1731,13 @@ const individualInsurancePlans = {
                                      coverStatus: 'The cover plan does not offer this',
                                  },      
                                  dentalCover: {
-                                     amountOffered: 20000,
-                                     coverPremium: 16176,
+                                     amountOffered: 20_000,
+                                     coverPremium: 16_176,
                                      coverStatus: 'The cover plan does not offer this',
                                  }, 
                                  opticalCover: {
-                                     amountOffered: 20000,
-                                     coverPremium: 16176,
+                                     amountOffered: 20_000,
+                                     coverPremium: 16_176,
                                      coverStatus: 'The cover plan does not offer this',
                                  },
                                  hospitalCovered: {
@@ -1818,19 +1752,19 @@ const individualInsurancePlans = {
                              }
                         },
                         {  inpatientRates : { coverLimit: 10_000_000,
-                            ageLimits : {
+                            ageLimits : [{
                                 '66+ years': {
-                                    principal: 229049 ,
+                                    principal: 229_049 ,
                                 },
-                            }
+                            }]
                            },
                            outpatientRates: {
-                            coverLimit: 200000,
-                            ageLimits : {
+                            coverLimit: 200_000,
+                            ageLimits : [{
                                 '66+ years': {
-                                    'M': 107534 ,
+                                    'M': 107_534 ,
                                 },
-                            },
+                            }],
                            },
                            secondaryCoverFeatures : {
                                 maternityCover: {
@@ -1839,13 +1773,13 @@ const individualInsurancePlans = {
                                     coverStatus: 'The cover plan does not offer this',
                                 },      
                                 dentalCover: {
-                                    amountOffered: 20000,
-                                    coverPremium: 16176,
+                                    amountOffered: 20_000,
+                                    coverPremium: 16_176,
                                     coverStatus: 'The cover plan does not offer this',
                                 }, 
                                 opticalCover: {
-                                    amountOffered: 20000,
-                                    coverPremium: 16176,
+                                    amountOffered: 20_000,
+                                    coverPremium: 16_176,
                                     coverStatus: 'The cover plan does not offer this',
                                 },
                                 hospitalCovered: {
@@ -1864,41 +1798,41 @@ const individualInsurancePlans = {
                 {   coverName: 'UAP Old Mutual Afyaimara County',
                     InsurancePlanOptions: [
                         {   inpatientRates : { coverLimit: 1_000_00,
-                            ageLimits : {
+                            ageLimits : [{
                                 '19-29 years': {
-                                    principal: 10740 ,
-                                    spouse: 8994 ,
-                                    child: 4994 ,
+                                    principal: 10_740 ,
+                                    spouse: 8_994 ,
+                                    child: 4_994 ,
                                 },
                                 '30-40 years': {
-                                    principal: 11308 ,
-                                    spouse: 9402 ,
-                                    child: 4994 ,
+                                    principal: 11_308 ,
+                                    spouse: 9_402 ,
+                                    child: 4_994 ,
                                 },
                                 '41-50 years': {
-                                    principal: 13656 ,
-                                    spouse: 11278 ,
-                                    child: 4994 ,
+                                    principal: 13_656 ,
+                                    spouse: 11_278 ,
+                                    child: 4_994 ,
                                 },
                                 '51-65 years': {
-                                    principal: 17218 ,
-                                    spouse: 14156 ,
-                                    child: 4994 ,
+                                    principal: 17_218 ,
+                                    spouse: 14_156 ,
+                                    child: 4_994 ,
                                 },
-                            }
+                            }]
                            },
                            outpatientRates: {
-                            coverLimit: 25000,
-                            ageLimits : {
+                            coverLimit: 25_000,
+                            ageLimits : [{
                                 'All ages': {
-                                    'M': 9390 ,
-                                    'M+1': 10841 ,
-                                    'M+2': 15921 ,
-                                    'M+3': 21002 ,
-                                    'M+4': 23856 ,
-                                    'M+5': 24603 ,
+                                    'M': 9_390 ,
+                                    'M+1': 10_841 ,
+                                    'M+2': 15_921 ,
+                                    'M+3': 21_002 ,
+                                    'M+4': 23_856 ,
+                                    'M+5': 24_603 ,
                                 },
-                            },
+                            }],
                            },
                            secondaryCoverFeatures : {
                                 maternityCover: {
@@ -1928,41 +1862,41 @@ const individualInsurancePlans = {
                             }
                         },
                         {   inpatientRates : { coverLimit: 250_000,
-                             ageLimits : {
+                             ageLimits : [{
                                  '19-29 years': {
-                                     principal: 13724 ,
-                                     spouse: 10114 ,
-                                     child: 5616 ,
+                                     principal: 13_724 ,
+                                     spouse: 10_114 ,
+                                     child: 5_616 ,
                                  },
                                  '30-40 years': {
-                                     principal: 14362 ,
-                                     spouse: 10572 ,
-                                     child: 5616 ,
+                                     principal: 14_362 ,
+                                     spouse: 10_572 ,
+                                     child: 5_616 ,
                                  },
                                  '41-50 years': {
-                                     principal: 17002 ,
-                                     spouse: 12682 ,
-                                     child: 5616 ,
+                                     principal: 17_002 ,
+                                     spouse: 12_682 ,
+                                     child: 5_616 ,
                                  },
                                  '51-65 years': {
-                                     principal: 21008 ,
-                                     spouse: 15918 ,
-                                     child: 5616 ,
+                                     principal: 21_008 ,
+                                     spouse: 15_918 ,
+                                     child: 5_616 ,
                                  },
-                             }
+                             }]
                             },
                             outpatientRates: {
-                             coverLimit: 40000,
-                             ageLimits : {
+                             coverLimit: 40_000,
+                             ageLimits : [{
                                  'All ages': {
-                                     'M': 10821 ,
-                                     'M+1': 18050 ,
-                                     'M+2': 22120 ,
-                                     'M+3': 26647 ,
-                                     'M+4': 30788 ,
-                                     'M+5': 34661 ,
+                                     'M': 10_821 ,
+                                     'M+1': 18_050 ,
+                                     'M+2': 22_120 ,
+                                     'M+3': 26_647 ,
+                                     'M+4': 30_788 ,
+                                     'M+5': 34_661 ,
                                     },
-                             },
+                             }],
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
@@ -1992,41 +1926,41 @@ const individualInsurancePlans = {
                              }
                         },
                         {   inpatientRates : { coverLimit: 500_000,
-                             ageLimits : {
+                             ageLimits : [{
                                  '19-29 years': {
-                                     principal: 21711 ,
-                                     spouse: 16340 ,
-                                     child: 9074 ,
+                                     principal: 21_711 ,
+                                     spouse: 16_340 ,
+                                     child: 9_074 ,
                                  },
                                  '30-40 years': {
-                                     principal: 22725 ,
-                                     spouse: 17160 ,
-                                     child: 9074 ,
+                                     principal: 22_725 ,
+                                     spouse: 17_160 ,
+                                     child: 9_074 ,
                                  },
                                  '41-50 years': {
-                                     principal: 27017 ,
-                                     spouse: 20594 ,
-                                     child: 9074 ,
+                                     principal: 27_017 ,
+                                     spouse: 20_594 ,
+                                     child: 9_074 ,
                                  },
                                  '51-65 years': {
-                                     principal: 32967 ,
-                                     spouse: 25144 ,
-                                     child: 9074 ,
+                                     principal: 32_967 ,
+                                     spouse: 25_144 ,
+                                     child: 9_074 ,
                                  },
-                             }
+                             }]
                             },
                             outpatientRates: {
-                             coverLimit: 50000,
-                             ageLimits : {
+                             coverLimit: 50_000,
+                             ageLimits : [{
                                  'All ages': {
-                                     'M': 11775 ,
-                                     'M+1': 22856 ,
-                                     'M+2': 26252 ,
-                                     'M+3': 30411 ,
-                                     'M+4': 35408 ,
-                                     'M+5': 41366 ,
+                                     'M': 11_775 ,
+                                     'M+1': 22_856 ,
+                                     'M+2': 26_252 ,
+                                     'M+3': 30_411 ,
+                                     'M+4': 35_408 ,
+                                     'M+5': 41_366 ,
                                  },
-                             },
+                             }],
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
@@ -2056,41 +1990,41 @@ const individualInsurancePlans = {
                              }
                         },
                         {   inpatientRates : { coverLimit: 1_000_000,
-                             ageLimits : {
+                             ageLimits : [{
                                  '19-29 years': {
-                                     principal: 24690,
-                                     spouse: 18270 ,
-                                     child: 11638 ,
+                                     principal: 24_690,
+                                     spouse: 18_270 ,
+                                     child: 11_638 ,
                                  },
                                  '30-40 years': {
-                                     principal: 25850 ,
-                                     spouse: 19210 ,
-                                     child: 11638 ,
+                                     principal: 25_850 ,
+                                     spouse: 19_210 ,
+                                     child: 11_638 ,
                                  },
                                  '41-50 years': {
-                                     principal: 30646 ,
-                                     spouse: 23044 ,
-                                     child: 11638 ,
+                                     principal: 30_646 ,
+                                     spouse: 23_044 ,
+                                     child: 11_638 ,
                                  },
                                  '51-65 years': {
-                                     principal: 37926 ,
-                                     spouse: 28924 ,
-                                     child: 11638 ,
+                                     principal: 37_926 ,
+                                     spouse: 28_924 ,
+                                     child: 11_638 ,
                                  },
-                             }
+                             }]
                             },
                             outpatientRates: {
-                             coverLimit: 50000,
-                             ageLimits : {
+                             coverLimit: 50_000,
+                             ageLimits : [{
                                 'All ages': {
-                                    'M': 11775 ,
-                                    'M+1': 22856 ,
-                                    'M+2': 26252 ,
-                                    'M+3': 30411 ,
-                                    'M+4': 35408 ,
-                                    'M+5': 41366 ,
+                                    'M': 11_775 ,
+                                    'M+1': 22_856 ,
+                                    'M+2': 26_252 ,
+                                    'M+3': 30_411 ,
+                                    'M+4': 35_408 ,
+                                    'M+5': 41_366 ,
                                 },
-                             },
+                             }],
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
@@ -2132,19 +2066,19 @@ const individualInsurancePlans = {
             {   coverName: 'J Care Junior',
                 InsurancePlanOptions: [
                     {   inpatientRates : { coverLimit: 500_000,
-                        ageLimits : {
+                        ageLimits : [{
                             '0-17 years': {
-                                principal: 18743 ,
+                                principal: 18_743 ,
                             },
-                        }
+                        }]
                        },
                        outpatientRates: {
-                        coverLimit: 50000,
-                        ageLimits : {
+                        coverLimit: 50_000,
+                        ageLimits : [{
                             '0-17 years': {
-                                principal: 24917 ,
+                                principal: 24_917 ,
                             },
-                        },
+                        }],
                        },
                        secondaryCoverFeatures : {
                             maternityCover: {
@@ -2153,13 +2087,13 @@ const individualInsurancePlans = {
                                 coverStatus: 'maternity cover is not offered in this option',
                             },      
                             dentalCover: {
-                                amountOffered: 5000,
-                                coverPremium: 2415,
+                                amountOffered: 5_000,
+                                coverPremium: 2_415,
                                 coverStatus: 'The dental is limited to per person per year',
                             }, 
                             opticalCover: {
-                                amountOffered: 5000,
-                                coverPremium: 2415,
+                                amountOffered: 5_000,
+                                coverPremium: 2_415,
                                 coverStatus: 'The optical is limited to per person per year',
                             },
                             hospitalCovered: {
@@ -2174,20 +2108,19 @@ const individualInsurancePlans = {
                         }
                     },
                     {   inpatientRates : { coverLimit: 1_000_000,
-                        ageLimits : {
+                        ageLimits : [{
                             '0-17 years': {
-                                principal: 23373 ,
+                                principal: 23_373 ,
                             },
-                            
-                        }
+                        }]
                        },
                        outpatientRates: {
-                        coverLimit: 50000,
-                        ageLimits : {
+                        coverLimit: 50_000,
+                        ageLimits : [{
                             '0-17 years': {
-                                principal: 24917 ,
+                                principal: 24_917 ,
                             },
-                        },
+                        }],
                        },
                        secondaryCoverFeatures : {
                             maternityCover: {
@@ -2196,13 +2129,13 @@ const individualInsurancePlans = {
                                 coverStatus: 'maternity cover is not offered in this option',
                             },      
                             dentalCover: {
-                                amountOffered: 10000,
-                                coverPremium: 3150,
+                                amountOffered: 10_000,
+                                coverPremium: 3_150,
                                 coverStatus: 'The dental is limited to per person per year',
                             }, 
                             opticalCover: {
-                                amountOffered: 10000,
-                                coverPremium: 3150,
+                                amountOffered: 10_000,
+                                coverPremium: 3_150,
                                 coverStatus: 'The optical is limited to per person per year',
                             },
                             hospitalCovered: {
@@ -2217,19 +2150,19 @@ const individualInsurancePlans = {
                         }
                     },
                     {   inpatientRates : { coverLimit: 2_000_000,
-                        ageLimits : {
-                            '19-29 years': {
-                                principal: 27563 ,
+                        ageLimits : [{
+                            '0-17 years': {
+                                principal: 27_563 ,
                             },
-                        }
+                        }]
                        },
                        outpatientRates: {
-                        coverLimit: 80000,
-                        ageLimits : {
-                            '19-29 years': {
-                                principal: 26460 ,
+                        coverLimit: 80_000,
+                        ageLimits : [{
+                            '0-17 years': {
+                                principal: 26_460 ,
                             },
-                        },
+                        }],
                        },
                        secondaryCoverFeatures : {
                             maternityCover: {
@@ -2238,13 +2171,13 @@ const individualInsurancePlans = {
                                 coverStatus: 'maternity cover is not offered in this option',
                             },      
                             dentalCover: {
-                                amountOffered: 20000,
-                                coverPremium: 6405,
+                                amountOffered: 20_000,
+                                coverPremium: 6_405,
                                 coverStatus: 'The dental is limited to per person per year',
                             }, 
                             opticalCover: {
-                                amountOffered: 20000,
-                                coverPremium: 6405,
+                                amountOffered: 20_000,
+                                coverPremium: 6_405,
                                 coverStatus: 'The optical is limited to per person per year',
                             },
                             hospitalCovered: {
@@ -2259,19 +2192,19 @@ const individualInsurancePlans = {
                         }
                     },
                     {   inpatientRates : { coverLimit: 3_000_000,
-                        ageLimits : {
-                            '19-29 years': {
-                                principal: 33075 ,
+                        ageLimits : [{
+                            '0-17 years': {
+                                principal: 33_075 ,
                             },
-                        }
+                        }]
                        },
                        outpatientRates: {
-                        coverLimit: 100000,
-                        ageLimits : {
-                            '19-29 years': {
-                                principal: 30319 ,
+                        coverLimit: 100_000,
+                        ageLimits : [{
+                            '0-17 years': {
+                                principal: 30_319 ,
                             },
-                        },
+                        }],
                        },
                        secondaryCoverFeatures : {
                             maternityCover: {
@@ -2280,13 +2213,13 @@ const individualInsurancePlans = {
                                 coverStatus: 'maternity cover is not offered in this option',
                             },      
                             dentalCover: {
-                                amountOffered: 30000,
-                                coverPremium: 9555,
+                                amountOffered: 30_000,
+                                coverPremium: 9_555,
                                 coverStatus: 'The dental is limited to per person per year',
                             }, 
                             opticalCover: {
-                                amountOffered: 30000,
-                                coverPremium: 9555,
+                                amountOffered: 30_000,
+                                coverPremium: 9_555,
                                 coverStatus: 'The optical is limited to per person per year',
                             },
                             hospitalCovered: {
@@ -2301,19 +2234,19 @@ const individualInsurancePlans = {
                         }
                     },
                     {   inpatientRates : { coverLimit: 5_000_000,
-                        ageLimits : {
-                            '19-29 years': {
-                                principal: 38588 ,
+                        ageLimits : [{
+                            '0-17 years': {
+                                principal: 38_588 ,
                             },
-                        }
+                        }]
                        },
                        outpatientRates: {
-                        coverLimit: 150000,
-                        ageLimits : {
-                            '19-29 years': {
-                                principal: 34729 ,
+                        coverLimit: 150_000,
+                        ageLimits : [{
+                            '0-17 years': {
+                                principal: 34_729 ,
                             },
-                        },
+                        }],
                        },
                        secondaryCoverFeatures : {
                             maternityCover: {
@@ -2322,13 +2255,13 @@ const individualInsurancePlans = {
                                 coverStatus: 'maternity cover is not offered in this option',
                             },      
                             dentalCover: {
-                                amountOffered: 40000,
-                                coverPremium: 15960,
+                                amountOffered: 40_000,
+                                coverPremium: 15_960,
                                 coverStatus: 'The dental is limited to per person per year',
                             }, 
                             opticalCover: {
-                                amountOffered: 40000,
-                                coverPremium: 15960,
+                                amountOffered: 40_000,
+                                coverPremium: 15_960,
                                 coverStatus: 'The optical is limited to per person per year',
                             },
                             hospitalCovered: {
@@ -2343,19 +2276,19 @@ const individualInsurancePlans = {
                         }
                     },
                     {   inpatientRates : { coverLimit: 10_000_000,
-                        ageLimits : {
-                            '19-29 years': {
-                                principal: 46305 ,
+                        ageLimits : [{
+                            '0-17 years': {
+                                principal: 46_305 ,
                             },
-                        }
+                        }]
                        },
                        outpatientRates: {
-                        coverLimit: 200000,
-                        ageLimits : {
-                            '19-29 years': {
-                                principal: 38929 ,
+                        coverLimit: 200_000,
+                        ageLimits : [{
+                            '0-17 years': {
+                                principal: 38_929 ,
                             },
-                        },
+                        }],
                        },
                        secondaryCoverFeatures : {
                             maternityCover: {
@@ -2364,13 +2297,13 @@ const individualInsurancePlans = {
                                 coverStatus: 'maternity cover is not offered in this option',
                             },      
                             dentalCover: {
-                                amountOffered: 50000,
-                                coverPremium: 19241,
+                                amountOffered: 50_000,
+                                coverPremium: 19_241,
                                 coverStatus: 'The dental is limited to per person per year',
                             }, 
                             opticalCover: {
-                                amountOffered: 50000,
-                                coverPremium: 19241,
+                                amountOffered: 50_000,
+                                coverPremium: 19_241,
                                 coverStatus: 'The optical is limited to per person per year',
                             },
                             hospitalCovered: {
@@ -2389,68 +2322,68 @@ const individualInsurancePlans = {
             {   coverName: 'J Care Premium',
                     InsurancePlanOptions: [
                         {   inpatientRates : { coverLimit: 500_000,
-                            ageLimits : {
+                            ageLimits : [{
                                 '19-29 years': {
-                                    principal: 18743 ,
-                                    spouse: 13781 ,
-                                    child: 9041 ,
+                                    principal: 18_743 ,
+                                    spouse: 13_781 ,
+                                    child: 9_041 ,
                                 },
                                 '30-40 years': {
-                                    principal: 19845 ,
-                                    spouse: 16538 ,
-                                    child: 9041 ,
+                                    principal: 19_845 ,
+                                    spouse: 16_538 ,
+                                    child: 9_041 ,
                                 },
                                 '41-50 years': {
-                                    principal: 20413 ,
-                                    spouse: 17105 ,
-                                    child: 9041 ,
+                                    principal: 20_413 ,
+                                    spouse: 17_105 ,
+                                    child: 9_041 ,
                                 },
                                 '51-60 years': {
-                                    principal: 27248 ,
-                                    spouse: 22888 ,
-                                    child: 9041 ,
+                                    principal: 27_248 ,
+                                    spouse: 22_888 ,
+                                    child: 9_041 ,
                                 },
                                 '60+ years': {
-                                    principal: 34061 ,
-                                    spouse: 28610 ,
-                                    child: 9041 ,
+                                    principal: 34_061 ,
+                                    spouse: 28_610 ,
+                                    child: 9_041 ,
                                 },
-                            }
+                            }]
                            },
                            outpatientRates: {
-                            coverLimit: 50000,
-                            ageLimits : {
+                            coverLimit: 50_000,
+                            ageLimits : [{
                                 '19-29 years': {
-                                    principal: 24917 ,
+                                    principal: 24_917 ,
                                 },
                                 '30-40 years': {
-                                    principal: 24917 ,
+                                    principal: 24_917 ,
                                 },
                                 '41-50 years': {
-                                    principal: 28445 ,
+                                    principal: 28_445 ,
                                 },
                                 '51-60 years': {
-                                    principal: 33345 ,
+                                    principal: 33_345 ,
                                 },
                                 '60+ years': {
-                                    principal: 38036 ,
+                                    principal: 38_036 ,
                                 },
-                            },
+                            }],
                            },
                            secondaryCoverFeatures : {
                                 maternityCover: {
-                                    amountOffered: 80000,
-                                    coverPremium: 26985,
+                                    amountOffered: 80_000,
+                                    coverPremium: 26_985,
                                     coverStatus: 'The maternity cover is limited to per spouse per annum',
                                 },      
                                 dentalCover: {
-                                    amountOffered: 5000,
-                                    coverPremium: 2415,
+                                    amountOffered: 5_000,
+                                    coverPremium: 2_415,
                                     coverStatus: 'The dental is limited to per person per year',
                                 }, 
                                 opticalCover: {
-                                    amountOffered: 5000,
-                                    coverPremium: 2415,
+                                    amountOffered: 5_000,
+                                    coverPremium: 2_415,
                                     coverStatus: 'The optical is limited to per person per year',
                                 },
                                 hospitalCovered: {
@@ -2465,68 +2398,68 @@ const individualInsurancePlans = {
                             }
                         },
                         {   inpatientRates : { coverLimit: 1_000_000,
-                            ageLimits : {
+                            ageLimits : [{
                                 '19-29 years': {
-                                    principal: 23373 ,
-                                    spouse: 19625 ,
-                                    child: 12679 ,
+                                    principal: 23_373 ,
+                                    spouse: 19_625 ,
+                                    child: 12_679 ,
                                 },
                                 '30-40 years': {
-                                    principal: 24365 ,
-                                    spouse: 20507 ,
-                                    child: 12679 ,
+                                    principal: 24_365 ,
+                                    spouse: 20_507 ,
+                                    child: 12_679 ,
                                 },
                                 '41-50 years': {
-                                    principal: 29216 ,
-                                    spouse: 23704 ,
-                                    child: 12679 ,
+                                    principal: 29_216 ,
+                                    spouse: 23_704 ,
+                                    child: 12_679 ,
                                 },
                                 '51-60 years': {
-                                    principal: 35820 ,
-                                    spouse: 30065 ,
-                                    child: 12679 ,
+                                    principal: 35_820 ,
+                                    spouse: 30_065 ,
+                                    child: 12_679 ,
                                 },
                                 '60+ years': {
-                                    principal: 44776 ,
-                                    spouse: 37582 ,
-                                    child: 12679 ,
+                                    principal: 44_776 ,
+                                    spouse: 37_582 ,
+                                    child: 12_679 ,
                                 },
-                            }
+                            }]
                            },
                            outpatientRates: {
-                            coverLimit: 50000,
-                            ageLimits : {
+                            coverLimit: 50_000,
+                            ageLimits : [{
                                 '19-29 years': {
-                                    principal: 24917 ,
+                                    principal: 24_917 ,
                                 },
                                 '30-40 years': {
-                                    principal: 24917 ,
+                                    principal: 24_917 ,
                                 },
                                 '41-50 years': {
-                                    principal: 28445 ,
+                                    principal: 28_445 ,
                                 },
                                 '51-60 years': {
-                                    principal: 33345 ,
+                                    principal: 33_345 ,
                                 },
                                 '60+ years': {
-                                    principal: 38036 ,
+                                    principal: 38_036 ,
                                 },
-                            },
+                            }],
                            },
                            secondaryCoverFeatures : {
                                 maternityCover: {
-                                    amountOffered: 100000,
-                                    coverPremium: 28980,
+                                    amountOffered: 100_000,
+                                    coverPremium: 28_980,
                                     coverStatus: 'The maternity cover is limited to per spouse per annum',
                                 },      
                                 dentalCover: {
-                                    amountOffered: 10000,
-                                    coverPremium: 3150,
+                                    amountOffered: 10_000,
+                                    coverPremium: 3_150,
                                     coverStatus: 'The dental is limited to per person per year',
                                 }, 
                                 opticalCover: {
-                                    amountOffered: 10000,
-                                    coverPremium: 3150,
+                                    amountOffered: 10_000,
+                                    coverPremium: 3_150,
                                     coverStatus: 'The optical is limited to per person per year',
                                 },
                                 hospitalCovered: {
@@ -2541,68 +2474,68 @@ const individualInsurancePlans = {
                             }
                         },
                         {   inpatientRates : { coverLimit: 2_000_000,
-                            ageLimits : {
+                            ageLimits : [{
                                 '19-29 years': {
-                                    principal: 27563 ,
-                                    spouse: 23153 ,
-                                    child: 15435 ,
+                                    principal: 27_563 ,
+                                    spouse: 23_153 ,
+                                    child: 15_435 ,
                                 },
                                 '30-40 years': {
-                                    principal: 29216 ,
-                                    spouse: 24806 ,
-                                    child: 15435 ,
+                                    principal: 29_216 ,
+                                    spouse: 24_806 ,
+                                    child: 15_435 ,
                                 },
                                 '41-50 years': {
-                                    principal: 36383 ,
-                                    spouse: 29768 ,
-                                    child: 15435 ,
+                                    principal: 36_383 ,
+                                    spouse: 29_768 ,
+                                    child: 15_435 ,
                                 },
                                 '51-60 years': {
-                                    principal: 43957 ,
-                                    spouse: 36912 ,
-                                    child: 15435 ,
+                                    principal: 43_957 ,
+                                    spouse: 36_912 ,
+                                    child: 15_435 ,
                                 },
                                 '60+ years': {
-                                    principal: 54946 ,
-                                    spouse: 46140 ,
-                                    child: 15435 ,
+                                    principal: 54_946 ,
+                                    spouse: 46_140 ,
+                                    child: 15_435 ,
                                 },
-                            }
+                            }]
                            },
                            outpatientRates: {
-                            coverLimit: 80000,
-                            ageLimits : {
+                            coverLimit: 80_000,
+                            ageLimits : [{
                                 '19-29 years': {
-                                    principal: 26460 ,
+                                    principal: 26_460 ,
                                 },
                                 '30-40 years': {
-                                    principal: 26460 ,
+                                    principal: 26_460 ,
                                 },
                                 '41-50 years': {
-                                    principal: 32855 ,
+                                    principal: 32_855 ,
                                 },
                                 '51-60 years': {
-                                    principal: 38588 ,
+                                    principal: 38_588 ,
                                 },
                                 '60+ years': {
-                                    principal: 45754 ,
+                                    principal: 45_754 ,
                                 },
-                            },
+                            }],
                            },
                            secondaryCoverFeatures : {
                                 maternityCover: {
-                                    amountOffered: 120000,
-                                    coverPremium: 31185,
+                                    amountOffered: 120_000,
+                                    coverPremium: 31_185,
                                     coverStatus: 'The maternity cover is limited to per spouse per annum',
                                 },      
                                 dentalCover: {
-                                    amountOffered: 20000,
-                                    coverPremium: 6405,
+                                    amountOffered: 20_000,
+                                    coverPremium: 6_405,
                                     coverStatus: 'The dental is limited to per person per year',
                                 }, 
                                 opticalCover: {
-                                    amountOffered: 20000,
-                                    coverPremium: 6405,
+                                    amountOffered: 20_000,
+                                    coverPremium: 6_405,
                                     coverStatus: 'The optical is limited to per person per year',
                                 },
                                 hospitalCovered: {
@@ -2617,68 +2550,68 @@ const individualInsurancePlans = {
                             }
                         },
                         {   inpatientRates : { coverLimit: 3_000_000,
-                            ageLimits : {
+                            ageLimits : [{
                                 '19-29 years': {
-                                    principal: 33075 ,
-                                    spouse: 28665 ,
-                                    child: 19073 ,
+                                    principal: 33_075 ,
+                                    spouse: 28_665 ,
+                                    child: 19_073 ,
                                 },
                                 '30-40 years': {
-                                    principal: 36162 ,
-                                    spouse: 31421 ,
-                                    child: 19073 ,
+                                    principal: 36_162 ,
+                                    spouse: 31_421 ,
+                                    child: 19_073 ,
                                 },
                                 '41-50 years': {
-                                    principal: 41895 ,
-                                    spouse: 37485 ,
-                                    child: 19073 ,
+                                    principal: 41_895 ,
+                                    spouse: 37_485 ,
+                                    child: 19_073 ,
                                 },
                                 '51-60 years': {
-                                    principal: 54871 ,
-                                    spouse: 46040 ,
-                                    child: 19073 ,
+                                    principal: 54_871 ,
+                                    spouse: 46_040 ,
+                                    child: 19_073 ,
                                 },
                                 '60+ years': {
-                                    principal: 60359 ,
-                                    spouse: 50644 ,
-                                    child: 19073 ,
+                                    principal: 60_359 ,
+                                    spouse: 50_644 ,
+                                    child: 19_073 ,
                                 },
-                            }
+                            }]
                            },
                            outpatientRates: {
-                            coverLimit: 100000,
-                            ageLimits : {
+                            coverLimit: 100_000,
+                            ageLimits : [{
                                 '19-29 years': {
-                                    principal: 30319 ,
+                                    principal: 30_319 ,
                                 },
                                 '30-40 years': {
-                                    principal: 30319 ,
+                                    principal: 30_319 ,
                                 },
                                 '41-50 years': {
-                                    principal: 36934 ,
+                                    principal: 36_934 ,
                                 },
                                 '51-60 years': {
-                                    principal: 40793 ,
+                                    principal: 40_793 ,
                                 },
                                 '60+ years': {
-                                    principal: 47959 ,
+                                    principal: 47_959 ,
                                 },
-                            },
+                            }],
                            },
                            secondaryCoverFeatures : {
                                 maternityCover: {
-                                    amountOffered: 120000,
-                                    coverPremium: 31185,
+                                    amountOffered: 120_000,
+                                    coverPremium: 31_185,
                                     coverStatus: 'The maternity cover is limited to per spouse per annum',
                                 },      
                                 dentalCover: {
-                                    amountOffered: 30000,
-                                    coverPremium: 9555,
+                                    amountOffered: 30_000,
+                                    coverPremium: 9_555,
                                     coverStatus: 'The dental is limited to per person per year',
                                 }, 
                                 opticalCover: {
-                                    amountOffered: 30000,
-                                    coverPremium: 9555,
+                                    amountOffered: 30_000,
+                                    coverPremium: 9_555,
                                     coverStatus: 'The optical is limited to per person per year',
                                 },
                                 hospitalCovered: {
@@ -2693,68 +2626,68 @@ const individualInsurancePlans = {
                             }
                         },
                         {   inpatientRates : { coverLimit: 5_000_000,
-                            ageLimits : {
+                            ageLimits : [{
                                 '19-29 years': {
-                                    principal: 38588 ,
-                                    spouse: 34178 ,
-                                    child: 22050 ,
+                                    principal: 38_588 ,
+                                    spouse: 34_178 ,
+                                    child: 22_050 ,
                                 },
                                 '30-40 years': {
-                                    principal: 40793 ,
-                                    spouse: 35280 ,
-                                    child: 22050 ,
+                                    principal: 40_793 ,
+                                    spouse: 35_280 ,
+                                    child: 22_050 ,
                                 },
                                 '41-50 years': {
-                                    principal: 50065 ,
-                                    spouse: 42000 ,
-                                    child: 22050 ,
+                                    principal: 50_065 ,
+                                    spouse: 42_000 ,
+                                    child: 22_050 ,
                                 },
                                 '51-60 years': {
-                                    principal: 63306 ,
-                                    spouse: 53185 ,
-                                    child: 22050 ,
+                                    principal: 63_306 ,
+                                    spouse: 53_185 ,
+                                    child: 22_050 ,
                                 },
                                 '60+ years': {
-                                    principal: 69636 ,
-                                    spouse: 58503 ,
-                                    child: 22050 ,
+                                    principal: 69_636 ,
+                                    spouse: 58_503 ,
+                                    child: 22_050 ,
                                 },
-                            }
+                            }]
                            },
                            outpatientRates: {
-                            coverLimit: 150000,
-                            ageLimits : {
+                            coverLimit: 150_000,
+                            ageLimits : [{
                                 '19-29 years': {
-                                    principal: 34729 ,
+                                    principal: 34_729 ,
                                 },
                                 '30-40 years': {
-                                    principal: 34729 ,
+                                    principal: 34_729 ,
                                 },
                                 '41-50 years': {
-                                    principal: 38588 ,
+                                    principal: 38_588 ,
                                 },
                                 '51-60 years': {
-                                    principal: 42226 ,
+                                    principal: 42_226 ,
                                 },
                                 '60+ years': {
-                                    principal: 53802 ,
+                                    principal: 53_802 ,
                                 },
-                            },
+                            }],
                            },
                            secondaryCoverFeatures : {
                                 maternityCover: {
-                                    amountOffered: 150000,
-                                    coverPremium: 37275,
+                                    amountOffered: 150_000,
+                                    coverPremium: 37_275,
                                     coverStatus: 'The maternity cover is limited to per spouse per annum',
                                 },      
                                 dentalCover: {
-                                    amountOffered: 40000,
-                                    coverPremium: 15960,
+                                    amountOffered: 40_000,
+                                    coverPremium: 15_960,
                                     coverStatus: 'The dental is limited to per person per year',
                                 }, 
                                 opticalCover: {
-                                    amountOffered: 40000,
-                                    coverPremium: 15960,
+                                    amountOffered: 40_000,
+                                    coverPremium: 15_960,
                                     coverStatus: 'The optical is limited to per person per year',
                                 },
                                 hospitalCovered: {
@@ -2769,68 +2702,68 @@ const individualInsurancePlans = {
                             }
                         },
                         {   inpatientRates : { coverLimit: 10_000_000,
-                            ageLimits : {
+                            ageLimits : [{
                                 '19-29 years': {
-                                    principal: 46305 ,
-                                    spouse: 41013 ,
-                                    child: 26460 ,
+                                    principal: 46_305 ,
+                                    spouse: 41_013 ,
+                                    child: 26_460 ,
                                 },
                                 '30-40 years': {
-                                    principal: 48951 ,
-                                    spouse: 42336 ,
-                                    child: 26460 ,
+                                    principal: 48_951 ,
+                                    spouse: 42_336 ,
+                                    child: 26_460 ,
                                 },
                                 '41-50 years': {
-                                    principal: 60077 ,
-                                    spouse: 50400 ,
-                                    child: 26460 ,
+                                    principal: 60_077 ,
+                                    spouse: 50_400 ,
+                                    child: 26_460 ,
                                 },
                                 '51-60 years': {
-                                    principal: 75967 ,
-                                    spouse: 63822 ,
-                                    child: 26460 ,
+                                    principal: 75_967 ,
+                                    spouse: 63_822 ,
+                                    child: 26_460 ,
                                 },
                                 '60+ years': {
-                                    principal: 83563 ,
-                                    spouse: 70204 ,
-                                    child: 26460 ,
+                                    principal: 83_563 ,
+                                    spouse: 70_204 ,
+                                    child: 26_460 ,
                                 },
-                            }
+                            }]
                            },
                            outpatientRates: {
-                            coverLimit: 200000,
-                            ageLimits : {
+                            coverLimit: 200_000,
+                            ageLimits : [{
                                 '19-29 years': {
-                                    principal: 38929 ,
+                                    principal: 38_929 ,
                                 },
                                 '30-40 years': {
-                                    principal: 38929 ,
+                                    principal: 38_929 ,
                                 },
                                 '41-50 years': {
-                                    principal: 42788 ,
+                                    principal: 42_788 ,
                                 },
                                 '51-60 years': {
-                                    principal: 46426 ,
+                                    principal: 46_426 ,
                                 },
                                 '60+ years': {
-                                    principal: 58002 ,
+                                    principal: 58_002 ,
                                 },
-                            },
+                            }],
                            },
                            secondaryCoverFeatures : {
                                 maternityCover: {
-                                    amountOffered: 200000,
-                                    coverPremium: 45350,
+                                    amountOffered: 200_000,
+                                    coverPremium: 45_350,
                                     coverStatus: 'The maternity cover is limited to per spouse per annum',
                                 },      
                                 dentalCover: {
-                                    amountOffered: 50000,
-                                    coverPremium: 19241,
+                                    amountOffered: 50_000,
+                                    coverPremium: 19_241,
                                     coverStatus: 'The dental is limited to per person per year',
                                 }, 
                                 opticalCover: {
-                                    amountOffered: 50000,
-                                    coverPremium: 19241,
+                                    amountOffered: 50_000,
+                                    coverPremium: 19_241,
                                     coverStatus: 'The optical is limited to per person per year',
                                 },
                                 hospitalCovered: {

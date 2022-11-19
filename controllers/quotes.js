@@ -3,7 +3,6 @@ const insurance = require('../apis/insurancePlans');
 
 module.exports = {
     setQuotes: async (req,res)=>{
-        
        res.render("quotes.ejs")
     },
     getQuotes: async (req,res)=>{
