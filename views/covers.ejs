@@ -19,7 +19,10 @@
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
-	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+	<script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body class="is-preload">
@@ -59,30 +62,79 @@
 						<% plan.InsurancePlanOptions.forEach((option) => { %>
 							<% if (option.inpatientRates.coverLimit == limit) { %>
 								<div class="flex justify-center">
-									<div class="block p-6 rounded-lg shadow-lg bg-white max-w-lg">
+									<div class="block p-6 rounded-lg shadow-lg bg-white max-w-xl">
 										<h2 class="text-gray-900 text-xl leading-tight font-medium mb-2">Insurance Company: <%= company.insuranceCompany %></h2>
 										<h4 class="text-gray-900 text-lg leading-tight font-medium mb-2">cover name: <%= plan.coverName %></h4>
-										<p class="text-gray-700 text-base mb-1">inpatient limit: <%= option.inpatientRates.coverLimit %></p>											
+										
+										<p class="text-gray-700 text-base mb-1">inpatient limit: <%= option.inpatientRates.coverLimit %></p>									
 										<p class="text-gray-700 text-base mb-2">outpatient limit: <%= option.outpatientRates.coverLimit %></p>
-										<h2 class="text-gray-900 text-md leading-tight font-medium mb-2">secondary cover benefits</h2>
+										
+										<hr class="my-2 border-gray-300" />
+										<h1 class="text-gray-900 text-md leading-tight font-medium mb-2">secondary cover benefits</h2>
 										<% if (maternity == 'yes') {%>
-										<p class="text-gray-700 text-base mb-1">Maternity Limit: <%= option.secondaryCoverFeatures.maternityCover.amountOffered %> </p>
-										<p class="text-gray-700 text-base mb-1">Maternity premium payable: <%= option.secondaryCoverFeatures.maternityCover.coverPremium %> </p>
-										<p class="text-gray-700 text-base mb-1">Maternity cover information: <%= option.secondaryCoverFeatures.maternityCover.coverStatus %> </p>
+											<div class="p-4 shadow-lg rounded-lg bg-gray-100 text-gray-700">
+												<p class="text-gray-700 text-base mb-1">Maternity Limit: <%= option.secondaryCoverFeatures.maternityCover.amountOffered %> </p>
+												<p class="text-gray-700 text-base mb-1">Maternity premium payable: <%= option.secondaryCoverFeatures.maternityCover.coverPremium %> </p>
+												<p class="text-gray-700 text-base mb-1">Maternity cover information: <%= option.secondaryCoverFeatures.maternityCover.coverStatus %> </p>
+											</div>
+											<hr class="my-2 border-gray-300" />
 										<% } %>
+										
 										<% if (dental == 'yes') {%>
-										<p class="text-gray-700 text-base mb-1">Dental Limit: <%= option.secondaryCoverFeatures.dentalCover.amountOffered %> </p>
-										<p class="text-gray-700 text-base mb-1">Dental premium payable: <%= option.secondaryCoverFeatures.dentalCover.coverPremium %> </p>
-										<p class="text-gray-700 text-base mb-1">Dental cover information: <%= option.secondaryCoverFeatures.dentalCover.coverStatus %> </p>
+											<div class="p-4 shadow-lg rounded-lg bg-gray-100 text-gray-700">
+												<p class="text-gray-700 text-base mb-1">Dental Limit: <%= option.secondaryCoverFeatures.dentalCover.amountOffered %> </p>
+												<p class="text-gray-700 text-base mb-1">Dental premium payable: <%= option.secondaryCoverFeatures.dentalCover.coverPremium %> </p>
+												<p class="text-gray-700 text-base mb-1">Dental cover information: <%= option.secondaryCoverFeatures.dentalCover.coverStatus %> </p>
+											</div>
+											<hr class="my-2 border-gray-300" />
 										<% } %>
 										<% if (optical == 'yes') {%>
-											<p class="text-gray-700 text-base mb-1">Optical Limit: <%= option.secondaryCoverFeatures.opticalCover.amountOffered %> </p>
-											<p class="text-gray-700 text-base mb-1">Optical premium payable: <%= option.secondaryCoverFeatures.opticalCover.coverPremium %> </p>
-											<p class="text-gray-700 text-base mb-1">Optical cover information: <%= option.secondaryCoverFeatures.opticalCover.coverStatus %> </p>
+											<div class="p-4 shadow-lg rounded-lg bg-gray-100 text-gray-700">
+												<p class="text-gray-700 text-base mb-1">Optical Limit: <%= option.secondaryCoverFeatures.opticalCover.amountOffered %> </p>
+												<p class="text-gray-700 text-base mb-1">Optical premium payable: <%= option.secondaryCoverFeatures.opticalCover.coverPremium %> </p>
+												<p class="text-gray-700 text-base mb-1">Optical cover information: <%= option.secondaryCoverFeatures.opticalCover.coverStatus %> </p>
+											</div>
+											<hr class="my-2 border-gray-300" />
 											<% } %>
-											<p class="text-gray-900 text-base mb-2">Total Payable: <%= option.secondaryCoverFeatures.maternityCover.coverPremium + option.secondaryCoverFeatures.dentalCover.coverPremium + option.secondaryCoverFeatures.opticalCover.coverPremium %></p>
-										<br>
-										<br>
+											<p class="text-gray-900 text-base mb-2">Total Secondary Cover Payable: (Kshs) <%= ((maternity == 'yes') ? option.secondaryCoverFeatures.maternityCover.coverPremium : 0) + ((dental == 'yes') ? option.secondaryCoverFeatures.dentalCover.coverPremium : 0) + ((optical == 'yes') ? option.secondaryCoverFeatures.opticalCover.coverPremium : 0) %></p>
+											<hr class="my-2 border-gray-300" />
+											<div class="">
+												<button type="button" class="inline-block px-2 py-2 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out" data-bs-toggle="modal" data-bs-target="#myModal">
+													Vertically centered scrollable modal
+												  </button>
+
+												<!-- Modal -->
+												<div class="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto" id="myModal" tabindex="-1" aria-labelledby="myModal" aria-modal="true" role="dialog">
+													<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable relative w-auto pointer-events-none">
+													  <div class="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
+														<div class="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
+														  <h5 class="text-xl font-medium leading-normal text-gray-800" id="exampleModalCenteredScrollableLabel">
+															Confirm your insurance selection
+														  </h5>
+														  <button type="button"
+															class="btn-close box-content w-4 h-4 p-1 text-gray-700 border-none rounded-none opacity-50 focus:shadow-none focus:outline-none focus:opacity-100 hover:text-gray-700 hover:opacity-75 hover:no-underline"
+															data-bs-dismiss="modal" aria-label="Close"></button>
+														</div>
+														<div class="modal-body relative p-4">
+															<h2 class="text-gray-900 text-xl leading-tight font-medium mb-2">Your quote will appear here...still in progress</h2>
+														</div>
+														<div
+														  class="modal-footer flex flex-shrink-0 flex-wrap items-center justify-end p-4 border-t border-gray-200 rounded-b-md">
+														  <button type="button"
+															class="inline-block px-3 py-1 bg-purple-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-purple-700 hover:shadow-lg focus:bg-purple-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-purple-800 active:shadow-lg transition duration-150 ease-in-out"
+															data-bs-dismiss="modal">
+															back to quotes
+														  </button>
+														  <button type="button"
+															class="inline-block px-3 py-1 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out ml-1">
+															Send quote to email
+														  </button>
+														</div>
+													  </div>
+													</div>
+												  </div>
+											</div>
+										
 									</div>
 								</div>
 								<br>
@@ -110,6 +162,7 @@
 
 	<!-- Scripts -->
 	<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer></script>
+	<script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.scrollex.min.js"></script>
 	<script src="assets/js/jquery.scrolly.min.js"></script>
