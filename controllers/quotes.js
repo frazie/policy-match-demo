@@ -16,6 +16,8 @@ module.exports = {
         let dental = req.body.dentalInclude;
         let maternity = req.body.maternityInclude;
         let optical = req.body.opticalInclude;
+        let childNumber = req.body.NumberOfChildren;
+        let spouseAge = req.body.spouseAge;
                 
         console.log(req.body)
         
@@ -30,6 +32,8 @@ module.exports = {
             dental: dental,
             maternity: maternity,
             optical: optical,
+            children: childNumber,
+            spouseAge: spouseAge,
         });
        
     },
