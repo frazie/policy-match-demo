@@ -2038,7 +2038,7 @@ const individualInsurancePlans = {
                              ageLimits : [
                                  {
                                     ageBracket: '66+ years',
-                                     'M': 101_270 ,
+                                     principal: 101_270 ,
                                  },
                              ],
                             },
@@ -2205,7 +2205,7 @@ const individualInsurancePlans = {
                 },
                 {   coverName: 'UAP Old Mutual Afyaimara County',
                     InsurancePlanOptions: [
-                        {   inpatientRates : { coverLimit: 1_000_00,
+                        {   inpatientRates : { coverLimit: 100_000,
                             ageLimits : [
                                 {
                                     ageBracket: '18-29 years',

@@ -115,7 +115,7 @@
 												<option value="100000">Ksh. 100,000</option>
 												<option value="250000">Ksh. 250,000</option>
 												<option value="500000">Ksh. 500,000</option>
-												<option value="1000000">Ksh. 1,000,000</option>
+												<option value="1000000" selected>Ksh. 1,000,000</option>
 												<option value="1500000">Ksh. 1,500,000</option>
 												<option value="2000000">Ksh. 2,000,000</option>
 												<option value="3000000">Ksh. 3,000,000</option>
@@ -168,8 +168,8 @@
 							</div>
 							
 							<div class="mt-6 px-4 relative"> 
-								<input name="NumberOfChildren" id="NumberOfChildren" class="h-12 transition-all px-1 outline-none w-full border rounded-lg text-black" type="number" require required > 
-								<label for="NumberOfChildren" id="NumberOfChildren" class="text-pink-600 transition-all top-4 pointer-events-none text-sm left-5">No. of Children</label> 
+								<input name="NumberOfChildren" id="NumberOfChildren" class="h-12 transition-all px-1 outline-none w-full border rounded-lg text-black" type="number" value="0" require required > 
+								<label for="NumberOfChildren" id="NumberOfChildren" class="text-pink-600 transition-all top-4 pointer-events-none text-sm left-5" >No. of Children</label> 
 							</div>
 											
 							<div class="mt-6 flex mb-10 justify-center px-4 relative gap-2"> 
@@ -186,7 +186,7 @@
 								<select name="maternityInclude" id="maternityInclude" class="h-12 transition-all px-1 outline-none w-full border rounded-lg text-black" require required>
 									<option value=""></option>
 									<option value="yes">Yes</option>
-									<option value="no">No</option>
+									<option value="no" >No</option>
 								</select> 
 								<label for="maternityInclude" id="maternityInclude" class="text-pink-600 transition-all top-4 pointer-events-none text-sm left-5">Maternity</label> 
 							</div>
@@ -195,7 +195,7 @@
 								<select name="dentalInclude" id="dentalInclude" class="h-12 transition-all px-1 outline-none w-full border rounded-lg text-black" required require>
 									<option value=""></option>
 									<option value="yes">Yes</option>
-									<option value="no">No</option>
+									<option value="no" >No</option>
 								</select> 
 								<label for="dentalInclude" id="dentalInclude" class="text-pink-600 transition-all top-4 pointer-events-none text-sm left-5">Dental</label> 
 							</div>
