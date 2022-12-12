@@ -68,13 +68,13 @@ const individualInsurancePlans = {
                                     coverPremium: 44_500,
                                 },      
                                 dentalCover: {
-                                    amountOffered: 0,
-                                    coverStatus: 'The cover plan does not offer this',
+                                    amountOffered: 30_000,
+                                    coverStatus: 'The cover plan is offered within the outpatient cover',
                                     coverPremium: 0,
                                 }, 
                                 opticalCover: {
-                                    amountOffered: 0,
-                                    coverStatus: 'The cover plan does not offer this',
+                                    amountOffered: 30_000,
+                                    coverStatus: 'The cover plan is offered within the outpatient cover',
                                     coverPremium: 0,
                                 },
                                 hospitalCovered: {
@@ -152,13 +152,13 @@ const individualInsurancePlans = {
                                      coverPremium: 47_000,
                                  },      
                                  dentalCover: {
-                                     amountOffered: 0,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     amountOffered: 40_000,
+                                     coverStatus: 'The cover plan is offered within the outpatient cover',
                                      coverPremium: 0,
                                  }, 
                                  opticalCover: {
-                                     amountOffered: 0,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     amountOffered: 40_000,
+                                     coverStatus: 'The cover plan is offered within the outpatient cover',
                                      coverPremium: 0,
                                  },
                                  hospitalCovered: {
@@ -231,18 +231,18 @@ const individualInsurancePlans = {
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
-                                     amountOffered: 0,
+                                     amountOffered: 200_000,
                                      coverStatus: 'The cover plan only supported upto the age of 49 years',
                                      coverPremium: 0,
                                  },      
                                  dentalCover: {
-                                     amountOffered: 0,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     amountOffered: 50_000,
+                                     coverStatus: 'The cover plan is offered within the outpatient cover',
                                      coverPremium: 0,
                                  }, 
                                  opticalCover: {
-                                     amountOffered: 0,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     amountOffered: 50_000,
+                                     coverStatus: 'The cover plan is offered within the outpatient cover',
                                      coverPremium: 0,
                                  },
                                  hospitalCovered: {
@@ -324,14 +324,14 @@ const individualInsurancePlans = {
                                     coverStatus: 'The cover plan is purchased seperately at the stupilated premiums and supports clients upto the age of 49Yrs',
                                 },      
                                 dentalCover: {
-                                    amountOffered: 0,
+                                    amountOffered: 15_000,
                                     coverPremium: 0,
-                                    coverStatus: 'The cover plan does not offer this',
+                                    coverStatus: 'The cover plan is offered within the outpatient cover',
                                 }, 
                                 opticalCover: {
-                                    amountOffered: 0,
+                                    amountOffered: 15_000,
                                     coverPremium: 0,
-                                    coverStatus: 'The cover plan does not offer this',
+                                    coverStatus: 'The cover plan is offered within the outpatient cover',
                                 },
                                 hospitalCovered: {
                                     supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
@@ -408,14 +408,14 @@ const individualInsurancePlans = {
                                      coverStatus: 'The cover plan is purchased seperately at the stupilated premiums and supports clients upto the age of 49Yrs',
                                  },      
                                  dentalCover: {
-                                     amountOffered: 0,
+                                     amountOffered: 15_000,
                                      coverPremium: 0,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     coverStatus: 'The cover plan is offered within the outpatient cover',
                                  }, 
                                  opticalCover: {
-                                     amountOffered: 0,
+                                     amountOffered: 15_000,
                                      coverPremium: 0,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     coverStatus: 'The cover plan is offered within the outpatient cover',
                                  },
                                  hospitalCovered: {
                                      supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
@@ -487,19 +487,19 @@ const individualInsurancePlans = {
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
-                                     amountOffered: 0,
+                                     amountOffered: 150_000,
                                      coverPremium: 0,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     coverStatus: 'The cover plan is supported for individuals upto the age of 49 years.',
                                  },      
                                  dentalCover: {
-                                     amountOffered: 0,
+                                     amountOffered: 20_000,
                                      coverPremium: 0,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     coverStatus: 'The cover plan is offered within the outpatient cover',
                                  }, 
                                  opticalCover: {
-                                     amountOffered: 0,
+                                     amountOffered: 20_000,
                                      coverPremium: 0,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     coverStatus: 'The cover plan is offered within the outpatient cover',
                                  },
                                  hospitalCovered: {
                                      supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
@@ -580,12 +580,12 @@ const individualInsurancePlans = {
                                     coverStatus: 'The cover plan is purchased seperately at the stupilated premiums and supports clients upto the age of 49Yrs',
                                 },      
                                 dentalCover: {
-                                    amountOffered: 0,
+                                    amountOffered: 10_000,
                                     coverPremium: 0,
                                     coverStatus: 'The cover plan does not offer this',
                                 }, 
                                 opticalCover: {
-                                    amountOffered: 0,
+                                    amountOffered: 10_000,
                                     coverPremium: 0,
                                     coverStatus: 'The cover plan does not offer this',
                                 },
@@ -659,12 +659,12 @@ const individualInsurancePlans = {
                                      coverStatus: 'The cover plan is purchased seperately at the stupilated premiums and supports clients upto the age of 49Yrs',
                                  },      
                                  dentalCover: {
-                                     amountOffered: 0,
+                                     amountOffered: 12_500,
                                      coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  }, 
                                  opticalCover: {
-                                     amountOffered: 0,
+                                     amountOffered: 12_500,
                                      coverPremium: 0,
                                      coverStatus: 'The cover plan does not offer this',
                                  },
@@ -747,14 +747,14 @@ const individualInsurancePlans = {
                                     coverStatus: 'The cover plan is purchased seperately at the stupilated premiums and supports clients upto the age of 49 years',
                                 },      
                                 dentalCover: {
-                                    amountOffered: 0,
+                                    amountOffered: 5_000,
                                     coverPremium: 0,
-                                    coverStatus: 'The cover plan does not offer this',
+                                    coverStatus: 'The cover plan is offered within the outpatient limit',
                                 }, 
                                 opticalCover: {
-                                    amountOffered: 0,
+                                    amountOffered: 5_000,
                                     coverPremium: 0,
-                                    coverStatus: 'The cover plan does not offer this',
+                                    coverStatus: 'The cover plan is offered within the outpatient limit',
                                 },
                                 hospitalCovered: {
                                     supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
@@ -771,16 +771,21 @@ const individualInsurancePlans = {
                              ageLimits : [
                                  {
                                     ageBracket: '18-29 years',
-                                     principal: 21_200,
-                                     spouse: 0,
-                                     child: 0,
+                                     principal: 19_400,
+                                     spouse: 17_500,
+                                     child: 12_600,
                                  },
-                                 
+                                 {
+                                    ageBracket: '30-39 years',
+                                     principal: 19_400,
+                                     spouse: 17_500,
+                                     child: 12_600,
+                                 },
                                  {
                                     ageBracket: '40-49 years',
-                                     principal: 0,
-                                     spouse: 0,
-                                     child: 0,
+                                     principal: 19_400,
+                                     spouse: 17_500,
+                                     child: 12_600,
                                  },
                                  {
                                     ageBracket: '50-59 years',
@@ -795,21 +800,21 @@ const individualInsurancePlans = {
                              ageLimits : [
                                  {
                                     ageBracket: '18-29 years',
-                                     principal: 23_900,
-                                     spouse: 0,
-                                     child: 0,
+                                     principal: 23_500,
+                                     spouse: 21_200,
+                                     child: 15_300,
                                  },
                                  {
                                     ageBracket: '30-39 years',
-                                     principal: 0,
-                                     spouse: 0,
-                                     child: 0,
+                                     principal: 23_500,
+                                     spouse: 21_200,
+                                     child: 15_300,
                                  },
                                  {
                                     ageBracket: '40-49 years',
-                                     principal: 0,
-                                     spouse: 0,
-                                     child: 0,
+                                     principal: 23_500,
+                                     spouse: 21_200,
+                                     child: 15_300,
                                  },
                                  {
                                     ageBracket: '50-59 years',
@@ -821,19 +826,19 @@ const individualInsurancePlans = {
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
-                                     amountOffered: 0,
-                                     coverPremium: 0,
+                                     amountOffered: 50_000,
+                                     coverPremium: 25_000,
                                      coverStatus: 'The cover plan is purchased seperately at the stupilated premiums and supports clients upto the age of 49Yrs',
                                  },      
                                  dentalCover: {
-                                     amountOffered: 0,
+                                     amountOffered: 10_000,
                                      coverPremium: 0,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     coverStatus: 'The cover plan is offered within the outpatient limit.',
                                  }, 
                                  opticalCover: {
-                                     amountOffered: 0,
+                                     amountOffered: 10_000,
                                      coverPremium: 0,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     coverStatus: 'The cover plan is offered within the outpatient limit.',
                                  },
                                  hospitalCovered: {
                                      supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
@@ -846,13 +851,97 @@ const individualInsurancePlans = {
                                  },
                              }
                         },
+                        {  inpatientRates : {  coverLimit: 1_500_000,
+                            ageLimits : [
+                                {
+                                   ageBracket: '18-29 years',
+                                    principal: 21_400,
+                                    spouse: 19_300,
+                                    child: 13_900,
+                                },
+                                {
+                                    ageBracket: '30-39 years',
+                                     principal: 21_400,
+                                     spouse: 19_300,
+                                     child: 13_900,
+                                 },
+                                {
+                                   ageBracket: '40-49 years',
+                                    principal: 21_400,
+                                    spouse: 19_300,
+                                    child: 13_900,
+                                },
+                                {
+                                   ageBracket: '50-59 years',
+                                    principal: 0,
+                                    spouse: 0,
+                                    child: 0,
+                                },
+                            ]
+                           },
+                           outpatientRates: {
+                            coverLimit: 100_000,
+                            ageLimits : [
+                                {
+                                   ageBracket: '18-29 years',
+                                    principal: 26_500,
+                                    spouse: 23_900,
+                                    child: 17_200,
+                                },
+                                {
+                                   ageBracket: '30-39 years',
+                                    principal: 26_500,
+                                    spouse: 23_900,
+                                    child: 17_200,
+                                },
+                                {
+                                   ageBracket: '40-49 years',
+                                    principal: 26_500,
+                                    spouse: 23_900,
+                                    child: 17_200,
+                                },
+                                {
+                                   ageBracket: '50-59 years',
+                                    principal: 0,
+                                    spouse: 0,
+                                    child: 0,
+                                },
+                            ],
+                           },
+                           secondaryCoverFeatures : {
+                                maternityCover: {
+                                    amountOffered: 75_000,
+                                    coverPremium: 30_300,
+                                    coverStatus: 'The cover plan is purchased seperately at the stupilated premiums and supports clients upto the age of 49Yrs',
+                                },      
+                                dentalCover: {
+                                    amountOffered: 15_000,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover plan is offered within the outpatient limit.',
+                                }, 
+                                opticalCover: {
+                                    amountOffered: 15_000,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover plan is offered within the outpatient limit.',
+                                },
+                                hospitalCovered: {
+                                    supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                                },
+                                co_payments: {
+                                    support: 'should state if this is supported or not'
+                                },
+                                preExisting_Conditions: {
+                                    coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                                },
+                            }
+                       },
                     ]
                 },
                 
             ],
             insuranceTaxAndPremiumExclusiveRate: {
                 stampDuty: 40,
-                percentageTax: 0.01,
+                percentageTax: 0.45,
             },
         },
         {   insuranceCompany: 'UAP Old Mutual Insurance Company',
