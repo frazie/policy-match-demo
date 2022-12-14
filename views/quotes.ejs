@@ -48,9 +48,9 @@
 			
 			<div>
 				<div class="py-10 inherit px-2">
-					<form action="/available-quotes" method="post">
+					<form id="insuranceForm" action="/available-quotes" method="post">
 						<div class="max-w-md mx-auto bg-purple-400 shadow-lg rounded-lg overflow-hidden md:max-w-lg">
-					<!--<div class="md:flex">-->
+							<!--<div class="md:flex">-->
 							<div class="w-full">
 								<p class="flex justify-center items-center h-16 w-full bg-purple-800 text-white">get your free insurance cover quote today</p>
 
@@ -74,13 +74,13 @@
 									</div>
 
 									<div class="mt-6 px-4 relative"> 
-										<input name="phoneNumber" id="phoneNumber" class="h-12 transition-all px-1 outline-none w-full border rounded-lg text-black" type="number" required> 
+										<input name="phoneNumber" id="phoneNumber" class="h-12 transition-all px-1 outline-none w-full border rounded-lg text-black" type="tel" placeholder="1234-567-890" maxlength="11" required> 
 										<label for="phoneNumber" class="text-pink-600 absolute transition-all top-4 pointer-events-none text-sm left-5">Phone Number</label> 
 									</div>
 
 							
 									<div class="mt-6 flex justify-center px-4 relative"> 
-										<button class="create_acc text-md h-12 w-full bg-green-400 rounded-full text-white hover:bg-green-600 transition-all">Next
+										<button type="button" class="create_acc text-md h-12 w-full bg-green-400 rounded-full text-white hover:bg-green-600 transition-all">Next
 											<i class="fa fa-long-arrow-right absolute top-4 right-8"></i>
 										</button> 
 									</div>
@@ -127,8 +127,8 @@
 									</div>
 											
 									<div class="mt-6 flex mb-10 justify-center px-4 relative gap-2"> 
-										<button class="back_page text-md h-12 w-full bg-green-400 rounded-full text-white hover:bg-green-600 transition-all ">Previous<i class="fa fa-long-arrow-left absolute top-4 left-8"></i></button> 
-										<button class="next_page text-md h-12 w-full bg-green-400 rounded-full text-white hover:bg-green-600 transition-all">Next<i class="fa fa-long-arrow-right absolute top-4 right-8"></i></button> 
+										<button type="button" class="back_page text-md h-12 w-full bg-green-400 rounded-full text-white hover:bg-green-600 transition-all ">Previous<i class="fa fa-long-arrow-left absolute top-4 left-8"></i></button> 
+										<button type="button" class="next_page text-md h-12 w-full bg-green-400 rounded-full text-white hover:bg-green-600 transition-all">Next<i class="fa fa-long-arrow-right absolute top-4 right-8"></i></button> 
 									</div>
 								</div>
 							
@@ -144,11 +144,11 @@
 								<label for="spouseInclude" id="spouseInclude" class="text-pink-600 transition-all top-4 pointer-events-none text-sm left-5">Include Spouse</label> 
 							</div>
 
-							<div class="mt-6 px-4 relative"> 
-								<select name="spouseAge" id="spouseAge" class="h-12 transition-all px-1 outline-none w-full border rounded-lg text-black" required require>
+							<div class="mt-6 px-4 relative" id="spouse"> 
+								<select name="spouseAge" id="spouseAge" class="h-12 transition-all px-1 outline-none w-full border rounded-lg text-black">
 									<option value=""></option>
 									<option value="0-17 years">0 - 17 Years</option>
-									<option value="18-29 years">18 - 29 Years</option>
+									<option value="18-29 years" selected>18 - 29 Years</option>
 									<option value="30-39 years">30 - 39 years</option>
 									<option value="40-49 years">40 - 49 years</option>
 									<option value="50-59 years">50 - 59 years</option>
@@ -167,14 +167,14 @@
 								<label for="childInclude" id="spouseInclude" class="text-pink-600 transition-all top-4 pointer-events-none text-sm left-5">Include Child(ren)</label> 
 							</div>
 							
-							<div class="mt-6 px-4 relative"> 
-								<input name="NumberOfChildren" id="NumberOfChildren" class="h-12 transition-all px-1 outline-none w-full border rounded-lg text-black" type="number" value="0" require required > 
+							<div class="mt-6 px-4 relative" id="childrenInfo"> 
+								<input name="NumberOfChildren" id="NumberOfChildren" class="h-12 transition-all px-1 outline-none w-full border rounded-lg text-black" type="number" value="0"> 
 								<label for="NumberOfChildren" id="NumberOfChildren" class="text-pink-600 transition-all top-4 pointer-events-none text-sm left-5" >No. of Children</label> 
 							</div>
 											
 							<div class="mt-6 flex mb-10 justify-center px-4 relative gap-2"> 
-								<button class="back_page text-md h-12 w-full bg-green-400 rounded-full text-white hover:bg-green-600 transition-all ">Previous<i class="fa fa-long-arrow-left absolute top-4 left-8"></i></button> 
-								<button class="testa text-md h-12 w-full bg-green-400 rounded-full text-white hover:bg-green-600 transition-all">Next<i class="fa fa-long-arrow-right absolute top-4 right-8"></i></button> 
+								<button type="button" class="back_page text-md h-12 w-full bg-green-400 rounded-full text-white hover:bg-green-600 transition-all ">Previous<i class="fa fa-long-arrow-left absolute top-4 left-8"></i></button> 
+								<button type="button" class="testa text-md h-12 w-full bg-green-400 rounded-full text-white hover:bg-green-600 transition-all">Next<i class="fa fa-long-arrow-right absolute top-4 right-8"></i></button> 
 							</div>
 
 								</div>
@@ -191,7 +191,7 @@
 								<label for="maternityInclude" id="maternityInclude" class="text-pink-600 transition-all top-4 pointer-events-none text-sm left-5">Maternity</label> 
 							</div>
 
-							<div class="mt-6 px-4 relative"> 
+							<div class="mt-6 px-4 relative" id="dental" > 
 								<select name="dentalInclude" id="dentalInclude" class="h-12 transition-all px-1 outline-none w-full border rounded-lg text-black" required require>
 									<option value=""></option>
 									<option value="yes">Yes</option>
@@ -200,19 +200,22 @@
 								<label for="dentalInclude" id="dentalInclude" class="text-pink-600 transition-all top-4 pointer-events-none text-sm left-5">Dental</label> 
 							</div>
 
-							<div class="mt-6 px-4 relative"> 
+							<div class="mt-6 px-4 relative" id="optical" > 
 								<select name="opticalInclude" id="opticalInclude" class="h-12 transition-all px-1 outline-none w-full border rounded-lg text-black" required require>
 									<option value=""></option>
 									<option value="yes">Yes</option>
 									<option value="no">No</option>
 								</select> 
-								<label for="opticalInclude" id="opticalInclude" class="text-pink-600 transition-all top-4 pointer-events-none text-sm left-5">Optical</label> 
+								<label for="opticalInclude" class="text-pink-600 transition-all top-4 pointer-events-none text-sm left-5">Optical</label> 
 							</div>
 
-							<button class="back_page text-md h-12 w-full bg-green-400 rounded-full text-white hover:bg-green-600 transition-all ">Previous<i class="fa fa-long-arrow-left absolute top-4 left-8"></i>
-							</button> 
-							<button type="submit" class="submit_page text-sm h-12 w-full bg-blue-400 rounded-full text-white hover:bg-blue-600 transition-all">Submit Details<i class="fa fa-long-arrow-right absolute top-5 right-8"></i>
-							</button> 
+							<div class="mt-6 flex mb-10 justify-center px-4 relative gap-2">
+								<button type="button" onclick="event.preventDefault()" class="back_page text-md h-12 w-full bg-green-400 rounded-full text-white hover:bg-green-600 transition-all ">Previous<i class="fa fa-long-arrow-left absolute top-4 left-8"></i>
+								</button> 
+								<button type="submit" class="submit_page text-sm h-12 w-full bg-blue-400 rounded-full text-white hover:bg-blue-600 transition-all">Submit Details<i class="fa fa-long-arrow-right absolute top-5 right-6"></i>
+								</button>
+							</div>
+							 
 							
 							<p class="my-10 text-center text-sm px-4 text-gray-500">By clicking "Next",I agree<br> to Policy Match Kenya's 
 								<a class="text-blue-800" href="#">Privacy Policy</a>
@@ -220,10 +223,10 @@
 								</div>
 
 								<div class="main hidden">
-							<h4 class="flex justify-center items-center mt-5 text-lg text-gray-800 font-medium">Information Submitted successfully!!<span class="shown_name"></span></h4> <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
-								<circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
-								<path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" /> </svg>
-							<p class="mt-5 mb-10 text-sm px-4 text-center text-pink-700 font-semibold	tracking-wide">Available Insurance plans as per you selection will be provided shortly </p>
+									<h4 class="flex justify-center items-center mt-5 text-lg text-gray-800 font-medium">Information Submitted successfully!!<span class="shown_name"></span></h4> <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+									<circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
+									<path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" /> </svg>
+									<p class="mt-5 mb-10 text-sm px-4 text-center text-pink-700 font-semibold	tracking-wide">Available Insurance plans as per you selection will be provided shortly </p>
 								</div>
 
 							</div>
