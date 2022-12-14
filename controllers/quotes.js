@@ -23,7 +23,7 @@ module.exports = {
                 
         console.log(req.body)
         
-        res.render("coverEmailTest.ejs", {
+        res.render("covers.ejs", {
             Cover: insurancePlan, 
             limit: limit, 
             email: email,
