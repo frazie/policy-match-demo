@@ -61,7 +61,7 @@ document.querySelector('select[name="childInclude"]').addEventListener('change',
         
     }else{
         document.querySelector('#childrenInfo').style.display = 'none'
-        
+        document.querySelector('#NumberOfChildren').value = 'no'
     }
 })
 
