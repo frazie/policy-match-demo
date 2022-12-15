@@ -20,9 +20,7 @@ module.exports = {
         let childNumber = req.body.NumberOfChildren;
         let spouseAge = req.body.spouseAge;
         let email = req.body.email;
-                
-        console.log(req.body)
-        
+                        
         res.render("covers.ejs", {
             Cover: insurancePlan, 
             limit: limit, 
@@ -73,8 +71,6 @@ module.exports = {
         }
 
         sendToEmail()
-
-        console.log(userEmail)
 
     }
 
