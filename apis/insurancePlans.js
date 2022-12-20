@@ -1512,9 +1512,9 @@ const individualInsurancePlans = {
                            },
                            secondaryCoverFeatures : {
                                 maternityCover: {
-                                    amountOffered: 0,
+                                    amountOffered: 50_000,
                                     coverPremium: 0,
-                                    coverStatus: 'The cover plan does not offer this',
+                                    coverStatus: 'The cover is provided within the inpatient limit',
                                 },      
                                 dentalCover: {
                                     amountOffered: 0,
@@ -1644,9 +1644,9 @@ const individualInsurancePlans = {
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
-                                     amountOffered: 0,
+                                     amountOffered: 75_000,
                                      coverPremium: 0,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     coverStatus: 'The cover is offered within the inpatient limit',
                                  },      
                                  dentalCover: {
                                      amountOffered: 0,
@@ -1776,19 +1776,19 @@ const individualInsurancePlans = {
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
-                                     amountOffered: 0,
+                                     amountOffered: 100_000,
                                      coverPremium: 0,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     coverStatus: 'The cover is offered within the inpateint limit',
                                  },      
                                  dentalCover: {
-                                     amountOffered: 0,
+                                     amountOffered: 10_000,
                                      coverPremium: 0,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     coverStatus: 'The cover is offered within the outpatient limit',
                                  }, 
                                  opticalCover: {
-                                     amountOffered: 0,
+                                     amountOffered: 10_000,
                                      coverPremium: 0,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     coverStatus: 'The cover is offered within the outpatient limit',
                                  },
                                  hospitalCovered: {
                                      supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
@@ -1908,19 +1908,19 @@ const individualInsurancePlans = {
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
-                                     amountOffered: 0,
+                                     amountOffered: 150_000,
                                      coverPremium: 0,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     coverStatus: 'The cover is offered within the inpatient limit',
                                  },      
                                  dentalCover: {
-                                     amountOffered: 0,
+                                     amountOffered: 15_000,
                                      coverPremium: 0,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     coverStatus: 'The cover is offered within the outpatient limit',
                                  }, 
                                  opticalCover: {
-                                     amountOffered: 0,
+                                     amountOffered: 15_000,
                                      coverPremium: 0,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     coverStatus: 'The cover is offered within the outpatient limit',
                                  },
                                  hospitalCovered: {
                                      supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
@@ -2040,19 +2040,19 @@ const individualInsurancePlans = {
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
-                                     amountOffered: 0,
+                                     amountOffered: 200_000,
                                      coverPremium: 0,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     coverStatus: 'The cover is offered within the inpatient limit',
                                  },      
                                  dentalCover: {
-                                     amountOffered: 0,
+                                     amountOffered: 15_000,
                                      coverPremium: 0,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     coverStatus: 'The cover is offered within the outpatient limit',
                                  }, 
                                  opticalCover: {
-                                     amountOffered: 0,
+                                     amountOffered: 15_000,
                                      coverPremium: 0,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     coverStatus: 'The cover is offered within the outpatient limit',
                                  },
                                  hospitalCovered: {
                                      supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
@@ -2096,12 +2096,12 @@ const individualInsurancePlans = {
                                 dentalCover: {
                                     amountOffered: 20_000,
                                     coverPremium: 16_176,
-                                    coverStatus: 'The cover plan does not offer this',
+                                    coverStatus: 'The cover is offered within the outpatient limit',
                                 }, 
                                 opticalCover: {
                                     amountOffered: 20_000,
                                     coverPremium: 16_176,
-                                    coverStatus: 'The cover plan does not offer this',
+                                    coverStatus: 'The cover is offered within the outpatient limit',
                                 },
                                 hospitalCovered: {
                                     supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
@@ -2140,12 +2140,12 @@ const individualInsurancePlans = {
                                  dentalCover: {
                                      amountOffered: 20_000,
                                      coverPremium: 16_176,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     coverStatus: 'The cover is offered within the outpatient limit',
                                  }, 
                                  opticalCover: {
                                      amountOffered: 20_000,
                                      coverPremium: 16_176,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     coverStatus: 'The cover is offered within the outpatient limit',
                                  },
                                  hospitalCovered: {
                                      supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
@@ -2184,12 +2184,12 @@ const individualInsurancePlans = {
                                  dentalCover: {
                                      amountOffered: 20_000,
                                      coverPremium: 16_176,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     coverStatus: 'The cover is offered at the stated premium rates',
                                  }, 
                                  opticalCover: {
                                      amountOffered: 20_000,
                                      coverPremium: 16_176,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     coverStatus: 'The cover is offered at the stated premium rates',
                                  },
                                  hospitalCovered: {
                                      supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
@@ -2228,12 +2228,12 @@ const individualInsurancePlans = {
                                  dentalCover: {
                                      amountOffered: 20_000,
                                      coverPremium: 16_176,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     coverStatus: 'The cover is offered within the stated premium rates',
                                  }, 
                                  opticalCover: {
                                      amountOffered: 20_000,
                                      coverPremium: 16_176,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     coverStatus: 'The cover is offered within the stated premium rates',
                                  },
                                  hospitalCovered: {
                                      supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
@@ -2272,12 +2272,12 @@ const individualInsurancePlans = {
                                 dentalCover: {
                                     amountOffered: 20_000,
                                     coverPremium: 16_176,
-                                    coverStatus: 'The cover plan does not offer this',
+                                    coverStatus: 'The cover is offered at the states premium rates',
                                 }, 
                                 opticalCover: {
                                     amountOffered: 20_000,
                                     coverPremium: 16_176,
-                                    coverStatus: 'The cover plan does not offer this',
+                                    coverStatus: 'The cover is offered at the states premium rates',
                                 },
                                 hospitalCovered: {
                                     supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
@@ -2491,9 +2491,9 @@ const individualInsurancePlans = {
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
-                                     amountOffered: 0,
+                                     amountOffered: 30_000,
                                      coverPremium: 0,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     coverStatus: 'The cover is offered within the inpatiet limit',
                                  },      
                                  dentalCover: {
                                      amountOffered: 0,
@@ -2602,19 +2602,19 @@ const individualInsurancePlans = {
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
-                                     amountOffered: 0,
+                                     amountOffered: 40_000,
                                      coverPremium: 0,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     coverStatus: 'The cover is offered within the inpatient limit',
                                  },      
                                  dentalCover: {
-                                     amountOffered: 0,
+                                     amountOffered: 10_000,
                                      coverPremium: 0,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     coverStatus: 'The cover is offered within the outpatient limit',
                                  }, 
                                  opticalCover: {
-                                     amountOffered: 0,
+                                     amountOffered: 10_000,
                                      coverPremium: 0,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     coverStatus: 'The cover is offered within the outpatient limit',
                                  },
                                  hospitalCovered: {
                                      supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
@@ -2713,19 +2713,19 @@ const individualInsurancePlans = {
                             },
                             secondaryCoverFeatures : {
                                  maternityCover: {
-                                     amountOffered: 0,
+                                     amountOffered: 50_000,
                                      coverPremium: 0,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     coverStatus: 'The cover is offered within the inpatient limit',
                                  },      
                                  dentalCover: {
-                                     amountOffered: 0,
+                                     amountOffered: 10_000,
                                      coverPremium: 0,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     coverStatus: 'The cover is offered within the outpatient limit',
                                  }, 
                                  opticalCover: {
-                                     amountOffered: 0,
+                                     amountOffered: 10_000,
                                      coverPremium: 0,
-                                     coverStatus: 'The cover plan does not offer this',
+                                     coverStatus: 'The cover is offered within the outpatient limit',
                                  },
                                  hospitalCovered: {
                                      supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
