@@ -24,7 +24,7 @@
 <body class="is-preload">
 
 	<!-- Header -->
-	<header id="header">
+	<!-- <header id="header">
 		<a href="/" class="title">Policy Match</a>
 		<nav>
 			<ul>
@@ -33,7 +33,21 @@
 
 			</ul>
 		</nav>
-	</header>
+	</header> -->
+
+	<section id="sidebar">
+		<div class="inner">
+			<nav>
+				<ul>
+					<li><a href="/" class="title">Policy Match</a></li>
+					<li><a href="/#partners">Our Partners</a></li>
+					<li><a href="/#what_we_do">What we do</a></li>
+					<li><a href="/quotes" class="active">Your Generated Quotes</a></li>
+					<li><a href="/#get_in_touch">Get in touch</a></li>
+				</ul>
+			</nav>
+		</div>
+	</section>
 
 	<!-- Wrapper -->
 	<div id="wrapper">
@@ -42,6 +56,7 @@
 		<section id="main" class="wrapper">
 			<div class="inner">
 				<h1 class="major">Your Health Insurance Quotation Search Results</h1>
+				<hr>
 				<p>The following Insurance plans met the criteria for your selection</p>
 				<p> Your name: <%= firstName %></p>
 				<p> Your selected insurance inpatient limit: Kshs. <%= limit %></p>
@@ -156,7 +171,7 @@
 															
 															<% } else if (company.insuranceCompany == 'UAP Old Mutual Insurance Company') { %>
 
-																Total Secondary Cover Payable (with Outpatient): (Kshs) <%= Math.round((( (inpatient.principal) + ((spouse == 'no' && child == 'no') ? outpatient.principal : 0 ) + ((spouse == 'yes' ) ? spouseLimit.spouse : 0) + ((child == 'yes') ? (inpatient.child * children) : 0) + ((spouse == 'yes' || children == 1) ? outpatient.M_1 : 0 ) + ((spouse == 'yes' && children == 1) ? outpatient.M_2 : 0 ) + ((spouse == 'yes' && children == 2) ? outpatient.M_3 : 0 ) + ((spouse == 'yes' && children == 3) ? outpatient.M_4 : 0 ) + ((spouse == 'yes' && children == 4) ? outpatient.M_5 : 0 ) + ((spouse == 'yes' && children == 5) ? outpatient.M_6 : 0 ) + ((maternity == 'yes') ? option.secondaryCoverFeatures.maternityCover.coverPremium : 0) + ((dental == 'yes') ? option.secondaryCoverFeatures.dentalCover.coverPremium : 0) + ((optical == 'yes') ? option.secondaryCoverFeatures.opticalCover.coverPremium : 0)) * 1.0045) + 40)  %>
+																Total Secondary Cover Payable (with Outpatient): (Kshs) <%= Math.round((( (inpatient.principal) + ((spouse == 'no' && child == 'no') ? outpatient.principal : 0 ) + ((spouse == 'yes' ) ? spouseLimit.spouse : 0) + ((child == 'yes') ? (inpatient.child * children) : 0) + ((spouse == 'yes' && children == 1) ? outpatient.M_2 : 0 ) + (((spouse == 'yes' && children == 0) || (children == 1 && spouse == 'no')) ? outpatient.M_1 : 0 )  + ((spouse == 'yes' && children == 2) ? outpatient.M_3 : 0 ) + ((spouse == 'yes' && children == 3) ? outpatient.M_4 : 0 ) + ((spouse == 'yes' && children == 4) ? outpatient.M_5 : 0 ) + ((spouse == 'yes' && children == 5) ? outpatient.M_6 : 0 ) + ((maternity == 'yes') ? option.secondaryCoverFeatures.maternityCover.coverPremium : 0) + ((dental == 'yes') ? option.secondaryCoverFeatures.dentalCover.coverPremium : 0) + ((optical == 'yes') ? option.secondaryCoverFeatures.opticalCover.coverPremium : 0)) * 1.0045) + 40)  %>
 															
 															<% } else { %>
 
