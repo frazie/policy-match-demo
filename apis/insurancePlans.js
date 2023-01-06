@@ -934,7 +934,7 @@ const individualInsurancePlans = {
                                     coverStatus: 'all pre-existing conditions will be activated after 1 year'
                                 },
                             }
-                       },
+                        },
                     ]
                 },
                 
@@ -1669,6 +1669,138 @@ const individualInsurancePlans = {
                                  },
                              }
                         },
+                        {   inpatientRates : { coverLimit: 1_000_000,
+                            ageLimits : [
+                                {
+                                   ageBracket: '18-29 years',
+                                    principal: 34_284 ,
+                                    spouse: 25_582 ,
+                                    child: 17_102 ,
+                                },
+                                {
+                                   ageBracket: '30-39 years',
+                                    principal: 35_223 ,
+                                    spouse: 26_785 ,
+                                    child: 17_102 ,
+                                },
+                                {
+                                   ageBracket: '40-49 years',
+                                    principal: 39_385 ,
+                                    spouse: 27_925 ,
+                                    child: 17_102 ,
+                                },
+                                {
+                                   ageBracket: '50-59 years',
+                                    principal: 56_704 ,
+                                    spouse: 34_484 ,
+                                    child: 17_102 ,
+                                },
+                                {
+                                   ageBracket: '60-65 years',
+                                    principal: 56_704 ,
+                                    spouse: 34_484 ,
+                                    child: 17_102 ,
+                                },
+                                {
+                                   ageBracket: '66+ years',
+                                    principal: 95_227 ,
+                                    spouse: 78_683 ,
+                                    child: 17_102 ,
+                                },
+                            ]
+                           },
+                           outpatientRates: {
+                            coverLimit: 50_000,
+                            ageLimits : [
+                                {
+                                    ageBracket: '18-29 years',
+                                    principal: 32_934,
+                                    M_1: 44_986 ,
+                                    M_2: 48_748 ,
+                                    M_3: 48_797 ,
+                                    M_4: 48_846 ,
+                                    M_5: 49_339 ,
+                                    M_6: 49_837 ,
+                                },
+                                {
+                                    ageBracket: '30-39 years',
+                                    principal: 32_934,
+                                    M_1: 44_986 ,
+                                    M_2: 48_748 ,
+                                    M_3: 48_797 ,
+                                    M_4: 48_846 ,
+                                    M_5: 49_339 ,
+                                    M_6: 49_837 ,
+                                },
+                                {
+                                    ageBracket: '40-49 years',
+                                    principal: 32_934,
+                                    M_1: 44_986 ,
+                                    M_2: 48_748 ,
+                                    M_3: 48_797 ,
+                                    M_4: 48_846 ,
+                                    M_5: 49_339 ,
+                                    M_6: 49_837 ,
+                                },
+                                {
+                                    ageBracket: '50-59 years',
+                                    principal: 32_934,
+                                    M_1: 44_986 ,
+                                    M_2: 48_748 ,
+                                    M_3: 48_797 ,
+                                    M_4: 48_846 ,
+                                    M_5: 49_339 ,
+                                    M_6: 49_837 ,
+                                },
+                                {
+                                    ageBracket: '60-65 years',
+                                    principal: 32_934,
+                                    M_1: 44_986 ,
+                                    M_2: 48_748 ,
+                                    M_3: 48_797 ,
+                                    M_4: 48_846 ,
+                                    M_5: 49_339 ,
+                                    M_6: 49_837 ,
+                                },
+                                {
+                                    ageBracket: '66+ years',
+                                    principal: 32_934 ,
+                                    M_1: 44_986 ,
+                                    M_2: 48_748 ,
+                                    M_3: 48_797 ,
+                                    M_4: 48_846 ,
+                                    M_5: 49_339 ,
+                                    M_6: 49_837 ,
+                                },
+                            ],
+                           },
+                           secondaryCoverFeatures : {
+                                maternityCover: {
+                                    amountOffered: 50_000,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover is provided within the inpatient limit',
+                                },      
+                                dentalCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover plan does not offer this',
+                                }, 
+                                opticalCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover plan does not offer this',
+                                },
+                                hospitalCovered: {
+                                    supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                                },
+                                co_payments: {
+                                    support: 'should state if this is supported or not'
+                                },
+                                preExisting_Conditions: {
+                                    coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                                },
+                            }
+                        },
                         {   inpatientRates : { coverLimit: 3_000_000,
                              ageLimits : [
                                  {
@@ -1800,6 +1932,270 @@ const individualInsurancePlans = {
                                      coverStatus: 'all pre-existing conditions will be activated after 1 year'
                                  },
                              }
+                        },
+                        {   inpatientRates : { coverLimit: 3_000_000,
+                            ageLimits : [
+                                {
+                                   ageBracket: '18-29 years',
+                                    principal: 49_172 ,
+                                    spouse: 38_516 ,
+                                    child: 26_795 ,
+                                },
+                                {
+                                   ageBracket: '30-39 years',
+                                    principal: 52_342 ,
+                                    spouse: 40_457 ,
+                                    child: 26_795 ,
+                                },
+                                {
+                                   ageBracket: '40-49 years',
+                                    principal: 62_185 ,
+                                    spouse: 46_043 ,
+                                    child: 26_795 ,
+                                },
+                                {
+                                   ageBracket: '50-59 years',
+                                    principal: 76_889 ,
+                                    spouse: 50_161 ,
+                                    child: 26_795 ,
+                                },
+                                {
+                                   ageBracket: '60-65 years',
+                                    principal: 76_889 ,
+                                    spouse: 50_161 ,
+                                    child: 26_795 ,
+                                },
+                                {
+                                   ageBracket: '66+ years',
+                                    principal: 142_417 ,
+                                    spouse: 115_311 ,
+                                    child: 26_795 ,
+                                },
+                            ]
+                           },
+                           outpatientRates: {
+                            coverLimit: 60_000,
+                            ageLimits : [
+                                {
+                                   ageBracket: '18-29 years',
+                                    principal: 33_266 ,
+                                    M_1: 49_269 ,
+                                    M_2: 48_748 ,
+                                    M_3: 54_844 ,
+                                    M_4: 57_804 ,
+                                    M_5: 58_095 ,
+                                    M_6: 58_387 ,
+                                },
+                                {
+                                   ageBracket: '30-39 years',
+                                    principal: 33_266 ,
+                                    M_1: 49_269 ,
+                                    M_2: 48_748 ,
+                                    M_3: 54_844 ,
+                                    M_4: 57_804 ,
+                                    M_5: 58_095 ,
+                                    M_6: 58_387 ,
+                                },
+                                {
+                                   ageBracket: '40-49 years',
+                                    principal: 33_266 ,
+                                    M_1: 49_269 ,
+                                    M_2: 48_748 ,
+                                    M_3: 54_844 ,
+                                    M_4: 57_804 ,
+                                    M_5: 58_095 ,
+                                    M_6: 58_387 ,
+                                },
+                                {
+                                   ageBracket: '50-59 years',
+                                    principal: 33_266 ,
+                                    M_1: 49_269 ,
+                                    M_2: 48_748 ,
+                                    M_3: 54_844 ,
+                                    M_4: 57_804 ,
+                                    M_5: 58_095 ,
+                                    M_6: 58_387 ,
+                                },
+                                {
+                                   ageBracket: '60-65 years',
+                                    principal: 33_266 ,
+                                    M_1: 49_269 ,
+                                    M_2: 48_748 ,
+                                    M_3: 54_844 ,
+                                    M_4: 57_804 ,
+                                    M_5: 58_095 ,
+                                    M_6: 58_387 ,
+                                },
+                                {
+                                   ageBracket: '66+ years',
+                                    principal: 33_266 ,
+                                    M_1: 49_269 ,
+                                    M_2: 48_748 ,
+                                    M_3: 54_844 ,
+                                    M_4: 57_804 ,
+                                    M_5: 58_095 ,
+                                    M_6: 58_387 ,
+                                },
+                            ],
+                           },
+                           secondaryCoverFeatures : {
+                                maternityCover: {
+                                    amountOffered: 75_000,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover is offered within the inpatient limit',
+                                },      
+                                dentalCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover plan does not offer this',
+                                }, 
+                                opticalCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover plan does not offer this',
+                                },
+                                hospitalCovered: {
+                                    supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                                },
+                                co_payments: {
+                                    support: 'should state if this is supported or not'
+                                },
+                                preExisting_Conditions: {
+                                    coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                                },
+                            }
+                        },
+                        {   inpatientRates : { coverLimit: 3_000_000,
+                            ageLimits : [
+                                {
+                                   ageBracket: '18-29 years',
+                                    principal: 49_172 ,
+                                    spouse: 38_516 ,
+                                    child: 26_795 ,
+                                },
+                                {
+                                   ageBracket: '30-39 years',
+                                    principal: 52_342 ,
+                                    spouse: 40_457 ,
+                                    child: 26_795 ,
+                                },
+                                {
+                                   ageBracket: '40-49 years',
+                                    principal: 62_185 ,
+                                    spouse: 46_043 ,
+                                    child: 26_795 ,
+                                },
+                                {
+                                   ageBracket: '50-59 years',
+                                    principal: 76_889 ,
+                                    spouse: 50_161 ,
+                                    child: 26_795 ,
+                                },
+                                {
+                                   ageBracket: '60-65 years',
+                                    principal: 76_889 ,
+                                    spouse: 50_161 ,
+                                    child: 26_795 ,
+                                },
+                                {
+                                   ageBracket: '66+ years',
+                                    principal: 142_417 ,
+                                    spouse: 115_311 ,
+                                    child: 26_795 ,
+                                },
+                            ]
+                           },
+                           outpatientRates: {
+                            coverLimit: 50_000,
+                            ageLimits : [
+                                {
+                                    ageBracket: '18-29 years',
+                                    principal: 32_934,
+                                    M_1: 44_986 ,
+                                    M_2: 48_748 ,
+                                    M_3: 48_797 ,
+                                    M_4: 48_846 ,
+                                    M_5: 49_339 ,
+                                    M_6: 49_837 ,
+                                },
+                                {
+                                    ageBracket: '30-39 years',
+                                    principal: 32_934,
+                                    M_1: 44_986 ,
+                                    M_2: 48_748 ,
+                                    M_3: 48_797 ,
+                                    M_4: 48_846 ,
+                                    M_5: 49_339 ,
+                                    M_6: 49_837 ,
+                                },
+                                {
+                                    ageBracket: '40-49 years',
+                                    principal: 32_934,
+                                    M_1: 44_986 ,
+                                    M_2: 48_748 ,
+                                    M_3: 48_797 ,
+                                    M_4: 48_846 ,
+                                    M_5: 49_339 ,
+                                    M_6: 49_837 ,
+                                },
+                                {
+                                    ageBracket: '50-59 years',
+                                    principal: 32_934,
+                                    M_1: 44_986 ,
+                                    M_2: 48_748 ,
+                                    M_3: 48_797 ,
+                                    M_4: 48_846 ,
+                                    M_5: 49_339 ,
+                                    M_6: 49_837 ,
+                                },
+                                {
+                                    ageBracket: '60-65 years',
+                                    principal: 32_934,
+                                    M_1: 44_986 ,
+                                    M_2: 48_748 ,
+                                    M_3: 48_797 ,
+                                    M_4: 48_846 ,
+                                    M_5: 49_339 ,
+                                    M_6: 49_837 ,
+                                },
+                                {
+                                    ageBracket: '66+ years',
+                                    principal: 32_934 ,
+                                    M_1: 44_986 ,
+                                    M_2: 48_748 ,
+                                    M_3: 48_797 ,
+                                    M_4: 48_846 ,
+                                    M_5: 49_339 ,
+                                    M_6: 49_837 ,
+                                },
+                            ],
+                           },
+                           secondaryCoverFeatures : {
+                                maternityCover: {
+                                    amountOffered: 50_000,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover is provided within the inpatient limit',
+                                },      
+                                dentalCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover plan does not offer this',
+                                }, 
+                                opticalCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover plan does not offer this',
+                                },
+                                hospitalCovered: {
+                                    supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                                },
+                                co_payments: {
+                                    support: 'should state if this is supported or not'
+                                },
+                                preExisting_Conditions: {
+                                    coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                                },
+                            }
                         },
                         {   inpatientRates : { coverLimit: 5_000_000,
                              ageLimits : [
@@ -1933,6 +2329,402 @@ const individualInsurancePlans = {
                                  },
                              }
                         },
+                        {   inpatientRates : { coverLimit: 5_000_000,
+                            ageLimits : [
+                                {
+                                   ageBracket: '18-29 years',
+                                    principal: 53_025 ,
+                                    spouse: 41_671 ,
+                                    child: 28_496 ,
+                                },
+                                {
+                                   ageBracket: '30-39 years',
+                                    principal: 56_437 ,
+                                    spouse: 43_799 ,
+                                    child: 28_496 ,
+                                },
+                                {
+                                   ageBracket: '40-49 years',
+                                    principal: 62_634 ,
+                                    spouse: 46_446 ,
+                                    child: 28_496 ,
+                                },
+                                {
+                                   ageBracket: '50-59 years',
+                                    principal: 82_030 ,
+                                    spouse: 54_280 ,
+                                    child: 28_496 ,
+                                },
+                                {
+                                   ageBracket: '60-65 years',
+                                    principal: 82_030 ,
+                                    spouse: 54_280 ,
+                                    child: 28_496 ,
+                                },
+                                {
+                                   ageBracket: '66+ years',
+                                    principal: 162_180 ,
+                                    spouse: 131_186 ,
+                                    child: 28_496 ,
+                                },
+                            ]
+                           },
+                           outpatientRates: {
+                            coverLimit: 100_000,
+                            ageLimits : [
+                                {
+                                   ageBracket: '18-29 years',
+                                    principal:35_226 ,
+                                    M_1: 66_533 ,
+                                    M_2: 82_895 ,
+                                    M_3: 98_147 ,
+                                    M_4: 98_245 ,
+                                    M_5: 99_028 ,
+                                    M_6: 99_282 ,
+                                },
+                                {
+                                   ageBracket: '30-39 years',
+                                    principal:35_226 ,
+                                    M_1: 66_533 ,
+                                    M_2: 82_895 ,
+                                    M_3: 98_147 ,
+                                    M_4: 98_245 ,
+                                    M_5: 99_028 ,
+                                    M_6: 99_282 ,
+                                },
+                                {
+                                   ageBracket: '40-49 years',
+                                    principal:35_226 ,
+                                    M_1: 66_533 ,
+                                    M_2: 82_895 ,
+                                    M_3: 98_147 ,
+                                    M_4: 98_245 ,
+                                    M_5: 99_028 ,
+                                    M_6: 99_282 ,
+                                },
+                                {
+                                   ageBracket: '50-59 years',
+                                    principal:35_226 ,
+                                    M_1: 66_533 ,
+                                    M_2: 82_895 ,
+                                    M_3: 98_147 ,
+                                    M_4: 98_245 ,
+                                    M_5: 99_028 ,
+                                    M_6: 99_282 ,
+                                },
+                                {
+                                   ageBracket: '60-65 years',
+                                    principal:35_226 ,
+                                    M_1: 66_533 ,
+                                    M_2: 82_895 ,
+                                    M_3: 98_147 ,
+                                    M_4: 98_245 ,
+                                    M_5: 99_028 ,
+                                    M_6: 99_282 ,
+                                },
+                                {
+                                   ageBracket: '66+ years',
+                                    principal: 35_226 ,
+                                    M_1: 66_533 ,
+                                    M_2: 82_895 ,
+                                    M_3: 98_147 ,
+                                    M_4: 98_245 ,
+                                    M_5: 99_028 ,
+                                    M_6: 99_282 ,
+                                },
+                            ],
+                           },
+                           secondaryCoverFeatures : {
+                                maternityCover: {
+                                    amountOffered: 100_000,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover is offered within the inpateint limit',
+                                },      
+                                dentalCover: {
+                                    amountOffered: 10_000,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover is offered within the outpatient limit',
+                                }, 
+                                opticalCover: {
+                                    amountOffered: 10_000,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover is offered within the outpatient limit',
+                                },
+                                hospitalCovered: {
+                                    supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                                },
+                                co_payments: {
+                                    support: 'should state if this is supported or not'
+                                },
+                                preExisting_Conditions: {
+                                    coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                                },
+                            }
+                        },
+                        {   inpatientRates : { coverLimit: 5_000_000,
+                            ageLimits : [
+                                {
+                                   ageBracket: '18-29 years',
+                                    principal: 53_025 ,
+                                    spouse: 41_671 ,
+                                    child: 28_496 ,
+                                },
+                                {
+                                   ageBracket: '30-39 years',
+                                    principal: 56_437 ,
+                                    spouse: 43_799 ,
+                                    child: 28_496 ,
+                                },
+                                {
+                                   ageBracket: '40-49 years',
+                                    principal: 62_634 ,
+                                    spouse: 46_446 ,
+                                    child: 28_496 ,
+                                },
+                                {
+                                   ageBracket: '50-59 years',
+                                    principal: 82_030 ,
+                                    spouse: 54_280 ,
+                                    child: 28_496 ,
+                                },
+                                {
+                                   ageBracket: '60-65 years',
+                                    principal: 82_030 ,
+                                    spouse: 54_280 ,
+                                    child: 28_496 ,
+                                },
+                                {
+                                   ageBracket: '66+ years',
+                                    principal: 162_180 ,
+                                    spouse: 131_186 ,
+                                    child: 28_496 ,
+                                },
+                            ]
+                           },
+                           outpatientRates: {
+                            coverLimit: 60_000,
+                            ageLimits : [
+                                {
+                                   ageBracket: '18-29 years',
+                                    principal: 33_266 ,
+                                    M_1: 49_269 ,
+                                    M_2: 48_748 ,
+                                    M_3: 54_844 ,
+                                    M_4: 57_804 ,
+                                    M_5: 58_095 ,
+                                    M_6: 58_387 ,
+                                },
+                                {
+                                   ageBracket: '30-39 years',
+                                    principal: 33_266 ,
+                                    M_1: 49_269 ,
+                                    M_2: 48_748 ,
+                                    M_3: 54_844 ,
+                                    M_4: 57_804 ,
+                                    M_5: 58_095 ,
+                                    M_6: 58_387 ,
+                                },
+                                {
+                                   ageBracket: '40-49 years',
+                                    principal: 33_266 ,
+                                    M_1: 49_269 ,
+                                    M_2: 48_748 ,
+                                    M_3: 54_844 ,
+                                    M_4: 57_804 ,
+                                    M_5: 58_095 ,
+                                    M_6: 58_387 ,
+                                },
+                                {
+                                   ageBracket: '50-59 years',
+                                    principal: 33_266 ,
+                                    M_1: 49_269 ,
+                                    M_2: 48_748 ,
+                                    M_3: 54_844 ,
+                                    M_4: 57_804 ,
+                                    M_5: 58_095 ,
+                                    M_6: 58_387 ,
+                                },
+                                {
+                                   ageBracket: '60-65 years',
+                                    principal: 33_266 ,
+                                    M_1: 49_269 ,
+                                    M_2: 48_748 ,
+                                    M_3: 54_844 ,
+                                    M_4: 57_804 ,
+                                    M_5: 58_095 ,
+                                    M_6: 58_387 ,
+                                },
+                                {
+                                   ageBracket: '66+ years',
+                                    principal: 33_266 ,
+                                    M_1: 49_269 ,
+                                    M_2: 48_748 ,
+                                    M_3: 54_844 ,
+                                    M_4: 57_804 ,
+                                    M_5: 58_095 ,
+                                    M_6: 58_387 ,
+                                },
+                            ],
+                           },
+                           secondaryCoverFeatures : {
+                                maternityCover: {
+                                    amountOffered: 75_000,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover is offered within the inpatient limit',
+                                },      
+                                dentalCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover plan does not offer this',
+                                }, 
+                                opticalCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover plan does not offer this',
+                                },
+                                hospitalCovered: {
+                                    supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                                },
+                                co_payments: {
+                                    support: 'should state if this is supported or not'
+                                },
+                                preExisting_Conditions: {
+                                    coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                                },
+                            }
+                        },
+                        {   inpatientRates : { coverLimit: 5_000_000,
+                            ageLimits : [
+                                {
+                                   ageBracket: '18-29 years',
+                                    principal: 53_025 ,
+                                    spouse: 41_671 ,
+                                    child: 28_496 ,
+                                },
+                                {
+                                   ageBracket: '30-39 years',
+                                    principal: 56_437 ,
+                                    spouse: 43_799 ,
+                                    child: 28_496 ,
+                                },
+                                {
+                                   ageBracket: '40-49 years',
+                                    principal: 62_634 ,
+                                    spouse: 46_446 ,
+                                    child: 28_496 ,
+                                },
+                                {
+                                   ageBracket: '50-59 years',
+                                    principal: 82_030 ,
+                                    spouse: 54_280 ,
+                                    child: 28_496 ,
+                                },
+                                {
+                                   ageBracket: '60-65 years',
+                                    principal: 82_030 ,
+                                    spouse: 54_280 ,
+                                    child: 28_496 ,
+                                },
+                                {
+                                   ageBracket: '66+ years',
+                                    principal: 162_180 ,
+                                    spouse: 131_186 ,
+                                    child: 28_496 ,
+                                },
+                            ]
+                           },
+                           outpatientRates: {
+                            coverLimit: 50_000,
+                            ageLimits : [
+                                {
+                                    ageBracket: '18-29 years',
+                                    principal: 32_934,
+                                    M_1: 44_986 ,
+                                    M_2: 48_748 ,
+                                    M_3: 48_797 ,
+                                    M_4: 48_846 ,
+                                    M_5: 49_339 ,
+                                    M_6: 49_837 ,
+                                },
+                                {
+                                    ageBracket: '30-39 years',
+                                    principal: 32_934,
+                                    M_1: 44_986 ,
+                                    M_2: 48_748 ,
+                                    M_3: 48_797 ,
+                                    M_4: 48_846 ,
+                                    M_5: 49_339 ,
+                                    M_6: 49_837 ,
+                                },
+                                {
+                                    ageBracket: '40-49 years',
+                                    principal: 32_934,
+                                    M_1: 44_986 ,
+                                    M_2: 48_748 ,
+                                    M_3: 48_797 ,
+                                    M_4: 48_846 ,
+                                    M_5: 49_339 ,
+                                    M_6: 49_837 ,
+                                },
+                                {
+                                    ageBracket: '50-59 years',
+                                    principal: 32_934,
+                                    M_1: 44_986 ,
+                                    M_2: 48_748 ,
+                                    M_3: 48_797 ,
+                                    M_4: 48_846 ,
+                                    M_5: 49_339 ,
+                                    M_6: 49_837 ,
+                                },
+                                {
+                                    ageBracket: '60-65 years',
+                                    principal: 32_934,
+                                    M_1: 44_986 ,
+                                    M_2: 48_748 ,
+                                    M_3: 48_797 ,
+                                    M_4: 48_846 ,
+                                    M_5: 49_339 ,
+                                    M_6: 49_837 ,
+                                },
+                                {
+                                    ageBracket: '66+ years',
+                                    principal: 32_934 ,
+                                    M_1: 44_986 ,
+                                    M_2: 48_748 ,
+                                    M_3: 48_797 ,
+                                    M_4: 48_846 ,
+                                    M_5: 49_339 ,
+                                    M_6: 49_837 ,
+                                },
+                            ],
+                           },
+                           secondaryCoverFeatures : {
+                                maternityCover: {
+                                    amountOffered: 50_000,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover is provided within the inpatient limit',
+                                },      
+                                dentalCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover plan does not offer this',
+                                }, 
+                                opticalCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover plan does not offer this',
+                                },
+                                hospitalCovered: {
+                                    supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                                },
+                                co_payments: {
+                                    support: 'should state if this is supported or not'
+                                },
+                                preExisting_Conditions: {
+                                    coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                                },
+                            }
+                        },
                         {   inpatientRates : { coverLimit: 10_000_000,
                              ageLimits : [
                                  {
@@ -2065,7 +2857,534 @@ const individualInsurancePlans = {
                                  },
                              }
                         },
-                        
+                        {   inpatientRates : { coverLimit: 10_000_000,
+                            ageLimits : [
+                                {
+                                   ageBracket: '18-29 years',
+                                    principal: 60_535 ,
+                                    spouse: 46_337 ,
+                                    child: 31_578 ,
+                                },
+                                {
+                                   ageBracket: '30-39 years',
+                                    principal: 64_692 ,
+                                    spouse: 48_736 ,
+                                    child: 31_578 ,
+                                },
+                                {
+                                   ageBracket: '40-49 years',
+                                    principal: 68_870 ,
+                                    spouse: 49_650 ,
+                                    child: 31_578 ,
+                                },
+                                {
+                                   ageBracket: '50-59 years',
+                                    principal: 91_449 ,
+                                    spouse: 60_121 ,
+                                    child: 31_578 ,
+                                },
+                                {
+                                   ageBracket: '60-65 years',
+                                    principal: 91_449 ,
+                                    spouse: 60_121 ,
+                                    child: 31_578 ,
+                                },
+                               {
+                                   ageBracket: '66+ years',
+                                    principal: 185_511 ,
+                                    spouse: 145_655 ,
+                                    child: 31_578 ,
+                                },
+                            ]
+                           },
+                           outpatientRates: {
+                            coverLimit: 150_000,
+                            ageLimits : [
+                                {
+                                   ageBracket: '18-29 years',
+                                    principal: 37_892 ,
+                                    M_1: 70_452 ,
+                                    M_2: 88_794 ,
+                                    M_3: 106_762 ,
+                                    M_4: 121_829 ,
+                                    M_5: 136_895 ,
+                                    M_6: 148_202 ,
+                                },
+                                {
+                                   ageBracket: '30-39 years',
+                                    principal: 37_892 ,
+                                    M_1: 70_452 ,
+                                    M_2: 88_794 ,
+                                    M_3: 106_762 ,
+                                    M_4: 121_829 ,
+                                    M_5: 136_895 ,
+                                    M_6: 148_202 ,
+                                },
+                                {
+                                   ageBracket: '40-49 years',
+                                    principal: 37_892 ,
+                                    M_1: 70_452 ,
+                                    M_2: 88_794 ,
+                                    M_3: 106_762 ,
+                                    M_4: 121_829 ,
+                                    M_5: 136_895 ,
+                                    M_6: 148_202 ,
+                                },
+                                {
+                                   ageBracket: '50-59 years',
+                                    principal: 37_892 ,
+                                    M_1: 70_452 ,
+                                    M_2: 88_794 ,
+                                    M_3: 106_762 ,
+                                    M_4: 121_829 ,
+                                    M_5: 136_895 ,
+                                    M_6: 148_202 ,
+                                },
+                                {
+                                   ageBracket: '60-65 years',
+                                    principal: 37_892 ,
+                                    M_1: 70_452 ,
+                                    M_2: 88_794 ,
+                                    M_3: 106_762 ,
+                                    M_4: 121_829 ,
+                                    M_5: 136_895 ,
+                                    M_6: 148_202 ,
+                                },
+                                {
+                                   ageBracket: '66+ years',
+                                    principal: 37_892 ,
+                                    M_1: 70_452 ,
+                                    M_2: 88_794 ,
+                                    M_3: 106_762 ,
+                                    M_4: 121_829 ,
+                                    M_5: 136_895 ,
+                                    M_6: 148_202 ,
+                                },
+                            ],
+                           },
+                           secondaryCoverFeatures : {
+                                maternityCover: {
+                                    amountOffered: 150_000,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover is offered within the inpatient limit',
+                                },      
+                                dentalCover: {
+                                    amountOffered: 15_000,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover is offered within the outpatient limit',
+                                }, 
+                                opticalCover: {
+                                    amountOffered: 15_000,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover is offered within the outpatient limit',
+                                },
+                                hospitalCovered: {
+                                    supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                                },
+                                co_payments: {
+                                    support: 'should state if this is supported or not'
+                                },
+                                preExisting_Conditions: {
+                                    coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                                },
+                            }
+                        },
+                        {   inpatientRates : { coverLimit: 10_000_000,
+                            ageLimits : [
+                                {
+                                   ageBracket: '18-29 years',
+                                    principal: 60_535 ,
+                                    spouse: 46_337 ,
+                                    child: 31_578 ,
+                                },
+                                {
+                                   ageBracket: '30-39 years',
+                                    principal: 64_692 ,
+                                    spouse: 48_736 ,
+                                    child: 31_578 ,
+                                },
+                                {
+                                   ageBracket: '40-49 years',
+                                    principal: 68_870 ,
+                                    spouse: 49_650 ,
+                                    child: 31_578 ,
+                                },
+                                {
+                                   ageBracket: '50-59 years',
+                                    principal: 91_449 ,
+                                    spouse: 60_121 ,
+                                    child: 31_578 ,
+                                },
+                                {
+                                   ageBracket: '60-65 years',
+                                    principal: 91_449 ,
+                                    spouse: 60_121 ,
+                                    child: 31_578 ,
+                                },
+                               {
+                                   ageBracket: '66+ years',
+                                    principal: 185_511 ,
+                                    spouse: 145_655 ,
+                                    child: 31_578 ,
+                                },
+                            ]
+                           },
+                           outpatientRates: {
+                            coverLimit: 100_000,
+                            ageLimits : [
+                                {
+                                   ageBracket: '18-29 years',
+                                    principal:35_226 ,
+                                    M_1: 66_533 ,
+                                    M_2: 82_895 ,
+                                    M_3: 98_147 ,
+                                    M_4: 98_245 ,
+                                    M_5: 99_028 ,
+                                    M_6: 99_282 ,
+                                },
+                                {
+                                   ageBracket: '30-39 years',
+                                    principal:35_226 ,
+                                    M_1: 66_533 ,
+                                    M_2: 82_895 ,
+                                    M_3: 98_147 ,
+                                    M_4: 98_245 ,
+                                    M_5: 99_028 ,
+                                    M_6: 99_282 ,
+                                },
+                                {
+                                   ageBracket: '40-49 years',
+                                    principal:35_226 ,
+                                    M_1: 66_533 ,
+                                    M_2: 82_895 ,
+                                    M_3: 98_147 ,
+                                    M_4: 98_245 ,
+                                    M_5: 99_028 ,
+                                    M_6: 99_282 ,
+                                },
+                                {
+                                   ageBracket: '50-59 years',
+                                    principal:35_226 ,
+                                    M_1: 66_533 ,
+                                    M_2: 82_895 ,
+                                    M_3: 98_147 ,
+                                    M_4: 98_245 ,
+                                    M_5: 99_028 ,
+                                    M_6: 99_282 ,
+                                },
+                                {
+                                   ageBracket: '60-65 years',
+                                    principal:35_226 ,
+                                    M_1: 66_533 ,
+                                    M_2: 82_895 ,
+                                    M_3: 98_147 ,
+                                    M_4: 98_245 ,
+                                    M_5: 99_028 ,
+                                    M_6: 99_282 ,
+                                },
+                                {
+                                   ageBracket: '66+ years',
+                                    principal: 35_226 ,
+                                    M_1: 66_533 ,
+                                    M_2: 82_895 ,
+                                    M_3: 98_147 ,
+                                    M_4: 98_245 ,
+                                    M_5: 99_028 ,
+                                    M_6: 99_282 ,
+                                },
+                            ],
+                           },
+                           secondaryCoverFeatures : {
+                                maternityCover: {
+                                    amountOffered: 100_000,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover is offered within the inpateint limit',
+                                },      
+                                dentalCover: {
+                                    amountOffered: 10_000,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover is offered within the outpatient limit',
+                                }, 
+                                opticalCover: {
+                                    amountOffered: 10_000,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover is offered within the outpatient limit',
+                                },
+                                hospitalCovered: {
+                                    supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                                },
+                                co_payments: {
+                                    support: 'should state if this is supported or not'
+                                },
+                                preExisting_Conditions: {
+                                    coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                                },
+                            }
+                        },
+                        {   inpatientRates : { coverLimit: 10_000_000,
+                            ageLimits : [
+                                {
+                                   ageBracket: '18-29 years',
+                                    principal: 60_535 ,
+                                    spouse: 46_337 ,
+                                    child: 31_578 ,
+                                },
+                                {
+                                   ageBracket: '30-39 years',
+                                    principal: 64_692 ,
+                                    spouse: 48_736 ,
+                                    child: 31_578 ,
+                                },
+                                {
+                                   ageBracket: '40-49 years',
+                                    principal: 68_870 ,
+                                    spouse: 49_650 ,
+                                    child: 31_578 ,
+                                },
+                                {
+                                   ageBracket: '50-59 years',
+                                    principal: 91_449 ,
+                                    spouse: 60_121 ,
+                                    child: 31_578 ,
+                                },
+                                {
+                                   ageBracket: '60-65 years',
+                                    principal: 91_449 ,
+                                    spouse: 60_121 ,
+                                    child: 31_578 ,
+                                },
+                               {
+                                   ageBracket: '66+ years',
+                                    principal: 185_511 ,
+                                    spouse: 145_655 ,
+                                    child: 31_578 ,
+                                },
+                            ]
+                           },
+                           outpatientRates: {
+                            coverLimit: 60_000,
+                            ageLimits : [
+                                {
+                                   ageBracket: '18-29 years',
+                                    principal: 33_266 ,
+                                    M_1: 49_269 ,
+                                    M_2: 48_748 ,
+                                    M_3: 54_844 ,
+                                    M_4: 57_804 ,
+                                    M_5: 58_095 ,
+                                    M_6: 58_387 ,
+                                },
+                                {
+                                   ageBracket: '30-39 years',
+                                    principal: 33_266 ,
+                                    M_1: 49_269 ,
+                                    M_2: 48_748 ,
+                                    M_3: 54_844 ,
+                                    M_4: 57_804 ,
+                                    M_5: 58_095 ,
+                                    M_6: 58_387 ,
+                                },
+                                {
+                                   ageBracket: '40-49 years',
+                                    principal: 33_266 ,
+                                    M_1: 49_269 ,
+                                    M_2: 48_748 ,
+                                    M_3: 54_844 ,
+                                    M_4: 57_804 ,
+                                    M_5: 58_095 ,
+                                    M_6: 58_387 ,
+                                },
+                                {
+                                   ageBracket: '50-59 years',
+                                    principal: 33_266 ,
+                                    M_1: 49_269 ,
+                                    M_2: 48_748 ,
+                                    M_3: 54_844 ,
+                                    M_4: 57_804 ,
+                                    M_5: 58_095 ,
+                                    M_6: 58_387 ,
+                                },
+                                {
+                                   ageBracket: '60-65 years',
+                                    principal: 33_266 ,
+                                    M_1: 49_269 ,
+                                    M_2: 48_748 ,
+                                    M_3: 54_844 ,
+                                    M_4: 57_804 ,
+                                    M_5: 58_095 ,
+                                    M_6: 58_387 ,
+                                },
+                                {
+                                   ageBracket: '66+ years',
+                                    principal: 33_266 ,
+                                    M_1: 49_269 ,
+                                    M_2: 48_748 ,
+                                    M_3: 54_844 ,
+                                    M_4: 57_804 ,
+                                    M_5: 58_095 ,
+                                    M_6: 58_387 ,
+                                },
+                            ],
+                           },
+                           secondaryCoverFeatures : {
+                                maternityCover: {
+                                    amountOffered: 75_000,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover is offered within the inpatient limit',
+                                },      
+                                dentalCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover plan does not offer this',
+                                }, 
+                                opticalCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover plan does not offer this',
+                                },
+                                hospitalCovered: {
+                                    supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                                },
+                                co_payments: {
+                                    support: 'should state if this is supported or not'
+                                },
+                                preExisting_Conditions: {
+                                    coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                                },
+                            }
+                        },
+                        {   inpatientRates : { coverLimit: 10_000_000,
+                            ageLimits : [
+                                {
+                                   ageBracket: '18-29 years',
+                                    principal: 60_535 ,
+                                    spouse: 46_337 ,
+                                    child: 31_578 ,
+                                },
+                                {
+                                   ageBracket: '30-39 years',
+                                    principal: 64_692 ,
+                                    spouse: 48_736 ,
+                                    child: 31_578 ,
+                                },
+                                {
+                                   ageBracket: '40-49 years',
+                                    principal: 68_870 ,
+                                    spouse: 49_650 ,
+                                    child: 31_578 ,
+                                },
+                                {
+                                   ageBracket: '50-59 years',
+                                    principal: 91_449 ,
+                                    spouse: 60_121 ,
+                                    child: 31_578 ,
+                                },
+                                {
+                                   ageBracket: '60-65 years',
+                                    principal: 91_449 ,
+                                    spouse: 60_121 ,
+                                    child: 31_578 ,
+                                },
+                               {
+                                   ageBracket: '66+ years',
+                                    principal: 185_511 ,
+                                    spouse: 145_655 ,
+                                    child: 31_578 ,
+                                },
+                            ]
+                           },
+                           outpatientRates: {
+                            coverLimit: 50_000,
+                            ageLimits : [
+                                {
+                                    ageBracket: '18-29 years',
+                                    principal: 32_934,
+                                    M_1: 44_986 ,
+                                    M_2: 48_748 ,
+                                    M_3: 48_797 ,
+                                    M_4: 48_846 ,
+                                    M_5: 49_339 ,
+                                    M_6: 49_837 ,
+                                },
+                                {
+                                    ageBracket: '30-39 years',
+                                    principal: 32_934,
+                                    M_1: 44_986 ,
+                                    M_2: 48_748 ,
+                                    M_3: 48_797 ,
+                                    M_4: 48_846 ,
+                                    M_5: 49_339 ,
+                                    M_6: 49_837 ,
+                                },
+                                {
+                                    ageBracket: '40-49 years',
+                                    principal: 32_934,
+                                    M_1: 44_986 ,
+                                    M_2: 48_748 ,
+                                    M_3: 48_797 ,
+                                    M_4: 48_846 ,
+                                    M_5: 49_339 ,
+                                    M_6: 49_837 ,
+                                },
+                                {
+                                    ageBracket: '50-59 years',
+                                    principal: 32_934,
+                                    M_1: 44_986 ,
+                                    M_2: 48_748 ,
+                                    M_3: 48_797 ,
+                                    M_4: 48_846 ,
+                                    M_5: 49_339 ,
+                                    M_6: 49_837 ,
+                                },
+                                {
+                                    ageBracket: '60-65 years',
+                                    principal: 32_934,
+                                    M_1: 44_986 ,
+                                    M_2: 48_748 ,
+                                    M_3: 48_797 ,
+                                    M_4: 48_846 ,
+                                    M_5: 49_339 ,
+                                    M_6: 49_837 ,
+                                },
+                                {
+                                    ageBracket: '66+ years',
+                                    principal: 32_934 ,
+                                    M_1: 44_986 ,
+                                    M_2: 48_748 ,
+                                    M_3: 48_797 ,
+                                    M_4: 48_846 ,
+                                    M_5: 49_339 ,
+                                    M_6: 49_837 ,
+                                },
+                            ],
+                           },
+                           secondaryCoverFeatures : {
+                                maternityCover: {
+                                    amountOffered: 50_000,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover is provided within the inpatient limit',
+                                },      
+                                dentalCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover plan does not offer this',
+                                }, 
+                                opticalCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover plan does not offer this',
+                                },
+                                hospitalCovered: {
+                                    supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                                },
+                                co_payments: {
+                                    support: 'should state if this is supported or not'
+                                },
+                                preExisting_Conditions: {
+                                    coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                                },
+                            }
+                       },
                     ]
                 },
                 {   coverName: 'UAP Old Mutual Afyaimara Seniors',
@@ -2158,6 +3477,50 @@ const individualInsurancePlans = {
                                  },
                              }
                         },
+                        {  inpatientRates : { coverLimit: 1_000_000,
+                            ageLimits : [
+                                {
+                                   ageBracket: '66+ years',
+                                    principal: 132_299 ,
+                                },
+                            ]
+                           },
+                           outpatientRates: {
+                            coverLimit: 100_000,
+                            ageLimits : [
+                                {
+                                    ageBracket: '66+ years',
+                                    principal: 94_968 ,
+                                },
+                            ],
+                           },
+                           secondaryCoverFeatures : {
+                                maternityCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover plan does not offer this',
+                                },      
+                                dentalCover: {
+                                    amountOffered: 20_000,
+                                    coverPremium: 16_176,
+                                    coverStatus: 'The cover is offered within the outpatient limit',
+                                }, 
+                                opticalCover: {
+                                    amountOffered: 20_000,
+                                    coverPremium: 16_176,
+                                    coverStatus: 'The cover is offered within the outpatient limit',
+                                },
+                                hospitalCovered: {
+                                    supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                                },
+                                co_payments: {
+                                    support: 'should state if this is supported or not'
+                                },
+                                preExisting_Conditions: {
+                                    coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                                },
+                            }
+                        },
                         {  inpatientRates : { coverLimit: 3_000_000,
                              ageLimits : [
                                  {
@@ -2201,6 +3564,94 @@ const individualInsurancePlans = {
                                      coverStatus: 'all pre-existing conditions will be activated after 1 year'
                                  },
                              }
+                        },
+                        {  inpatientRates : { coverLimit: 3_000_000,
+                            ageLimits : [
+                                {
+                                   ageBracket: '66+ years',
+                                    principal: 178_535 ,
+                                },
+                            ]
+                           },
+                           outpatientRates: {
+                            coverLimit: 150_000,
+                            ageLimits : [
+                                {
+                                   ageBracket: '66+ years',
+                                    principal: 101_270 ,
+                                },
+                            ],
+                           },
+                           secondaryCoverFeatures : {
+                                maternityCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover plan does not offer this',
+                                },      
+                                dentalCover: {
+                                    amountOffered: 20_000,
+                                    coverPremium: 16_176,
+                                    coverStatus: 'The cover is offered within the outpatient limit',
+                                }, 
+                                opticalCover: {
+                                    amountOffered: 20_000,
+                                    coverPremium: 16_176,
+                                    coverStatus: 'The cover is offered within the outpatient limit',
+                                },
+                                hospitalCovered: {
+                                    supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                                },
+                                co_payments: {
+                                    support: 'should state if this is supported or not'
+                                },
+                                preExisting_Conditions: {
+                                    coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                                },
+                            }
+                        },
+                        {  inpatientRates : { coverLimit: 3_000_000,
+                        ageLimits : [
+                            {
+                               ageBracket: '66+ years',
+                                principal: 178_535 ,
+                            },
+                        ]
+                       },
+                       outpatientRates: {
+                        coverLimit: 100_000,
+                        ageLimits : [
+                            {
+                                ageBracket: '66+ years',
+                                principal: 94_968 ,
+                            },
+                        ],
+                       },
+                       secondaryCoverFeatures : {
+                            maternityCover: {
+                                amountOffered: 0,
+                                coverPremium: 0,
+                                coverStatus: 'The cover plan does not offer this',
+                            },      
+                            dentalCover: {
+                                amountOffered: 20_000,
+                                coverPremium: 16_176,
+                                coverStatus: 'The cover is offered within the outpatient limit',
+                            }, 
+                            opticalCover: {
+                                amountOffered: 20_000,
+                                coverPremium: 16_176,
+                                coverStatus: 'The cover is offered within the outpatient limit',
+                            },
+                            hospitalCovered: {
+                                supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                            },
+                            co_payments: {
+                                support: 'should state if this is supported or not'
+                            },
+                            preExisting_Conditions: {
+                                coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                            },
+                        }
                         },
                         {  inpatientRates : { coverLimit: 5_000_000,
                              ageLimits : [
@@ -2246,6 +3697,138 @@ const individualInsurancePlans = {
                                  },
                              }
                         },
+                        {  inpatientRates : { coverLimit: 5_000_000,
+                            ageLimits : [
+                                {
+                                   ageBracket: '66+ years',
+                                    principal: 206_231 ,
+                                },
+                            ]
+                           },
+                           outpatientRates: {
+                            coverLimit: 200_000,
+                            ageLimits : [
+                                {
+                                   ageBracket: '66+ years',
+                                    'M': 107_534 ,
+                                },
+                            ],
+                           },
+                           secondaryCoverFeatures : {
+                                maternityCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover plan does not offer this',
+                                },      
+                                dentalCover: {
+                                    amountOffered: 20_000,
+                                    coverPremium: 16_176,
+                                    coverStatus: 'The cover is offered at the stated premium rates',
+                                }, 
+                                opticalCover: {
+                                    amountOffered: 20_000,
+                                    coverPremium: 16_176,
+                                    coverStatus: 'The cover is offered at the stated premium rates',
+                                },
+                                hospitalCovered: {
+                                    supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                                },
+                                co_payments: {
+                                    support: 'should state if this is supported or not'
+                                },
+                                preExisting_Conditions: {
+                                    coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                                },
+                            }
+                        },
+                        {  inpatientRates : { coverLimit: 5_000_000,
+                        ageLimits : [
+                            {
+                               ageBracket: '66+ years',
+                                principal: 206_231 ,
+                            },
+                        ]
+                       },
+                       outpatientRates: {
+                        coverLimit: 150_000,
+                        ageLimits : [
+                            {
+                               ageBracket: '66+ years',
+                                principal: 101_270 ,
+                            },
+                        ],
+                       },
+                       secondaryCoverFeatures : {
+                            maternityCover: {
+                                amountOffered: 0,
+                                coverPremium: 0,
+                                coverStatus: 'The cover plan does not offer this',
+                            },      
+                            dentalCover: {
+                                amountOffered: 20_000,
+                                coverPremium: 16_176,
+                                coverStatus: 'The cover is offered within the outpatient limit',
+                            }, 
+                            opticalCover: {
+                                amountOffered: 20_000,
+                                coverPremium: 16_176,
+                                coverStatus: 'The cover is offered within the outpatient limit',
+                            },
+                            hospitalCovered: {
+                                supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                            },
+                            co_payments: {
+                                support: 'should state if this is supported or not'
+                            },
+                            preExisting_Conditions: {
+                                coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                            },
+                        }
+                        },
+                        {  inpatientRates : { coverLimit: 5_000_000,
+                    ageLimits : [
+                        {
+                           ageBracket: '66+ years',
+                            principal: 206_231 ,
+                        },
+                    ]
+                   },
+                   outpatientRates: {
+                    coverLimit: 100_000,
+                    ageLimits : [
+                        {
+                            ageBracket: '66+ years',
+                            principal: 94_968 ,
+                        },
+                    ],
+                   },
+                   secondaryCoverFeatures : {
+                        maternityCover: {
+                            amountOffered: 0,
+                            coverPremium: 0,
+                            coverStatus: 'The cover plan does not offer this',
+                        },      
+                        dentalCover: {
+                            amountOffered: 20_000,
+                            coverPremium: 16_176,
+                            coverStatus: 'The cover is offered within the outpatient limit',
+                        }, 
+                        opticalCover: {
+                            amountOffered: 20_000,
+                            coverPremium: 16_176,
+                            coverStatus: 'The cover is offered within the outpatient limit',
+                        },
+                        hospitalCovered: {
+                            supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                        },
+                        co_payments: {
+                            support: 'should state if this is supported or not'
+                        },
+                        preExisting_Conditions: {
+                            coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                        },
+                    }
+                        },
                         {  inpatientRates : { coverLimit: 10_000_000,
                             ageLimits : [
                                 {
@@ -2289,7 +3872,139 @@ const individualInsurancePlans = {
                                     coverStatus: 'all pre-existing conditions will be activated after 1 year'
                                 },
                             }
-                       },
+                        },
+                        {  inpatientRates : { coverLimit: 10_000_000,
+                            ageLimits : [
+                                {
+                                    ageBracket: '66+ years',
+                                    principal: 229_049 ,
+                                },
+                            ]
+                           },
+                           outpatientRates: {
+                            coverLimit: 200_000,
+                            ageLimits : [
+                                {
+                                   ageBracket: '66+ years',
+                                    'M': 107_534 ,
+                                },
+                            ],
+                           },
+                           secondaryCoverFeatures : {
+                                maternityCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover plan does not offer this',
+                                },      
+                                dentalCover: {
+                                    amountOffered: 20_000,
+                                    coverPremium: 16_176,
+                                    coverStatus: 'The cover is offered at the stated premium rates',
+                                }, 
+                                opticalCover: {
+                                    amountOffered: 20_000,
+                                    coverPremium: 16_176,
+                                    coverStatus: 'The cover is offered at the stated premium rates',
+                                },
+                                hospitalCovered: {
+                                    supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                                },
+                                co_payments: {
+                                    support: 'should state if this is supported or not'
+                                },
+                                preExisting_Conditions: {
+                                    coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                                },
+                            }
+                        },
+                        {  inpatientRates : { coverLimit: 10_000_000,
+                            ageLimits : [
+                                {
+                                    ageBracket: '66+ years',
+                                    principal: 229_049 ,
+                                },
+                            ]
+                           },
+                           outpatientRates: {
+                            coverLimit: 150_000,
+                            ageLimits : [
+                                {
+                                   ageBracket: '66+ years',
+                                    principal: 101_270 ,
+                                },
+                            ],
+                           },
+                           secondaryCoverFeatures : {
+                                maternityCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover plan does not offer this',
+                                },      
+                                dentalCover: {
+                                    amountOffered: 20_000,
+                                    coverPremium: 16_176,
+                                    coverStatus: 'The cover is offered within the outpatient limit',
+                                }, 
+                                opticalCover: {
+                                    amountOffered: 20_000,
+                                    coverPremium: 16_176,
+                                    coverStatus: 'The cover is offered within the outpatient limit',
+                                },
+                                hospitalCovered: {
+                                    supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                                },
+                                co_payments: {
+                                    support: 'should state if this is supported or not'
+                                },
+                                preExisting_Conditions: {
+                                    coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                                },
+                            }
+                        },
+                        {  inpatientRates : { coverLimit: 10_000_000,
+                            ageLimits : [
+                                {
+                                    ageBracket: '66+ years',
+                                    principal: 229_049 ,
+                                },
+                            ]
+                           },
+                           outpatientRates: {
+                            coverLimit: 100_000,
+                            ageLimits : [
+                                {
+                                    ageBracket: '66+ years',
+                                    principal: 94_968 ,
+                                },
+                            ],
+                           },
+                           secondaryCoverFeatures : {
+                                maternityCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover plan does not offer this',
+                                },      
+                                dentalCover: {
+                                    amountOffered: 20_000,
+                                    coverPremium: 16_176,
+                                    coverStatus: 'The cover is offered within the outpatient limit',
+                                }, 
+                                opticalCover: {
+                                    amountOffered: 20_000,
+                                    coverPremium: 16_176,
+                                    coverStatus: 'The cover is offered within the outpatient limit',
+                                },
+                                hospitalCovered: {
+                                    supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                                },
+                                co_payments: {
+                                    support: 'should state if this is supported or not'
+                                },
+                                preExisting_Conditions: {
+                                    coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                                },
+                            }
+                        },
                     ]
                 },
                 {   coverName: 'UAP Old Mutual Afyaimara County',
@@ -2298,33 +4013,33 @@ const individualInsurancePlans = {
                             ageLimits : [
                                 {
                                     ageBracket: '18-29 years',
-                                    principal: 10_740 ,
-                                    spouse: 8_994 ,
-                                    child: 4_994 ,
+                                    principal: 11_184 ,
+                                    spouse: 9_438 ,
+                                    child: 5_438 ,
                                 },
                                 {
                                     ageBracket: '30-39 years',
-                                    principal: 11_308 ,
-                                    spouse: 9_402 ,
-                                    child: 4_994 ,
+                                    principal: 11_752 ,
+                                    spouse: 9_846 ,
+                                    child: 5_438 ,
                                 },
                                 {
                                     ageBracket: '40-49 years',
-                                    principal: 13_656 ,
-                                    spouse: 11_278 ,
-                                    child: 4_994 ,
+                                    principal: 14_100 ,
+                                    spouse: 11_722 ,
+                                    child: 5_438 ,
                                 },
                                 {
                                     ageBracket: '50-59 years',
-                                    principal: 17_218 ,
-                                    spouse: 14_156 ,
-                                    child: 4_994 ,
+                                    principal: 17_662 ,
+                                    spouse: 14_600 ,
+                                    child: 5_438 ,
                                 },
                                 {
                                     ageBracket: '60-65 years',
-                                    principal: 17_218 ,
-                                    spouse: 14_156 ,
-                                    child: 4_994 ,
+                                    principal: 17_662 ,
+                                    spouse: 14_600 ,
+                                    child: 5_438 ,
                                 },
                             ]
                            },
@@ -2409,33 +4124,33 @@ const individualInsurancePlans = {
                              ageLimits : [
                                  {
                                     ageBracket: '18-29 years',
-                                     principal: 13_724 ,
-                                     spouse: 10_114 ,
-                                     child: 5_616 ,
+                                     principal: 14_833 ,
+                                     spouse: 11_223 ,
+                                     child: 6_725 ,
                                  },
                                  {
                                     ageBracket: '30-39 years',
-                                     principal: 14_362 ,
-                                     spouse: 10_572 ,
-                                     child: 5_616 ,
+                                     principal: 15_471 ,
+                                     spouse: 11_681 ,
+                                     child: 6_725 ,
                                  },
                                  {
                                     ageBracket: '40-49 years',
-                                     principal: 17_002 ,
-                                     spouse: 12_682 ,
-                                     child: 5_616 ,
+                                     principal: 18_111 ,
+                                     spouse: 13_791 ,
+                                     child: 6_725 ,
                                  },
                                  {
                                     ageBracket: '50-59 years',
-                                     principal: 21_008 ,
-                                     spouse: 15_918 ,
-                                     child: 5_616 ,
+                                     principal: 22_117 ,
+                                     spouse: 17_027 ,
+                                     child: 6_725 ,
                                  },
                                  {
                                     ageBracket: '60-65 years',
-                                     principal: 21_008 ,
-                                     spouse: 15_918 ,
-                                     child: 5_616 ,
+                                     principal: 22_117 ,
+                                     spouse: 17_027 ,
+                                     child: 6_725 ,
                                  },
                              ]
                             },
@@ -2516,37 +4231,148 @@ const individualInsurancePlans = {
                                  },
                              }
                         },
+                        {   inpatientRates : { coverLimit: 250_000,
+                            ageLimits : [
+                                {
+                                   ageBracket: '18-29 years',
+                                    principal: 14_833 ,
+                                    spouse: 11_223 ,
+                                    child: 6_725 ,
+                                },
+                                {
+                                   ageBracket: '30-39 years',
+                                    principal: 15_471 ,
+                                    spouse: 11_681 ,
+                                    child: 6_725 ,
+                                },
+                                {
+                                   ageBracket: '40-49 years',
+                                    principal: 18_111 ,
+                                    spouse: 13_791 ,
+                                    child: 6_725 ,
+                                },
+                                {
+                                   ageBracket: '50-59 years',
+                                    principal: 22_117 ,
+                                    spouse: 17_027 ,
+                                    child: 6_725 ,
+                                },
+                                {
+                                   ageBracket: '60-65 years',
+                                    principal: 22_117 ,
+                                    spouse: 17_027 ,
+                                    child: 6_725 ,
+                                },
+                            ]
+                           },
+                           outpatientRates: {
+                            coverLimit: 25_000,
+                            ageLimits : [
+                                {
+                                    ageBracket: '18-29 years',
+                                    principal: 9_390 ,
+                                    M_1: 10_841 ,
+                                    M_2: 15_921 ,
+                                    M_3: 21_002 ,
+                                    M_4: 23_856 ,
+                                    M_5: 24_603 ,
+                                },
+                                {
+                                    ageBracket: '30-39 years',
+                                    principal: 9_390 ,
+                                    M_1: 10_841 ,
+                                    M_2: 15_921 ,
+                                    M_3: 21_002 ,
+                                    M_4: 23_856 ,
+                                    M_5: 24_603 ,
+                                },
+                                {
+                                    ageBracket: '40-49 years',
+                                    principal: 9_390 ,
+                                    M_1: 10_841 ,
+                                    M_2: 15_921 ,
+                                    M_3: 21_002 ,
+                                    M_4: 23_856 ,
+                                    M_5: 24_603 ,
+                                },
+                                {
+                                    ageBracket: '50-59 years',
+                                    principal: 9_390 ,
+                                    M_1: 10_841 ,
+                                    M_2: 15_921 ,
+                                    M_3: 21_002 ,
+                                    M_4: 23_856 ,
+                                    M_5: 24_603 ,
+                                },
+                                {
+                                    ageBracket: '60-65 years',
+                                    principal: 9_390 ,
+                                    M_1: 10_841 ,
+                                    M_2: 15_921 ,
+                                    M_3: 21_002 ,
+                                    M_4: 23_856 ,
+                                    M_5: 24_603 ,
+                                },
+                            ],
+                           },
+                           secondaryCoverFeatures : {
+                                maternityCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover plan does not offer this',
+                                },      
+                                dentalCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover plan does not offer this',
+                                }, 
+                                opticalCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover plan does not offer this',
+                                },
+                                hospitalCovered: {
+                                    supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                                },
+                                co_payments: {
+                                    support: 'should state if this is supported or not'
+                                },
+                                preExisting_Conditions: {
+                                    coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                                },
+                            }
+                        },
                         {   inpatientRates : { coverLimit: 500_000,
                              ageLimits : [
                                  {
                                     ageBracket: '18-29 years',
-                                     principal: 21_711 ,
-                                     spouse: 16_340 ,
-                                     child: 9_074 ,
+                                     principal: 23_189 ,
+                                     spouse: 17_818 ,
+                                     child: 10_552 ,
                                  },
                                  {
                                     ageBracket: '30-39 years',
-                                     principal: 22_725 ,
-                                     spouse: 17_160 ,
-                                     child: 9_074 ,
+                                     principal: 24_203 ,
+                                     spouse: 18_638 ,
+                                     child: 10_552 ,
                                  },
                                  {
                                     ageBracket: '40-49 years',
-                                     principal: 27_017 ,
-                                     spouse: 20_594 ,
-                                     child: 9_074 ,
+                                     principal: 28_495 ,
+                                     spouse: 22_072 ,
+                                     child: 10_552 ,
                                  },
                                  {
                                     ageBracket: '50-59 years',
-                                     principal: 32_967 ,
-                                     spouse: 25_144 ,
-                                     child: 9_074 ,
+                                     principal: 34_445 ,
+                                     spouse: 26_662 ,
+                                     child: 10_552 ,
                                  },
                                  {
                                     ageBracket: '60-65 years',
-                                     principal: 32_967 ,
-                                     spouse: 25_144 ,
-                                     child: 9_074 ,
+                                     principal: 34_445 ,
+                                     spouse: 26_662 ,
+                                     child: 10_552 ,
                                  },
                              ]
                             },
@@ -2627,37 +4453,259 @@ const individualInsurancePlans = {
                                  },
                              }
                         },
+                        {   inpatientRates : { coverLimit: 500_000,
+                            ageLimits : [
+                                {
+                                   ageBracket: '18-29 years',
+                                    principal: 23_189 ,
+                                    spouse: 17_818 ,
+                                    child: 10_552 ,
+                                },
+                                {
+                                   ageBracket: '30-39 years',
+                                    principal: 24_203 ,
+                                    spouse: 18_638 ,
+                                    child: 10_552 ,
+                                },
+                                {
+                                   ageBracket: '40-49 years',
+                                    principal: 28_495 ,
+                                    spouse: 22_072 ,
+                                    child: 10_552 ,
+                                },
+                                {
+                                   ageBracket: '50-59 years',
+                                    principal: 34_445 ,
+                                    spouse: 26_662 ,
+                                    child: 10_552 ,
+                                },
+                                {
+                                   ageBracket: '60-65 years',
+                                    principal: 34_445 ,
+                                    spouse: 26_662 ,
+                                    child: 10_552 ,
+                                },
+                            ]
+                           },
+                           outpatientRates: {
+                            coverLimit: 25_000,
+                            ageLimits : [
+                                {
+                                    ageBracket: '18-29 years',
+                                    principal: 9_390 ,
+                                    M_1: 10_841 ,
+                                    M_2: 15_921 ,
+                                    M_3: 21_002 ,
+                                    M_4: 23_856 ,
+                                    M_5: 24_603 ,
+                                },
+                                {
+                                    ageBracket: '30-39 years',
+                                    principal: 9_390 ,
+                                    M_1: 10_841 ,
+                                    M_2: 15_921 ,
+                                    M_3: 21_002 ,
+                                    M_4: 23_856 ,
+                                    M_5: 24_603 ,
+                                },
+                                {
+                                    ageBracket: '40-49 years',
+                                    principal: 9_390 ,
+                                    M_1: 10_841 ,
+                                    M_2: 15_921 ,
+                                    M_3: 21_002 ,
+                                    M_4: 23_856 ,
+                                    M_5: 24_603 ,
+                                },
+                                {
+                                    ageBracket: '50-59 years',
+                                    principal: 9_390 ,
+                                    M_1: 10_841 ,
+                                    M_2: 15_921 ,
+                                    M_3: 21_002 ,
+                                    M_4: 23_856 ,
+                                    M_5: 24_603 ,
+                                },
+                                {
+                                    ageBracket: '60-65 years',
+                                    principal: 9_390 ,
+                                    M_1: 10_841 ,
+                                    M_2: 15_921 ,
+                                    M_3: 21_002 ,
+                                    M_4: 23_856 ,
+                                    M_5: 24_603 ,
+                                },
+                            ],
+                           },
+                           secondaryCoverFeatures : {
+                                maternityCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover plan does not offer this',
+                                },      
+                                dentalCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover plan does not offer this',
+                                }, 
+                                opticalCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover plan does not offer this',
+                                },
+                                hospitalCovered: {
+                                    supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                                },
+                                co_payments: {
+                                    support: 'should state if this is supported or not'
+                                },
+                                preExisting_Conditions: {
+                                    coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                                },
+                            }
+                        },
+                        {   inpatientRates : { coverLimit: 500_000,
+                        ageLimits : [
+                            {
+                               ageBracket: '18-29 years',
+                                principal: 23_189 ,
+                                spouse: 17_818 ,
+                                child: 10_552 ,
+                            },
+                            {
+                               ageBracket: '30-39 years',
+                                principal: 24_203 ,
+                                spouse: 18_638 ,
+                                child: 10_552 ,
+                            },
+                            {
+                               ageBracket: '40-49 years',
+                                principal: 28_495 ,
+                                spouse: 22_072 ,
+                                child: 10_552 ,
+                            },
+                            {
+                               ageBracket: '50-59 years',
+                                principal: 34_445 ,
+                                spouse: 26_662 ,
+                                child: 10_552 ,
+                            },
+                            {
+                               ageBracket: '60-65 years',
+                                principal: 34_445 ,
+                                spouse: 26_662 ,
+                                child: 10_552 ,
+                            },
+                        ]
+                       },
+                       outpatientRates: {
+                        coverLimit: 40_000,
+                        ageLimits : [
+                               {
+                                   ageBracket: '18-29 years',
+                                    principal: 10_821 ,
+                                    M_1: 18_050 ,
+                                    M_2: 22_120 ,
+                                    M_3: 26_647 ,
+                                    M_4: 30_788 ,
+                                    M_5: 34_661 ,
+                                },
+                                {
+                                   ageBracket: '30-39 years',
+                                    principal: 10_821 ,
+                                    M_1: 18_050 ,
+                                    M_2: 22_120 ,
+                                    M_3: 26_647 ,
+                                    M_4: 30_788 ,
+                                    M_5: 34_661 ,
+                                },
+                                {
+                                   ageBracket: '40-49 years',
+                                    principal: 10_821 ,
+                                    M_1: 18_050 ,
+                                    M_2: 22_120 ,
+                                    M_3: 26_647 ,
+                                    M_4: 30_788 ,
+                                    M_5: 34_661 ,
+                                },
+                                {
+                                   ageBracket: '50-59 years',
+                                    principal: 10_821 ,
+                                    M_1: 18_050 ,
+                                    M_2: 22_120 ,
+                                    M_3: 26_647 ,
+                                    M_4: 30_788 ,
+                                    M_5: 34_661 ,
+                                },
+                                {
+                                   ageBracket: '60-65 years',
+                                    principal: 10_821 ,
+                                    M_1: 18_050 ,
+                                    M_2: 22_120 ,
+                                    M_3: 26_647 ,
+                                    M_4: 30_788 ,
+                                    M_5: 34_661 ,
+                                },
+                        ],
+                       },
+                       secondaryCoverFeatures : {
+                            maternityCover: {
+                                amountOffered: 30_000,
+                                coverPremium: 0,
+                                coverStatus: 'The cover is offered within the inpatiet limit',
+                            },      
+                            dentalCover: {
+                                amountOffered: 0,
+                                coverPremium: 0,
+                                coverStatus: 'The cover plan does not offer this',
+                            }, 
+                            opticalCover: {
+                                amountOffered: 0,
+                                coverPremium: 0,
+                                coverStatus: 'The cover plan does not offer this',
+                            },
+                            hospitalCovered: {
+                                supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                            },
+                            co_payments: {
+                                support: 'should state if this is supported or not'
+                            },
+                            preExisting_Conditions: {
+                                coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                            },
+                        }
+                        },
                         {   inpatientRates : { coverLimit: 1_000_000,
                              ageLimits : [
                                  {
                                     ageBracket: '18-29 years',
-                                     principal: 24_690,
-                                     spouse: 18_270 ,
-                                     child: 11_638 ,
+                                     principal: 26_908,
+                                     spouse: 20_488 ,
+                                     child: 13_856 ,
                                  },
                                  {
                                     ageBracket: '30-39 years',
-                                     principal: 25_850 ,
-                                     spouse: 19_210 ,
-                                     child: 11_638 ,
+                                     principal: 28_068 ,
+                                     spouse: 21_428 ,
+                                     child: 13_856 ,
                                  },
                                  {
                                     ageBracket: '40-49 years',
-                                     principal: 30_646 ,
-                                     spouse: 23_044 ,
-                                     child: 11_638 ,
+                                     principal: 32_864 ,
+                                     spouse: 25_262 ,
+                                     child: 13_856 ,
                                  },
                                  {
                                     ageBracket: '50-59 years',
-                                     principal: 37_926 ,
-                                     spouse: 28_924 ,
-                                     child: 11_638 ,
+                                     principal: 40_144 ,
+                                     spouse: 31_142 ,
+                                     child: 13_856 ,
                                  },
                                  {
                                     ageBracket: '60-65 years',
-                                     principal: 37_926 ,
-                                     spouse: 28_924 ,
-                                     child: 11_638 ,
+                                     principal: 40_144 ,
+                                     spouse: 31_142 ,
+                                     child: 13_856 ,
                                  },
                              ]
                             },
@@ -2737,6 +4785,339 @@ const individualInsurancePlans = {
                                      coverStatus: 'all pre-existing conditions will be activated after 1 year'
                                  },
                              }
+                        }, 
+                        {   inpatientRates : { coverLimit: 1_000_000,
+                            ageLimits : [
+                                {
+                                   ageBracket: '18-29 years',
+                                    principal: 26_908,
+                                    spouse: 20_488 ,
+                                    child: 13_856 ,
+                                },
+                                {
+                                   ageBracket: '30-39 years',
+                                    principal: 28_068 ,
+                                    spouse: 21_428 ,
+                                    child: 13_856 ,
+                                },
+                                {
+                                   ageBracket: '40-49 years',
+                                    principal: 32_864 ,
+                                    spouse: 25_262 ,
+                                    child: 13_856 ,
+                                },
+                                {
+                                   ageBracket: '50-59 years',
+                                    principal: 40_144 ,
+                                    spouse: 31_142 ,
+                                    child: 13_856 ,
+                                },
+                                {
+                                   ageBracket: '60-65 years',
+                                    principal: 40_144 ,
+                                    spouse: 31_142 ,
+                                    child: 13_856 ,
+                                },
+                            ]
+                           },
+                           outpatientRates: {
+                            coverLimit: 50_000,
+                            ageLimits : [
+                                {
+                                   ageBracket: '18-29 years',
+                                    principal: 11_775 ,
+                                    M_1: 22_856 ,
+                                    M_2: 26_252 ,
+                                    M_3: 30_411 ,
+                                    M_4: 35_408 ,
+                                    M_5: 41_366 ,
+                                },
+                                {
+                                   ageBracket: '30-39 years',
+                                    principal: 11_775 ,
+                                    M_1: 22_856 ,
+                                    M_2: 26_252 ,
+                                    M_3: 30_411 ,
+                                    M_4: 35_408 ,
+                                    M_5: 41_366 ,
+                                },
+                                {
+                                   ageBracket: '40-49 years',
+                                    principal: 11_775 ,
+                                    M_1: 22_856 ,
+                                    M_2: 26_252 ,
+                                    M_3: 30_411 ,
+                                    M_4: 35_408 ,
+                                    M_5: 41_366 ,
+                                },
+                                {
+                                   ageBracket: '50-59 years',
+                                    principal: 11_775 ,
+                                    M_1: 22_856 ,
+                                    M_2: 26_252 ,
+                                    M_3: 30_411 ,
+                                    M_4: 35_408 ,
+                                    M_5: 41_366 ,
+                                },
+                                {
+                                   ageBracket: '60-65 years',
+                                    principal: 11_775 ,
+                                    M_1: 22_856 ,
+                                    M_2: 26_252 ,
+                                    M_3: 30_411 ,
+                                    M_4: 35_408 ,
+                                    M_5: 41_366 ,
+                                },
+                            ],
+                           },
+                           secondaryCoverFeatures : {
+                                maternityCover: {
+                                    amountOffered: 40_000,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover is offered within the inpatient limit',
+                                },      
+                                dentalCover: {
+                                    amountOffered: 10_000,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover is offered within the outpatient limit',
+                                }, 
+                                opticalCover: {
+                                    amountOffered: 10_000,
+                                    coverPremium: 0,
+                                    coverStatus: 'The cover is offered within the outpatient limit',
+                                },
+                                hospitalCovered: {
+                                    supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                                },
+                                co_payments: {
+                                    support: 'should state if this is supported or not'
+                                },
+                                preExisting_Conditions: {
+                                    coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                                },
+                            }
+                        }, 
+                        {   inpatientRates : { coverLimit: 1_000_000,
+                        ageLimits : [
+                            {
+                               ageBracket: '18-29 years',
+                                principal: 26_908,
+                                spouse: 20_488 ,
+                                child: 13_856 ,
+                            },
+                            {
+                               ageBracket: '30-39 years',
+                                principal: 28_068 ,
+                                spouse: 21_428 ,
+                                child: 13_856 ,
+                            },
+                            {
+                               ageBracket: '40-49 years',
+                                principal: 32_864 ,
+                                spouse: 25_262 ,
+                                child: 13_856 ,
+                            },
+                            {
+                               ageBracket: '50-59 years',
+                                principal: 40_144 ,
+                                spouse: 31_142 ,
+                                child: 13_856 ,
+                            },
+                            {
+                               ageBracket: '60-65 years',
+                                principal: 40_144 ,
+                                spouse: 31_142 ,
+                                child: 13_856 ,
+                            },
+                        ]
+                       },
+                       outpatientRates: {
+                        coverLimit: 25_000,
+                        ageLimits : [
+                            {
+                                ageBracket: '18-29 years',
+                                principal: 9_390 ,
+                                M_1: 10_841 ,
+                                M_2: 15_921 ,
+                                M_3: 21_002 ,
+                                M_4: 23_856 ,
+                                M_5: 24_603 ,
+                            },
+                            {
+                                ageBracket: '30-39 years',
+                                principal: 9_390 ,
+                                M_1: 10_841 ,
+                                M_2: 15_921 ,
+                                M_3: 21_002 ,
+                                M_4: 23_856 ,
+                                M_5: 24_603 ,
+                            },
+                            {
+                                ageBracket: '40-49 years',
+                                principal: 9_390 ,
+                                M_1: 10_841 ,
+                                M_2: 15_921 ,
+                                M_3: 21_002 ,
+                                M_4: 23_856 ,
+                                M_5: 24_603 ,
+                            },
+                            {
+                                ageBracket: '50-59 years',
+                                principal: 9_390 ,
+                                M_1: 10_841 ,
+                                M_2: 15_921 ,
+                                M_3: 21_002 ,
+                                M_4: 23_856 ,
+                                M_5: 24_603 ,
+                            },
+                            {
+                                ageBracket: '60-65 years',
+                                principal: 9_390 ,
+                                M_1: 10_841 ,
+                                M_2: 15_921 ,
+                                M_3: 21_002 ,
+                                M_4: 23_856 ,
+                                M_5: 24_603 ,
+                            },
+                        ],
+                       },
+                       secondaryCoverFeatures : {
+                            maternityCover: {
+                                amountOffered: 0,
+                                coverPremium: 0,
+                                coverStatus: 'The cover plan does not offer this',
+                            },      
+                            dentalCover: {
+                                amountOffered: 0,
+                                coverPremium: 0,
+                                coverStatus: 'The cover plan does not offer this',
+                            }, 
+                            opticalCover: {
+                                amountOffered: 0,
+                                coverPremium: 0,
+                                coverStatus: 'The cover plan does not offer this',
+                            },
+                            hospitalCovered: {
+                                supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                            },
+                            co_payments: {
+                                support: 'should state if this is supported or not'
+                            },
+                            preExisting_Conditions: {
+                                coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                            },
+                        }
+                        }, 
+                        {   inpatientRates : { coverLimit: 1_000_000,
+                    ageLimits : [
+                        {
+                           ageBracket: '18-29 years',
+                            principal: 26_908,
+                            spouse: 20_488 ,
+                            child: 13_856 ,
+                        },
+                        {
+                           ageBracket: '30-39 years',
+                            principal: 28_068 ,
+                            spouse: 21_428 ,
+                            child: 13_856 ,
+                        },
+                        {
+                           ageBracket: '40-49 years',
+                            principal: 32_864 ,
+                            spouse: 25_262 ,
+                            child: 13_856 ,
+                        },
+                        {
+                           ageBracket: '50-59 years',
+                            principal: 40_144 ,
+                            spouse: 31_142 ,
+                            child: 13_856 ,
+                        },
+                        {
+                           ageBracket: '60-65 years',
+                            principal: 40_144 ,
+                            spouse: 31_142 ,
+                            child: 13_856 ,
+                        },
+                    ]
+                   },
+                   outpatientRates: {
+                    coverLimit: 40_000,
+                    ageLimits : [
+                           {
+                               ageBracket: '18-29 years',
+                                principal: 10_821 ,
+                                M_1: 18_050 ,
+                                M_2: 22_120 ,
+                                M_3: 26_647 ,
+                                M_4: 30_788 ,
+                                M_5: 34_661 ,
+                            },
+                            {
+                               ageBracket: '30-39 years',
+                                principal: 10_821 ,
+                                M_1: 18_050 ,
+                                M_2: 22_120 ,
+                                M_3: 26_647 ,
+                                M_4: 30_788 ,
+                                M_5: 34_661 ,
+                            },
+                            {
+                               ageBracket: '40-49 years',
+                                principal: 10_821 ,
+                                M_1: 18_050 ,
+                                M_2: 22_120 ,
+                                M_3: 26_647 ,
+                                M_4: 30_788 ,
+                                M_5: 34_661 ,
+                            },
+                            {
+                               ageBracket: '50-59 years',
+                                principal: 10_821 ,
+                                M_1: 18_050 ,
+                                M_2: 22_120 ,
+                                M_3: 26_647 ,
+                                M_4: 30_788 ,
+                                M_5: 34_661 ,
+                            },
+                            {
+                               ageBracket: '60-65 years',
+                                principal: 10_821 ,
+                                M_1: 18_050 ,
+                                M_2: 22_120 ,
+                                M_3: 26_647 ,
+                                M_4: 30_788 ,
+                                M_5: 34_661 ,
+                            },
+                    ],
+                   },
+                   secondaryCoverFeatures : {
+                        maternityCover: {
+                            amountOffered: 30_000,
+                            coverPremium: 0,
+                            coverStatus: 'The cover is offered within the inpatiet limit',
+                        },      
+                        dentalCover: {
+                            amountOffered: 0,
+                            coverPremium: 0,
+                            coverStatus: 'The cover plan does not offer this',
+                        }, 
+                        opticalCover: {
+                            amountOffered: 0,
+                            coverPremium: 0,
+                            coverStatus: 'The cover plan does not offer this',
+                        },
+                        hospitalCovered: {
+                            supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                        },
+                        co_payments: {
+                            support: 'should state if this is supported or not'
+                        },
+                        preExisting_Conditions: {
+                            coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                        },
+                    }
                         }, 
                     ]
                 },
