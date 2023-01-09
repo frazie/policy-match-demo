@@ -1432,13 +1432,13 @@ const individualInsurancePlans = {
                                     child: 13_929 ,
                                 },
                                 {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                     principal: 55_550 ,
                                     spouse: 31_575 ,
                                     child: 13_929 ,
                                 },
                                 {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                     principal: 82_829 ,
                                     spouse: 64_526 ,
                                     child: 13_929 ,
@@ -1489,7 +1489,7 @@ const individualInsurancePlans = {
                                     M_6: 49_837 ,
                                 },
                                 {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                     principal: 32_934,
                                     M_1: 44_986 ,
                                     M_2: 48_748 ,
@@ -1499,7 +1499,7 @@ const individualInsurancePlans = {
                                     M_6: 49_837 ,
                                 },
                                 {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                     principal: 32_934 ,
                                     M_1: 44_986 ,
                                     M_2: 48_748 ,
@@ -1564,13 +1564,13 @@ const individualInsurancePlans = {
                                      child: 17_102 ,
                                  },
                                  {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                      principal: 56_704 ,
                                      spouse: 34_484 ,
                                      child: 17_102 ,
                                  },
                                  {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                      principal: 95_227 ,
                                      spouse: 78_683 ,
                                      child: 17_102 ,
@@ -1621,7 +1621,7 @@ const individualInsurancePlans = {
                                      M_6: 58_387 ,
                                  },
                                  {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                      principal: 33_266 ,
                                      M_1: 49_269 ,
                                      M_2: 48_748 ,
@@ -1631,7 +1631,7 @@ const individualInsurancePlans = {
                                      M_6: 58_387 ,
                                  },
                                  {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                      principal: 33_266 ,
                                      M_1: 49_269 ,
                                      M_2: 48_748 ,
@@ -1696,13 +1696,13 @@ const individualInsurancePlans = {
                                     child: 17_102 ,
                                 },
                                 {
-                                   ageBracket: '60-65 years',
+                                   ageBracket: '60-64 years',
                                     principal: 56_704 ,
                                     spouse: 34_484 ,
                                     child: 17_102 ,
                                 },
                                 {
-                                   ageBracket: '66+ years',
+                                   ageBracket: '65+ years',
                                     principal: 95_227 ,
                                     spouse: 78_683 ,
                                     child: 17_102 ,
@@ -1753,7 +1753,7 @@ const individualInsurancePlans = {
                                     M_6: 49_837 ,
                                 },
                                 {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                     principal: 32_934,
                                     M_1: 44_986 ,
                                     M_2: 48_748 ,
@@ -1763,7 +1763,7 @@ const individualInsurancePlans = {
                                     M_6: 49_837 ,
                                 },
                                 {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                     principal: 32_934 ,
                                     M_1: 44_986 ,
                                     M_2: 48_748 ,
@@ -1828,13 +1828,13 @@ const individualInsurancePlans = {
                                      child: 26_795 ,
                                  },
                                  {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                      principal: 76_889 ,
                                      spouse: 50_161 ,
                                      child: 26_795 ,
                                  },
                                  {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                      principal: 142_417 ,
                                      spouse: 115_311 ,
                                      child: 26_795 ,
@@ -1885,7 +1885,7 @@ const individualInsurancePlans = {
                                      M_6: 99_282 ,
                                  },
                                  {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                      principal:35_226 ,
                                      M_1: 66_533 ,
                                      M_2: 82_895 ,
@@ -1895,7 +1895,7 @@ const individualInsurancePlans = {
                                      M_6: 99_282 ,
                                  },
                                  {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                      principal: 35_226 ,
                                      M_1: 66_533 ,
                                      M_2: 82_895 ,
@@ -1960,13 +1960,13 @@ const individualInsurancePlans = {
                                     child: 26_795 ,
                                 },
                                 {
-                                   ageBracket: '60-65 years',
+                                   ageBracket: '60-64 years',
                                     principal: 76_889 ,
                                     spouse: 50_161 ,
                                     child: 26_795 ,
                                 },
                                 {
-                                   ageBracket: '66+ years',
+                                   ageBracket: '65+ years',
                                     principal: 142_417 ,
                                     spouse: 115_311 ,
                                     child: 26_795 ,
@@ -2017,7 +2017,7 @@ const individualInsurancePlans = {
                                     M_6: 58_387 ,
                                 },
                                 {
-                                   ageBracket: '60-65 years',
+                                   ageBracket: '60-64 years',
                                     principal: 33_266 ,
                                     M_1: 49_269 ,
                                     M_2: 48_748 ,
@@ -2027,7 +2027,7 @@ const individualInsurancePlans = {
                                     M_6: 58_387 ,
                                 },
                                 {
-                                   ageBracket: '66+ years',
+                                   ageBracket: '65+ years',
                                     principal: 33_266 ,
                                     M_1: 49_269 ,
                                     M_2: 48_748 ,
@@ -2092,13 +2092,13 @@ const individualInsurancePlans = {
                                     child: 26_795 ,
                                 },
                                 {
-                                   ageBracket: '60-65 years',
+                                   ageBracket: '60-64 years',
                                     principal: 76_889 ,
                                     spouse: 50_161 ,
                                     child: 26_795 ,
                                 },
                                 {
-                                   ageBracket: '66+ years',
+                                   ageBracket: '65+ years',
                                     principal: 142_417 ,
                                     spouse: 115_311 ,
                                     child: 26_795 ,
@@ -2149,7 +2149,7 @@ const individualInsurancePlans = {
                                     M_6: 49_837 ,
                                 },
                                 {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                     principal: 32_934,
                                     M_1: 44_986 ,
                                     M_2: 48_748 ,
@@ -2159,7 +2159,7 @@ const individualInsurancePlans = {
                                     M_6: 49_837 ,
                                 },
                                 {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                     principal: 32_934 ,
                                     M_1: 44_986 ,
                                     M_2: 48_748 ,
@@ -2224,13 +2224,13 @@ const individualInsurancePlans = {
                                      child: 28_496 ,
                                  },
                                  {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                      principal: 82_030 ,
                                      spouse: 54_280 ,
                                      child: 28_496 ,
                                  },
                                  {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                      principal: 162_180 ,
                                      spouse: 131_186 ,
                                      child: 28_496 ,
@@ -2281,7 +2281,7 @@ const individualInsurancePlans = {
                                      M_6: 148_202 ,
                                  },
                                  {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                      principal: 37_892 ,
                                      M_1: 70_452 ,
                                      M_2: 88_794 ,
@@ -2291,7 +2291,7 @@ const individualInsurancePlans = {
                                      M_6: 148_202 ,
                                  },
                                  {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                      principal: 37_892 ,
                                      M_1: 70_452 ,
                                      M_2: 88_794 ,
@@ -2356,13 +2356,13 @@ const individualInsurancePlans = {
                                     child: 28_496 ,
                                 },
                                 {
-                                   ageBracket: '60-65 years',
+                                   ageBracket: '60-64 years',
                                     principal: 82_030 ,
                                     spouse: 54_280 ,
                                     child: 28_496 ,
                                 },
                                 {
-                                   ageBracket: '66+ years',
+                                   ageBracket: '65+ years',
                                     principal: 162_180 ,
                                     spouse: 131_186 ,
                                     child: 28_496 ,
@@ -2413,7 +2413,7 @@ const individualInsurancePlans = {
                                     M_6: 99_282 ,
                                 },
                                 {
-                                   ageBracket: '60-65 years',
+                                   ageBracket: '60-64 years',
                                     principal:35_226 ,
                                     M_1: 66_533 ,
                                     M_2: 82_895 ,
@@ -2423,7 +2423,7 @@ const individualInsurancePlans = {
                                     M_6: 99_282 ,
                                 },
                                 {
-                                   ageBracket: '66+ years',
+                                   ageBracket: '65+ years',
                                     principal: 35_226 ,
                                     M_1: 66_533 ,
                                     M_2: 82_895 ,
@@ -2488,13 +2488,13 @@ const individualInsurancePlans = {
                                     child: 28_496 ,
                                 },
                                 {
-                                   ageBracket: '60-65 years',
+                                   ageBracket: '60-64 years',
                                     principal: 82_030 ,
                                     spouse: 54_280 ,
                                     child: 28_496 ,
                                 },
                                 {
-                                   ageBracket: '66+ years',
+                                   ageBracket: '65+ years',
                                     principal: 162_180 ,
                                     spouse: 131_186 ,
                                     child: 28_496 ,
@@ -2545,7 +2545,7 @@ const individualInsurancePlans = {
                                     M_6: 58_387 ,
                                 },
                                 {
-                                   ageBracket: '60-65 years',
+                                   ageBracket: '60-64 years',
                                     principal: 33_266 ,
                                     M_1: 49_269 ,
                                     M_2: 48_748 ,
@@ -2555,7 +2555,7 @@ const individualInsurancePlans = {
                                     M_6: 58_387 ,
                                 },
                                 {
-                                   ageBracket: '66+ years',
+                                   ageBracket: '65+ years',
                                     principal: 33_266 ,
                                     M_1: 49_269 ,
                                     M_2: 48_748 ,
@@ -2620,13 +2620,13 @@ const individualInsurancePlans = {
                                     child: 28_496 ,
                                 },
                                 {
-                                   ageBracket: '60-65 years',
+                                   ageBracket: '60-64 years',
                                     principal: 82_030 ,
                                     spouse: 54_280 ,
                                     child: 28_496 ,
                                 },
                                 {
-                                   ageBracket: '66+ years',
+                                   ageBracket: '65+ years',
                                     principal: 162_180 ,
                                     spouse: 131_186 ,
                                     child: 28_496 ,
@@ -2677,7 +2677,7 @@ const individualInsurancePlans = {
                                     M_6: 49_837 ,
                                 },
                                 {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                     principal: 32_934,
                                     M_1: 44_986 ,
                                     M_2: 48_748 ,
@@ -2687,7 +2687,7 @@ const individualInsurancePlans = {
                                     M_6: 49_837 ,
                                 },
                                 {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                     principal: 32_934 ,
                                     M_1: 44_986 ,
                                     M_2: 48_748 ,
@@ -2752,13 +2752,13 @@ const individualInsurancePlans = {
                                      child: 31_578 ,
                                  },
                                  {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                      principal: 91_449 ,
                                      spouse: 60_121 ,
                                      child: 31_578 ,
                                  },
                                 {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                      principal: 185_511 ,
                                      spouse: 145_655 ,
                                      child: 31_578 ,
@@ -2809,7 +2809,7 @@ const individualInsurancePlans = {
                                      M_6: 157_539 ,
                                  },
                                  {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                      principal: 41_512 ,
                                      M_1: 77_987 ,
                                      M_2: 92_489 ,
@@ -2819,7 +2819,7 @@ const individualInsurancePlans = {
                                      M_6: 157_539 ,
                                  },
                                 {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                      principal: 41_512 ,
                                      M_1: 77_987 ,
                                      M_2: 92_489 ,
@@ -2884,13 +2884,13 @@ const individualInsurancePlans = {
                                     child: 31_578 ,
                                 },
                                 {
-                                   ageBracket: '60-65 years',
+                                   ageBracket: '60-64 years',
                                     principal: 91_449 ,
                                     spouse: 60_121 ,
                                     child: 31_578 ,
                                 },
                                {
-                                   ageBracket: '66+ years',
+                                   ageBracket: '65+ years',
                                     principal: 185_511 ,
                                     spouse: 145_655 ,
                                     child: 31_578 ,
@@ -2941,7 +2941,7 @@ const individualInsurancePlans = {
                                     M_6: 148_202 ,
                                 },
                                 {
-                                   ageBracket: '60-65 years',
+                                   ageBracket: '60-64 years',
                                     principal: 37_892 ,
                                     M_1: 70_452 ,
                                     M_2: 88_794 ,
@@ -2951,7 +2951,7 @@ const individualInsurancePlans = {
                                     M_6: 148_202 ,
                                 },
                                 {
-                                   ageBracket: '66+ years',
+                                   ageBracket: '65+ years',
                                     principal: 37_892 ,
                                     M_1: 70_452 ,
                                     M_2: 88_794 ,
@@ -3016,13 +3016,13 @@ const individualInsurancePlans = {
                                     child: 31_578 ,
                                 },
                                 {
-                                   ageBracket: '60-65 years',
+                                   ageBracket: '60-64 years',
                                     principal: 91_449 ,
                                     spouse: 60_121 ,
                                     child: 31_578 ,
                                 },
                                {
-                                   ageBracket: '66+ years',
+                                   ageBracket: '65+ years',
                                     principal: 185_511 ,
                                     spouse: 145_655 ,
                                     child: 31_578 ,
@@ -3073,7 +3073,7 @@ const individualInsurancePlans = {
                                     M_6: 99_282 ,
                                 },
                                 {
-                                   ageBracket: '60-65 years',
+                                   ageBracket: '60-64 years',
                                     principal:35_226 ,
                                     M_1: 66_533 ,
                                     M_2: 82_895 ,
@@ -3083,7 +3083,7 @@ const individualInsurancePlans = {
                                     M_6: 99_282 ,
                                 },
                                 {
-                                   ageBracket: '66+ years',
+                                   ageBracket: '65+ years',
                                     principal: 35_226 ,
                                     M_1: 66_533 ,
                                     M_2: 82_895 ,
@@ -3148,13 +3148,13 @@ const individualInsurancePlans = {
                                     child: 31_578 ,
                                 },
                                 {
-                                   ageBracket: '60-65 years',
+                                   ageBracket: '60-64 years',
                                     principal: 91_449 ,
                                     spouse: 60_121 ,
                                     child: 31_578 ,
                                 },
                                {
-                                   ageBracket: '66+ years',
+                                   ageBracket: '65+ years',
                                     principal: 185_511 ,
                                     spouse: 145_655 ,
                                     child: 31_578 ,
@@ -3205,7 +3205,7 @@ const individualInsurancePlans = {
                                     M_6: 58_387 ,
                                 },
                                 {
-                                   ageBracket: '60-65 years',
+                                   ageBracket: '60-64 years',
                                     principal: 33_266 ,
                                     M_1: 49_269 ,
                                     M_2: 48_748 ,
@@ -3215,7 +3215,7 @@ const individualInsurancePlans = {
                                     M_6: 58_387 ,
                                 },
                                 {
-                                   ageBracket: '66+ years',
+                                   ageBracket: '65+ years',
                                     principal: 33_266 ,
                                     M_1: 49_269 ,
                                     M_2: 48_748 ,
@@ -3280,13 +3280,13 @@ const individualInsurancePlans = {
                                     child: 31_578 ,
                                 },
                                 {
-                                   ageBracket: '60-65 years',
+                                   ageBracket: '60-64 years',
                                     principal: 91_449 ,
                                     spouse: 60_121 ,
                                     child: 31_578 ,
                                 },
                                {
-                                   ageBracket: '66+ years',
+                                   ageBracket: '65+ years',
                                     principal: 185_511 ,
                                     spouse: 145_655 ,
                                     child: 31_578 ,
@@ -3337,7 +3337,7 @@ const individualInsurancePlans = {
                                     M_6: 49_837 ,
                                 },
                                 {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                     principal: 32_934,
                                     M_1: 44_986 ,
                                     M_2: 48_748 ,
@@ -3347,7 +3347,7 @@ const individualInsurancePlans = {
                                     M_6: 49_837 ,
                                 },
                                 {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                     principal: 32_934 ,
                                     M_1: 44_986 ,
                                     M_2: 48_748 ,
@@ -3392,9 +3392,9 @@ const individualInsurancePlans = {
                         {  inpatientRates : { coverLimit: 500_000,
                             ageLimits : [
                                 {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                     principal: 116_352 ,
-                                    spouse: 0,
+                                    spouse: 116_352,
                                 },
                             ]
                            },
@@ -3402,9 +3402,9 @@ const individualInsurancePlans = {
                             coverLimit: 100_000,
                             ageLimits : [
                                 {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                     principal: 94_968 ,
-                                    spouse: 0,
+                                    spouse: 94_968,
                                 },
                             ],
                            },
@@ -3437,20 +3437,44 @@ const individualInsurancePlans = {
                         },
                         {  inpatientRates : { coverLimit: 1_000_000,
                              ageLimits : [
+                                {
+                                    ageBracket: '18-29 years',
+                                    principal: 0 ,
+                                    spouse: 0 ,
+                                    child: 0 ,
+                                },
+                                {
+                                    ageBracket: '60-64 years',
+                                    principal: 0 ,
+                                    spouse: 0 ,
+                                    child: 0 ,
+                                },
                                  {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                      principal: 132_299 ,
-                                     spouse: 0,
+                                     spouse: 132_299,
                                  },
                              ]
                             },
                             outpatientRates: {
                              coverLimit: 150_000,
                              ageLimits : [
+                                {
+                                    ageBracket: '18-29 years',
+                                    principal: 0 ,
+                                    spouse: 0 ,
+                                    child: 0 ,
+                                },
+                                {
+                                    ageBracket: '60-64 years',
+                                    principal: 0 ,
+                                    spouse: 0 ,
+                                    child: 0 ,
+                                },
                                  {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                      principal: 101_270 ,
-                                     spouse: 0,
+                                     spouse: 101_270,
                                  },
                              ],
                             },
@@ -3484,9 +3508,9 @@ const individualInsurancePlans = {
                         {  inpatientRates : { coverLimit: 1_000_000,
                             ageLimits : [
                                 {
-                                   ageBracket: '66+ years',
+                                   ageBracket: '65+ years',
                                     principal: 132_299 ,
-                                    spouse: 0,
+                                    spouse: 132_299,
                                 },
                             ]
                            },
@@ -3494,9 +3518,9 @@ const individualInsurancePlans = {
                             coverLimit: 100_000,
                             ageLimits : [
                                 {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                     principal: 94_968 ,
-                                    spouse: 0,
+                                    spouse: 94_968,
                                 },
                             ],
                            },
@@ -3530,9 +3554,9 @@ const individualInsurancePlans = {
                         {  inpatientRates : { coverLimit: 3_000_000,
                              ageLimits : [
                                  {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                      principal: 178_535 ,
-                                     spouse: 0,
+                                     spouse: 178_535,
                                  },
                              ]
                             },
@@ -3540,9 +3564,9 @@ const individualInsurancePlans = {
                              coverLimit: 200_000,
                              ageLimits : [
                                  {
-                                    ageBracket: '66+ years',
-                                     'M': 107_534 ,
-                                     spouse: 0,
+                                    ageBracket: '65+ years',
+                                     principal: 107_534 ,
+                                     spouse: 107_534,
                                  },
                              ],
                             },
@@ -3576,9 +3600,9 @@ const individualInsurancePlans = {
                         {  inpatientRates : { coverLimit: 3_000_000,
                             ageLimits : [
                                 {
-                                   ageBracket: '66+ years',
+                                   ageBracket: '65+ years',
                                     principal: 178_535 ,
-                                    spouse: 0,
+                                    spouse: 178_535,
                                 },
                             ]
                            },
@@ -3586,9 +3610,9 @@ const individualInsurancePlans = {
                             coverLimit: 150_000,
                             ageLimits : [
                                 {
-                                   ageBracket: '66+ years',
+                                   ageBracket: '65+ years',
                                     principal: 101_270 ,
-                                    spouse: 0,
+                                    spouse: 101_270,
                                 },
                             ],
                            },
@@ -3622,9 +3646,9 @@ const individualInsurancePlans = {
                         {  inpatientRates : { coverLimit: 3_000_000,
                         ageLimits : [
                             {
-                               ageBracket: '66+ years',
+                               ageBracket: '65+ years',
                                 principal: 178_535 ,
-                                spouse: 0,
+                                spouse: 178_535,
                             },
                         ]
                        },
@@ -3632,9 +3656,9 @@ const individualInsurancePlans = {
                         coverLimit: 100_000,
                         ageLimits : [
                             {
-                                ageBracket: '66+ years',
+                                ageBracket: '65+ years',
                                 principal: 94_968 ,
-                                spouse: 0,
+                                spouse: 94_968,
                             },
                         ],
                        },
@@ -3668,9 +3692,9 @@ const individualInsurancePlans = {
                         {  inpatientRates : { coverLimit: 5_000_000,
                              ageLimits : [
                                  {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                      principal: 206_231 ,
-                                     spouse: 0,
+                                     spouse: 206_231,
                                  },
                              ]
                             },
@@ -3678,9 +3702,9 @@ const individualInsurancePlans = {
                              coverLimit: 200_000,
                              ageLimits : [
                                  {
-                                    ageBracket: '66+ years',
-                                     'M': 107_534 ,
-                                     spouse: 0,
+                                    ageBracket: '65+ years',
+                                     principal: 107_534 ,
+                                     spouse: 107_534,
                                  },
                              ],
                             },
@@ -3714,9 +3738,9 @@ const individualInsurancePlans = {
                         {  inpatientRates : { coverLimit: 5_000_000,
                             ageLimits : [
                                 {
-                                   ageBracket: '66+ years',
+                                   ageBracket: '65+ years',
                                     principal: 206_231 ,
-                                    spouse: 0,
+                                    spouse: 206_231,
                                 },
                             ]
                            },
@@ -3724,9 +3748,9 @@ const individualInsurancePlans = {
                             coverLimit: 200_000,
                             ageLimits : [
                                 {
-                                   ageBracket: '66+ years',
-                                    'M': 107_534 ,
-                                    spouse: 0,
+                                   ageBracket: '65+ years',
+                                    principal: 107_534 ,
+                                    spouse: 107_534,
                                 },
                             ],
                            },
@@ -3760,9 +3784,9 @@ const individualInsurancePlans = {
                         {  inpatientRates : { coverLimit: 5_000_000,
                         ageLimits : [
                             {
-                               ageBracket: '66+ years',
+                               ageBracket: '65+ years',
                                 principal: 206_231 ,
-                                spouse: 0,
+                                spouse: 206_231,
                             },
                         ]
                        },
@@ -3770,9 +3794,9 @@ const individualInsurancePlans = {
                         coverLimit: 150_000,
                         ageLimits : [
                             {
-                               ageBracket: '66+ years',
+                               ageBracket: '65+ years',
                                 principal: 101_270 ,
-                                spouse: 0,
+                                spouse: 101_270,
                             },
                         ],
                        },
@@ -3806,9 +3830,9 @@ const individualInsurancePlans = {
                         {  inpatientRates : { coverLimit: 5_000_000,
                         ageLimits : [
                         {
-                           ageBracket: '66+ years',
+                           ageBracket: '65+ years',
                             principal: 206_231 ,
-                            spouse: 0,
+                            spouse: 206_231,
                         },
                     ]
                    },
@@ -3816,9 +3840,9 @@ const individualInsurancePlans = {
                     coverLimit: 100_000,
                     ageLimits : [
                         {
-                            ageBracket: '66+ years',
+                            ageBracket: '65+ years',
                             principal: 94_968 ,
-                            spouse: 0,
+                            spouse: 94_968,
                         },
                     ],
                    },
@@ -3852,9 +3876,9 @@ const individualInsurancePlans = {
                         {  inpatientRates : { coverLimit: 10_000_000,
                             ageLimits : [
                                 {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                     principal: 229_049 ,
-                                    spouse: 0,
+                                    spouse: 229_049,
                                 },
                             ]
                            },
@@ -3862,9 +3886,9 @@ const individualInsurancePlans = {
                             coverLimit: 200_000,
                             ageLimits : [
                                 {
-                                    ageBracket: '66+ years',
-                                    'M': 107_534 ,
-                                    spouse: 0,
+                                    ageBracket: '65+ years',
+                                    principal: 107_534 ,
+                                    spouse: 107_534,
                                 },
                             ],
                            },
@@ -3898,8 +3922,9 @@ const individualInsurancePlans = {
                         {  inpatientRates : { coverLimit: 10_000_000,
                             ageLimits : [
                                 {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                     principal: 229_049 ,
+                                    spouse: 229_049 ,
                                 },
                             ]
                            },
@@ -3907,8 +3932,9 @@ const individualInsurancePlans = {
                             coverLimit: 200_000,
                             ageLimits : [
                                 {
-                                   ageBracket: '66+ years',
-                                    'M': 107_534 ,
+                                   ageBracket: '65+ years',
+                                    principal: 107_534 ,
+                                    spouse: 107_534 ,
                                 },
                             ],
                            },
@@ -3942,8 +3968,9 @@ const individualInsurancePlans = {
                         {  inpatientRates : { coverLimit: 10_000_000,
                             ageLimits : [
                                 {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                     principal: 229_049 ,
+                                    spouse: 229_049 ,
                                 },
                             ]
                            },
@@ -3951,8 +3978,9 @@ const individualInsurancePlans = {
                             coverLimit: 150_000,
                             ageLimits : [
                                 {
-                                   ageBracket: '66+ years',
+                                   ageBracket: '65+ years',
                                     principal: 101_270 ,
+                                    spouse: 101_270 ,
                                 },
                             ],
                            },
@@ -3986,8 +4014,9 @@ const individualInsurancePlans = {
                         {  inpatientRates : { coverLimit: 10_000_000,
                             ageLimits : [
                                 {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                     principal: 229_049 ,
+                                    spouse: 229_049,
                                 },
                             ]
                            },
@@ -3995,8 +4024,9 @@ const individualInsurancePlans = {
                             coverLimit: 100_000,
                             ageLimits : [
                                 {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                     principal: 94_968 ,
+                                    spouse: 94_968 ,
                                 },
                             ],
                            },
@@ -4058,7 +4088,7 @@ const individualInsurancePlans = {
                                     child: 5_438 ,
                                 },
                                 {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                     principal: 17_662 ,
                                     spouse: 14_600 ,
                                     child: 5_438 ,
@@ -4105,7 +4135,7 @@ const individualInsurancePlans = {
                                     M_5: 24_603 ,
                                 },
                                 {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                     principal: 9_390 ,
                                     M_1: 10_841 ,
                                     M_2: 15_921 ,
@@ -4169,7 +4199,7 @@ const individualInsurancePlans = {
                                      child: 6_725 ,
                                  },
                                  {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                      principal: 22_117 ,
                                      spouse: 17_027 ,
                                      child: 6_725 ,
@@ -4216,7 +4246,7 @@ const individualInsurancePlans = {
                                          M_5: 34_661 ,
                                      },
                                      {
-                                        ageBracket: '60-65 years',
+                                        ageBracket: '60-64 years',
                                          principal: 10_821 ,
                                          M_1: 18_050 ,
                                          M_2: 22_120 ,
@@ -4280,7 +4310,7 @@ const individualInsurancePlans = {
                                     child: 6_725 ,
                                 },
                                 {
-                                   ageBracket: '60-65 years',
+                                   ageBracket: '60-64 years',
                                     principal: 22_117 ,
                                     spouse: 17_027 ,
                                     child: 6_725 ,
@@ -4327,7 +4357,7 @@ const individualInsurancePlans = {
                                     M_5: 24_603 ,
                                 },
                                 {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                     principal: 9_390 ,
                                     M_1: 10_841 ,
                                     M_2: 15_921 ,
@@ -4391,7 +4421,7 @@ const individualInsurancePlans = {
                                      child: 10_552 ,
                                  },
                                  {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                      principal: 34_445 ,
                                      spouse: 26_662 ,
                                      child: 10_552 ,
@@ -4438,7 +4468,7 @@ const individualInsurancePlans = {
                                      M_5: 41_366 ,
                                  },
                                  {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                      principal: 11_775 ,
                                      M_1: 22_856 ,
                                      M_2: 26_252 ,
@@ -4502,7 +4532,7 @@ const individualInsurancePlans = {
                                     child: 10_552 ,
                                 },
                                 {
-                                   ageBracket: '60-65 years',
+                                   ageBracket: '60-64 years',
                                     principal: 34_445 ,
                                     spouse: 26_662 ,
                                     child: 10_552 ,
@@ -4549,7 +4579,7 @@ const individualInsurancePlans = {
                                     M_5: 24_603 ,
                                 },
                                 {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                     principal: 9_390 ,
                                     M_1: 10_841 ,
                                     M_2: 15_921 ,
@@ -4613,7 +4643,7 @@ const individualInsurancePlans = {
                                 child: 10_552 ,
                             },
                             {
-                               ageBracket: '60-65 years',
+                               ageBracket: '60-64 years',
                                 principal: 34_445 ,
                                 spouse: 26_662 ,
                                 child: 10_552 ,
@@ -4660,7 +4690,7 @@ const individualInsurancePlans = {
                                     M_5: 34_661 ,
                                 },
                                 {
-                                   ageBracket: '60-65 years',
+                                   ageBracket: '60-64 years',
                                     principal: 10_821 ,
                                     M_1: 18_050 ,
                                     M_2: 22_120 ,
@@ -4724,7 +4754,7 @@ const individualInsurancePlans = {
                                      child: 13_856 ,
                                  },
                                  {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                      principal: 40_144 ,
                                      spouse: 31_142 ,
                                      child: 13_856 ,
@@ -4771,7 +4801,7 @@ const individualInsurancePlans = {
                                     M_5: 41_366 ,
                                  },
                                  {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                      principal: 11_775 ,
                                      M_1: 22_856 ,
                                     M_2: 26_252 ,
@@ -4835,7 +4865,7 @@ const individualInsurancePlans = {
                                     child: 13_856 ,
                                 },
                                 {
-                                   ageBracket: '60-65 years',
+                                   ageBracket: '60-64 years',
                                     principal: 40_144 ,
                                     spouse: 31_142 ,
                                     child: 13_856 ,
@@ -4882,7 +4912,7 @@ const individualInsurancePlans = {
                                     M_5: 41_366 ,
                                 },
                                 {
-                                   ageBracket: '60-65 years',
+                                   ageBracket: '60-64 years',
                                     principal: 11_775 ,
                                     M_1: 22_856 ,
                                     M_2: 26_252 ,
@@ -4946,7 +4976,7 @@ const individualInsurancePlans = {
                                 child: 13_856 ,
                             },
                             {
-                               ageBracket: '60-65 years',
+                               ageBracket: '60-64 years',
                                 principal: 40_144 ,
                                 spouse: 31_142 ,
                                 child: 13_856 ,
@@ -4993,7 +5023,7 @@ const individualInsurancePlans = {
                                 M_5: 24_603 ,
                             },
                             {
-                                ageBracket: '60-65 years',
+                                ageBracket: '60-64 years',
                                 principal: 9_390 ,
                                 M_1: 10_841 ,
                                 M_2: 15_921 ,
@@ -5057,7 +5087,7 @@ const individualInsurancePlans = {
                             child: 13_856 ,
                         },
                         {
-                           ageBracket: '60-65 years',
+                           ageBracket: '60-64 years',
                             principal: 40_144 ,
                             spouse: 31_142 ,
                             child: 13_856 ,
@@ -5104,7 +5134,7 @@ const individualInsurancePlans = {
                                 M_5: 34_661 ,
                             },
                             {
-                               ageBracket: '60-65 years',
+                               ageBracket: '60-64 years',
                                 principal: 10_821 ,
                                 M_1: 18_050 ,
                                 M_2: 22_120 ,
@@ -5419,6 +5449,7 @@ const individualInsurancePlans = {
                     },
                 ]
             },
+            
             {   coverName: 'J Care Premium',
                     InsurancePlanOptions: [
                         {   inpatientRates : { coverLimit: 500_000,
@@ -5448,13 +5479,13 @@ const individualInsurancePlans = {
                                     child: 9_041 ,
                                 },
                                 {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                     principal: 34_061 ,
                                     spouse: 28_610 ,
                                     child: 9_041 ,
                                 },
                                 {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                     principal: 34_061 ,
                                     spouse: 28_610 ,
                                     child: 9_041 ,
@@ -5489,13 +5520,13 @@ const individualInsurancePlans = {
                                     child: 33_345 ,
                                 },
                                 {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                     principal: 38_036 ,
                                     spouse: 38_036 ,
                                     child: 38_036 ,
                                 },
                                 {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                     principal: 38_036 ,
                                     spouse: 38_036 ,
                                     child: 38_036 ,
@@ -5556,13 +5587,13 @@ const individualInsurancePlans = {
                                     child: 12_679 ,
                                 },
                                 {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                     principal: 44_776 ,
                                     spouse: 37_582 ,
                                     child: 12_679 ,
                                 },
                                 {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                     principal: 44_776 ,
                                     spouse: 37_582 ,
                                     child: 12_679 ,
@@ -5597,13 +5628,13 @@ const individualInsurancePlans = {
                                     child: 33_345 ,
                                 },
                                 {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                     principal: 38_036 ,
                                     spouse: 38_036 ,
                                     child: 38_036 ,
                                 },
                                 {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                     principal: 38_036 ,
                                     spouse: 38_036 ,
                                     child: 38_036 ,
@@ -5664,13 +5695,13 @@ const individualInsurancePlans = {
                                     child: 15_435 ,
                                 },
                                 {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                     principal: 54_946 ,
                                     spouse: 46_140 ,
                                     child: 15_435 ,
                                 },
                                 {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                     principal: 54_946 ,
                                     spouse: 46_140 ,
                                     child: 15_435 ,
@@ -5705,13 +5736,13 @@ const individualInsurancePlans = {
                                     child: 38_588 ,
                                 },
                                 {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                     principal: 45_754 ,
                                     spouse: 45_754 ,
                                     child: 45_754 ,
                                 },
                                 {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                     principal: 45_754 ,
                                     spouse: 45_754 ,
                                     child: 45_754 ,
@@ -5772,13 +5803,13 @@ const individualInsurancePlans = {
                                     child: 19_073 ,
                                 },
                                 {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                     principal: 60_359 ,
                                     spouse: 50_644 ,
                                     child: 19_073 ,
                                 },
                                 {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                     principal: 60_359 ,
                                     spouse: 50_644 ,
                                     child: 19_073 ,
@@ -5813,13 +5844,13 @@ const individualInsurancePlans = {
                                     child: 40_793 ,
                                 },
                                 {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                     principal: 47_959 ,
                                     spouse: 47_959 ,
                                     child: 47_959 ,
                                 },
                                 {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                     principal: 47_959 ,
                                     spouse: 47_959 ,
                                     child: 47_959 ,
@@ -5880,13 +5911,13 @@ const individualInsurancePlans = {
                                     child: 22_050 ,
                                 },
                                 {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                     principal: 69_636 ,
                                     spouse: 58_503 ,
                                     child: 22_050 ,
                                 },
                                 {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                     principal: 69_636 ,
                                     spouse: 58_503 ,
                                     child: 22_050 ,
@@ -5921,13 +5952,13 @@ const individualInsurancePlans = {
                                     child: 42_226 ,
                                 },
                                 {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                     principal: 53_802 ,
                                     spouse: 53_802 ,
                                     child: 53_802 ,
                                 },
                                 {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                     principal: 53_802 ,
                                     spouse: 53_802 ,
                                     child: 53_802 ,
@@ -5988,13 +6019,13 @@ const individualInsurancePlans = {
                                     child: 26_460 ,
                                 },
                                 {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                     principal: 83_563 ,
                                     spouse: 70_204 ,
                                     child: 26_460 ,
                                 },
                                 {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                     principal: 83_563 ,
                                     spouse: 70_204 ,
                                     child: 26_460 ,
@@ -6029,13 +6060,13 @@ const individualInsurancePlans = {
                                     child: 46_426 ,
                                 },
                                 {
-                                    ageBracket: '60-65 years',
+                                    ageBracket: '60-64 years',
                                     principal: 58_002 ,
                                     spouse: 58_002 ,
                                     child: 58_002 ,
                                 },
                                 {
-                                    ageBracket: '66+ years',
+                                    ageBracket: '65+ years',
                                     principal: 58_002 ,
                                     spouse: 58_002 ,
                                     child: 58_002 ,
@@ -6071,7 +6102,268 @@ const individualInsurancePlans = {
                         },
                     ]
             },
-           
+            {   coverName: 'J Care Senior',
+                    InsurancePlanOptions: [
+                        {   inpatientRates : { coverLimit: 500_000,
+                            ageLimits : [
+                                {
+                                    ageBracket: '65+ years',
+                                    principal: 51_905 ,
+                                    spouse: 44_587 ,
+                                    child: 8_632 ,
+                                },
+                            ]
+                           },
+                           outpatientRates: {
+                            coverLimit: 100_000,
+                            ageLimits : [
+                                {
+                                    ageBracket: '65+ years',
+                                    principal: 53_811 ,
+                                    spouse: 53_811 ,
+                                    child: 25_200 ,
+                                },
+                            ],
+                           },
+                           secondaryCoverFeatures : {
+                                maternityCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The maternity cover is limited to per spouse per annum',
+                                },      
+                                dentalCover: {
+                                    amountOffered: 30_000,
+                                    coverPremium: 12_600,
+                                    coverStatus: 'The dental is limited to per person per year',
+                                }, 
+                                opticalCover: {
+                                    amountOffered: 30_000,
+                                    coverPremium: 12_600,
+                                    coverStatus: 'The optical is limited to per person per year',
+                                },
+                                hospitalCovered: {
+                                    supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                                },
+                                co_payments: {
+                                    support: 'should state if this is supported or not'
+                                },
+                                preExisting_Conditions: {
+                                    coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                                },
+                            }
+                        },
+                        {   inpatientRates : { coverLimit: 1_000_000,
+                            ageLimits : [
+                                {
+                                    ageBracket: '18-29 years',
+                                    principal: 0 ,
+                                    spouse: 0 ,
+                                    child: 0 ,
+                                },
+                                {
+                                    ageBracket: '60-64 years',
+                                    principal: 0 ,
+                                    spouse: 0 ,
+                                    child: 0 ,
+                                },
+                                {
+                                    ageBracket: '65+ years',
+                                    principal: 72_605 ,
+                                    spouse: 61_083 ,
+                                    child: 12_075 ,
+                                },
+                            ]
+                           },
+                           outpatientRates: {
+                            coverLimit: 100_000,
+                            ageLimits : [
+                                {
+                                    ageBracket: '18-29 years',
+                                    principal: 0 ,
+                                    spouse: 0 ,
+                                    child: 0 ,
+                                },
+                                {
+                                    ageBracket: '65+ years',
+                                    principal: 53_811 ,
+                                    spouse: 53_811 ,
+                                    child: 25_200 ,
+                                },
+                            ],
+                           },
+                           secondaryCoverFeatures : {
+                                maternityCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The maternity cover is limited to per spouse per annum',
+                                },      
+                                dentalCover: {
+                                    amountOffered: 30_000,
+                                    coverPremium: 12_600,
+                                    coverStatus: 'The dental is limited to per person per year',
+                                }, 
+                                opticalCover: {
+                                    amountOffered: 30_000,
+                                    coverPremium: 12_600,
+                                    coverStatus: 'The optical is limited to per person per year',
+                                },
+                                hospitalCovered: {
+                                    supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                                },
+                                co_payments: {
+                                    support: 'should state if this is supported or not'
+                                },
+                                preExisting_Conditions: {
+                                    coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                                },
+                            }
+                        },
+                        {   inpatientRates : { coverLimit: 3_000_000,
+                            ageLimits : [
+                                {
+                                    ageBracket: '65+ years',
+                                    principal: 108_434 ,
+                                    spouse: 91_046 ,
+                                    child: 18_165 ,
+                                },
+                            ]
+                           },
+                           outpatientRates: {
+                            coverLimit: 150_000,
+                            ageLimits : [
+                                {
+                                    ageBracket: '65+ years',
+                                    principal: 62_491 ,
+                                    spouse: 62_491 ,
+                                    child: 35_652 ,
+                                },
+                            ],
+                           },
+                           secondaryCoverFeatures : {
+                                maternityCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The maternity cover is limited to per spouse per annum',
+                                },      
+                                dentalCover: {
+                                    amountOffered: 40_000,
+                                    coverPremium: 20_970,
+                                    coverStatus: 'The dental is limited to per person per year',
+                                }, 
+                                opticalCover: {
+                                    amountOffered: 40_000,
+                                    coverPremium: 20_970,
+                                    coverStatus: 'The optical is limited to per person per year',
+                                },
+                                hospitalCovered: {
+                                    supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                                },
+                                co_payments: {
+                                    support: 'should state if this is supported or not'
+                                },
+                                preExisting_Conditions: {
+                                    coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                                },
+                            }
+                        },
+                        {   inpatientRates : { coverLimit: 5_000_000,
+                            ageLimits : [
+                                {
+                                    ageBracket: '65+ years',
+                                    principal: 125_218 ,
+                                    spouse: 105_173 ,
+                                    child: 21_000 ,
+                                },
+                            ]
+                           },
+                           outpatientRates: {
+                            coverLimit: 200_000,
+                            ageLimits : [
+                                {
+                                    ageBracket: '65+ years',
+                                    principal: 72_522 ,
+                                    spouse: 72_522 ,
+                                    child: 38_790 ,
+                                },
+                            ],
+                           },
+                           secondaryCoverFeatures : {
+                                maternityCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The maternity cover is limited to per spouse per annum',
+                                },      
+                                dentalCover: {
+                                    amountOffered: 50_000,
+                                    coverPremium: 22_050,
+                                    coverStatus: 'The dental is limited to per person per year',
+                                }, 
+                                opticalCover: {
+                                    amountOffered: 50_000,
+                                    coverPremium: 22_050,
+                                    coverStatus: 'The optical is limited to per person per year',
+                                },
+                                hospitalCovered: {
+                                    supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                                },
+                                co_payments: {
+                                    support: 'should state if this is supported or not'
+                                },
+                                preExisting_Conditions: {
+                                    coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                                },
+                            }
+                        },
+                        {   inpatientRates : { coverLimit: 10_000_000,
+                            ageLimits : [
+                                {
+                                    ageBracket: '65+ years',
+                                    principal: 163_685 ,
+                                    spouse: 140_606 ,
+                                    child: 27_222 ,
+                                },
+                            ]
+                           },
+                           outpatientRates: {
+                            coverLimit: 200_000,
+                            ageLimits : [
+                                {
+                                    ageBracket: '65+ years',
+                                    principal: 72_522 ,
+                                    spouse: 72_522 ,
+                                    child: 38_790 ,
+                                },
+                            ],
+                           },
+                           secondaryCoverFeatures : {
+                                maternityCover: {
+                                    amountOffered: 0,
+                                    coverPremium: 0,
+                                    coverStatus: 'The maternity cover is limited to per spouse per annum',
+                                },      
+                                dentalCover: {
+                                    amountOffered: 50_000,
+                                    coverPremium: 22_050,
+                                    coverStatus: 'The dental is limited to per person per year',
+                                }, 
+                                opticalCover: {
+                                    amountOffered: 50_000,
+                                    coverPremium: 22_050,
+                                    coverStatus: 'The optical is limited to per person per year',
+                                },
+                                hospitalCovered: {
+                                    supportedFacilities: 'supports Tier 1, Tier 2 but not Tier 3 facilities'
+                                },
+                                co_payments: {
+                                    support: 'should state if this is supported or not'
+                                },
+                                preExisting_Conditions: {
+                                    coverStatus: 'all pre-existing conditions will be activated after 1 year'
+                                },
+                            }
+                        },
+                    ]
+            },
             ],
             insuranceTaxAndPremiumExclusiveRate: {
             stampDuty: 40,
